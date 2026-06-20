@@ -43,3 +43,7 @@ nb-configuration.xml
 /.quarkus/cli/plugins/
 # TLS Certificates
 .certs/
+
+# JWT signing keys (dev keys only — never commit, prod uses env-injected secrets)
+src/main/resources/privateKey.pem
+src/main/resources/publicKey.pem

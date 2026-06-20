@@ -129,3 +129,9 @@ CREATE TABLE ai_explanations (
 
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- SEED DATA
+INSERT INTO faculties (name, description) VALUES (
+  'Facultatea de Medicină – UMF „Grigore T. Popa” Iași',
+  'Una dintre cele mai vechi și prestigioase facultăți de medicină din România, înființată în 1879 în cadrul Universității de Medicină și Farmacie „Grigore T. Popa” din Iași. Oferă programe de studii de Medicină, Medicină Dentară și Farmacie, fiind acreditată ARACIS și recunoscută la nivel european pentru standardul ridicat al pregătirii clinice și al cercetării medicale.'
+);

@@ -14,6 +14,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
 
 @Entity
 @Table(name = "users")
@@ -48,6 +50,10 @@ public class User extends PanacheEntityBase {
     @Column(name = "year_of_study", nullable = false)
     private Integer yearOfStudy = 1;
 
+    // NAMED_ENUM: Postgres are tipul nativ "user_roles" (CREATE TYPE ... AS ENUM),
+    // nu un varchar simplu — fara aceasta adnotare, driverul trimite valoarea ca
+    // VARCHAR si Postgres refuza insertul (lipsa cast implicit varchar -> user_roles).
+    @JdbcTypeCode(SqlTypes.NAMED_ENUM)
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, columnDefinition = "user_roles")
     private UserRole role = UserRole.USER;

@@ -9,4 +9,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // port fix, ca sa corespunda cu FRONTEND_PORT din .env si cu
+  // quarkus.http.cors.origins din backend (application.properties)
+  server: {
+    port: 3000,
+  },
 })
