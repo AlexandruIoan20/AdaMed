@@ -1,0 +1,165 @@
+{
+  "subject": "Biochimie",
+  "questions": [
+    {
+      "text": "Care dintre următoarele afirmații despre aminoacizi sunt corecte?",
+      "explanation": "Aminoacizii sunt unitățile structurale ale proteinelor; cei 20 de aminoacizi standard sunt codificați genetic, iar centrul lor chiral (cu excepția glicinei) le conferă proprietăți optice.",
+      "answers": [
+        { "text": "Sunt unitățile structurale de bază ale proteinelor", "isCorrect": true },
+        { "text": "Există 20 de aminoacizi standard codificați genetic", "isCorrect": true },
+        { "text": "Toți aminoacizii standard, cu excepția glicinei, sunt chirali", "isCorrect": true },
+        { "text": "Conțin un grup amino și un grup carboxil", "isCorrect": true },
+        { "text": "Sunt legați între ei prin legături peptidice", "isCorrect": true },
+        { "text": "Glicina este singurul aminoacid aromatic", "isCorrect": false },
+        { "text": "Toți aminoacizii standard sunt esențiali pentru om", "isCorrect": false },
+        { "text": "Aminoacizii nu pot fi sintetizați de organismul uman în nicio circumstanță", "isCorrect": false },
+        { "text": "Legătura peptidică este o legătură ionică", "isCorrect": false },
+        { "text": "Numărul aminoacizilor standard este 30", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Despre glicoliză, care afirmații sunt adevărate?",
+      "explanation": "Glicoliza este calea metabolică citosolică prin care glucoza este degradată la piruvat, generând ATP și NADH, fiind comună tuturor celulelor, indiferent de prezența oxigenului.",
+      "answers": [
+        { "text": "Are loc în citosol", "isCorrect": true },
+        { "text": "Transformă glucoza în piruvat", "isCorrect": true },
+        { "text": "Produce net 2 molecule de ATP per moleculă de glucoză", "isCorrect": true },
+        { "text": "Generează NADH", "isCorrect": true },
+        { "text": "Poate avea loc atât în condiții aerobe, cât și anaerobe", "isCorrect": true },
+        { "text": "Are loc exclusiv în mitocondrie", "isCorrect": false },
+        { "text": "Necesită oxigen molecular pentru a se desfășura", "isCorrect": false },
+        { "text": "Produce direct CO2 ca produs final", "isCorrect": false },
+        { "text": "Este calea principală de sinteză a glucozei", "isCorrect": false },
+        { "text": "Implică un consum net de 4 molecule de ATP", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Care dintre următoarele caracteristici descriu corect enzimele?",
+      "explanation": "Enzimele sunt catalizatori biologici (în marea majoritate proteine) care scad energia de activare a reacțiilor, sunt specifice pentru substrat și pot fi reglate prin diverse mecanisme, fără a fi consumate în reacție.",
+      "answers": [
+        { "text": "Scad energia de activare a unei reacții", "isCorrect": true },
+        { "text": "Sunt specifice pentru un anumit substrat sau o clasă de substrate", "isCorrect": true },
+        { "text": "Nu se consumă în urma reacției catalizate", "isCorrect": true },
+        { "text": "Activitatea lor poate fi influențată de pH și temperatură", "isCorrect": true },
+        { "text": "Multe enzime necesită cofactori pentru activitate optimă", "isCorrect": true },
+        { "text": "Modifică echilibrul termodinamic al reacției", "isCorrect": false },
+        { "text": "Sunt mereu consumate stoechiometric în reacție", "isCorrect": false },
+        { "text": "Toate enzimele sunt active la orice valoare de pH", "isCorrect": false },
+        { "text": "Nu pot fi inhibate de niciun compus", "isCorrect": false },
+        { "text": "Cresc energia liberă Gibbs a reacției", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Despre structura proteinelor, care afirmații sunt corecte?",
+      "explanation": "Structura proteinelor este organizată ierarhic: structura primară (secvența de aminoacizi), secundară (alfa-helix, foaie beta), terțiară (plierea tridimensională) și cuaternară (asocierea mai multor lanțuri polipeptidice).",
+      "answers": [
+        { "text": "Structura primară reprezintă secvența de aminoacizi", "isCorrect": true },
+        { "text": "Alfa-helixul este un tip de structură secundară", "isCorrect": true },
+        { "text": "Foaia beta plisată este un tip de structură secundară", "isCorrect": true },
+        { "text": "Structura terțiară descrie plierea tridimensională a unui lanț polipeptidic", "isCorrect": true },
+        { "text": "Structura cuaternară implică asocierea mai multor subunități polipeptidice", "isCorrect": true },
+        { "text": "Structura primară este determinată de plierea spațială, nu de secvență", "isCorrect": false },
+        { "text": "Toate proteinele au structură cuaternară", "isCorrect": false },
+        { "text": "Structura secundară se referă exclusiv la legăturile disulfurice", "isCorrect": false },
+        { "text": "O proteină denaturată își păstrează structura terțiară intactă", "isCorrect": false },
+        { "text": "Structura cuaternară este identică la toate proteinele", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Care dintre afirmațiile despre lipide sunt adevărate?",
+      "explanation": "Lipidele includ trigliceride, fosfolipide și steroli; sunt insolubile în apă, reprezintă o rezervă energetică importantă și componente structurale ale membranelor celulare.",
+      "answers": [
+        { "text": "Trigliceridele sunt esteri ai glicerolului cu acizi grași", "isCorrect": true },
+        { "text": "Fosfolipidele sunt componente esențiale ale membranelor celulare", "isCorrect": true },
+        { "text": "Colesterolul este un steroid", "isCorrect": true },
+        { "text": "Lipidele reprezintă o formă eficientă de stocare a energiei", "isCorrect": true },
+        { "text": "Acizii grași saturați nu au duble legături între atomii de carbon", "isCorrect": true },
+        { "text": "Toate lipidele sunt solubile în apă", "isCorrect": false },
+        { "text": "Fosfolipidele nu au caracter amfipatic", "isCorrect": false },
+        { "text": "Colesterolul este un tip de glucid", "isCorrect": false },
+        { "text": "Acizii grași nesaturați au structură identică cu cei saturați", "isCorrect": false },
+        { "text": "Trigliceridele sunt principalele componente ale membranei plasmatice", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Despre ciclul Krebs (ciclul acidului citric), care afirmații sunt corecte?",
+      "explanation": "Ciclul Krebs are loc în matricea mitocondrială, oxidează acetil-CoA, generând NADH, FADH2, GTP/ATP și CO2, fiind o etapă centrală a metabolismului oxidativ.",
+      "answers": [
+        { "text": "Are loc în matricea mitocondrială", "isCorrect": true },
+        { "text": "Acetil-CoA este principalul substrat de intrare", "isCorrect": true },
+        { "text": "Produce NADH și FADH2", "isCorrect": true },
+        { "text": "Eliberează CO2 ca produs secundar", "isCorrect": true },
+        { "text": "Generează o moleculă de GTP sau ATP per tură", "isCorrect": true },
+        { "text": "Are loc în citosol", "isCorrect": false },
+        { "text": "Necesită glucoză ca substrat direct de intrare", "isCorrect": false },
+        { "text": "Nu produce niciun cofactor reducător", "isCorrect": false },
+        { "text": "Este o cale exclusiv anaerobă", "isCorrect": false },
+        { "text": "Produce direct molecule mari de glicogen", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Care dintre afirmațiile despre acizii nucleici sunt adevărate?",
+      "explanation": "ADN-ul și ARN-ul sunt polimeri de nucleotide; ADN-ul este dublu catenar și conține dezoxiriboză, în timp ce ARN-ul este de obicei monocatenar și conține riboză.",
+      "answers": [
+        { "text": "ADN-ul este format din două catene complementare", "isCorrect": true },
+        { "text": "Nucleotidele sunt formate din bază azotată, zahăr și grupare fosfat", "isCorrect": true },
+        { "text": "ARN-ul conține riboză, nu dezoxiriboză", "isCorrect": true },
+        { "text": "Adenina formează perechi de baze cu timina în ADN", "isCorrect": true },
+        { "text": "Citozina formează perechi de baze cu guanina", "isCorrect": true },
+        { "text": "ADN-ul este, de regulă, monocatenar", "isCorrect": false },
+        { "text": "ARN-ul conține întotdeauna dezoxiriboză", "isCorrect": false },
+        { "text": "Timina este prezentă în ARN, nu în ADN", "isCorrect": false },
+        { "text": "Nucleotidele nu conțin grupări fosfat", "isCorrect": false },
+        { "text": "Adenina formează perechi cu citozina în ADN", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Despre vitamine și rolul lor biochimic, care afirmații sunt corecte?",
+      "explanation": "Vitaminele sunt micronutrienți esențiali; cele hidrosolubile (B, C) acționează frecvent ca precursori de coenzime, iar cele liposolubile (A, D, E, K) se stochează în țesutul adipos.",
+      "answers": [
+        { "text": "Vitaminele din complexul B sunt hidrosolubile", "isCorrect": true },
+        { "text": "Vitamina K este implicată în procesul de coagulare", "isCorrect": true },
+        { "text": "Vitaminele liposolubile se pot acumula în țesutul adipos", "isCorrect": true },
+        { "text": "Multe vitamine B servesc drept precursori pentru coenzime", "isCorrect": true },
+        { "text": "Vitamina C are rol antioxidant", "isCorrect": true },
+        { "text": "Toate vitaminele sunt liposolubile", "isCorrect": false },
+        { "text": "Vitamina A nu poate fi stocată în organism", "isCorrect": false },
+        { "text": "Vitaminele hidrosolubile se acumulează nelimitat în țesutul adipos", "isCorrect": false },
+        { "text": "Vitamina D nu are nicio relație cu metabolismul calciului", "isCorrect": false },
+        { "text": "Vitaminele sunt sintetizate exclusiv de organismul uman, fără aport alimentar", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Care dintre afirmațiile despre hemoglobină sunt adevărate?",
+      "explanation": "Hemoglobina este o proteină tetramerică din eritrocite, cu grupări hem ce conțin fier, responsabilă de transportul oxigenului, prezentând cooperativitate în legarea O2.",
+      "answers": [
+        { "text": "Este o proteină formată din patru subunități (tetramer)", "isCorrect": true },
+        { "text": "Conține grupări hem cu fier în stare Fe2+", "isCorrect": true },
+        { "text": "Transportă oxigenul de la plămâni către țesuturi", "isCorrect": true },
+        { "text": "Prezintă cooperativitate în legarea oxigenului", "isCorrect": true },
+        { "text": "Se găsește în eritrocite", "isCorrect": true },
+        { "text": "Este formată dintr-un singur lanț polipeptidic", "isCorrect": false },
+        { "text": "Nu conține atomi de fier", "isCorrect": false },
+        { "text": "Este sintetizată în ficat exclusiv pentru digestie", "isCorrect": false },
+        { "text": "Transportă glucoza, nu oxigenul", "isCorrect": false },
+        { "text": "Se găsește dizolvată liber în plasmă, nu în eritrocite", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Despre reglarea metabolismului glucidic, care afirmații sunt corecte?",
+      "explanation": "Insulina și glucagonul reglează homeostazia glicemică: insulina favorizează captarea și stocarea glucozei (glicogenogeneză), iar glucagonul stimulează glicogenoliza și gluconeogeneza.",
+      "answers": [
+        { "text": "Insulina stimulează captarea glucozei de către celule", "isCorrect": true },
+        { "text": "Glucagonul stimulează glicogenoliza hepatică", "isCorrect": true },
+        { "text": "Insulina este secretată de celulele beta pancreatice", "isCorrect": true },
+        { "text": "Glucagonul este secretat de celulele alfa pancreatice", "isCorrect": true },
+        { "text": "Insulina favorizează sinteza de glicogen (glicogenogeneza)", "isCorrect": true },
+        { "text": "Insulina stimulează degradarea glicogenului hepatic", "isCorrect": false },
+        { "text": "Glucagonul scade nivelul glicemiei", "isCorrect": false },
+        { "text": "Insulina este secretată de celulele alfa pancreatice", "isCorrect": false },
+        { "text": "Glucagonul inhibă gluconeogeneza", "isCorrect": false },
+        { "text": "Insulina și glucagonul au exact același efect asupra glicemiei", "isCorrect": false }
+      ]
+    }
+  ]
+}

@@ -131,7 +131,20 @@ CREATE TABLE ai_explanations (
 );
 
 -- SEED DATA
-INSERT INTO faculties (name, description) VALUES (
+INSERT INTO faculties (id, name, description) VALUES (
+  gen_random_uuid(),
   'Facultatea de Medicină – UMF „Grigore T. Popa” Iași',
   'Una dintre cele mai vechi și prestigioase facultăți de medicină din România, înființată în 1879 în cadrul Universității de Medicină și Farmacie „Grigore T. Popa” din Iași. Oferă programe de studii de Medicină, Medicină Dentară și Farmacie, fiind acreditată ARACIS și recunoscută la nivel european pentru standardul ridicat al pregătirii clinice și al cercetării medicale.'
 );
+
+INSERT INTO subjects (id, name, description) VALUES (
+  gen_random_uuid(),
+  'Biochimie',
+  'Studiul proceselor chimice care au loc în organismele vii: structura și metabolismul proteinelor, glucidelor, lipidelor și acizilor nucleici, enzimologie și bioenergetică.'
+);
+
+INSERT INTO faculty_subjects (id, faculty_id, subject_id, year_of_study, credits)
+SELECT gen_random_uuid(), f.id, s.id, 2, 6
+FROM faculties f, subjects s
+WHERE f.name = 'Facultatea de Medicină – UMF „Grigore T. Popa” Iași'
+  AND s.name = 'Biochimie';
