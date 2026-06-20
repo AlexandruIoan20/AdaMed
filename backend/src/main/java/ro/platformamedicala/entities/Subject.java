@@ -14,9 +14,8 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "faculties")
-public class Faculty extends PanacheEntityBase {
-
+@Table(name = "subjects")
+public class Subject extends PanacheEntityBase {
     @Id
     @GeneratedValue
     private UUID id;
@@ -24,13 +23,14 @@ public class Faculty extends PanacheEntityBase {
     @Column(nullable = false, unique = true, length = 100)
     private String name;
 
-    @Column(length = 500)
+    @Column()
     private String description;
 
-    // O facultate poate avea mai multe materii asociate (prin entitatea de
-    // asociere FacultySubject, care tine si anul de studiu/creditele).
-    @OneToMany(mappedBy = "faculty", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
     private List<FacultySubject> facultySubjects = new ArrayList<>();
+
+    @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
+    private List<Question> questions = new ArrayList<>();
 
     public UUID getId() {
         return id;
@@ -62,5 +62,13 @@ public class Faculty extends PanacheEntityBase {
 
     public void setFacultySubjects(List<FacultySubject> facultySubjects) {
         this.facultySubjects = facultySubjects;
+    }
+
+    public List<Question> getQuestions() {
+        return questions;
+    }
+
+    public void setQuestions(List<Question> questions) {
+        this.questions = questions;
     }
 }

@@ -148,3 +148,30 @@ SELECT gen_random_uuid(), f.id, s.id, 2, 6
 FROM faculties f, subjects s
 WHERE f.name = 'Facultatea de Medicină – UMF „Grigore T. Popa” Iași'
   AND s.name = 'Biochimie';
+
+-- Materii suplimentare pentru facultatea de Medicină Iași
+INSERT INTO subjects (id, name, description) VALUES
+  (gen_random_uuid(), 'Anatomie',
+   'Studiul structurii corpului uman: sistemul osos, muscular, nervos, cardiovascular și organele interne, cu accent pe relațiile topografice și aplicațiile clinice.'),
+  (gen_random_uuid(), 'Fiziologie',
+   'Studiul funcționării normale a organismului: mecanismele celulare, fiziologia sistemelor cardiovascular, respirator, renal, nervos și endocrin, precum și homeostazia.'),
+  (gen_random_uuid(), 'Histologie',
+   'Studiul microscopic al țesuturilor: țesuturile epitelial, conjunctiv, muscular și nervos, organizarea lor în organe și corelațiile structură-funcție.'),
+  (gen_random_uuid(), 'Microbiologie',
+   'Studiul microorganismelor cu relevanță medicală: bacterii, virusuri, fungi și paraziți, mecanismele de patogenitate, imunitatea și diagnosticul de laborator.'),
+  (gen_random_uuid(), 'Farmacologie',
+   'Studiul medicamentelor: farmacocinetică, farmacodinamie, mecanisme de acțiune, clase terapeutice, reacții adverse și interacțiuni medicamentoase.');
+
+-- Asocierea materiilor noi cu facultatea (an de studiu + credite)
+INSERT INTO faculty_subjects (id, faculty_id, subject_id, year_of_study, credits)
+SELECT gen_random_uuid(), f.id, s.id, v.year_of_study, v.credits
+FROM faculties f
+JOIN (VALUES
+  ('Anatomie', 1, 8),
+  ('Fiziologie', 2, 7),
+  ('Histologie', 1, 5),
+  ('Microbiologie', 2, 6),
+  ('Farmacologie', 3, 6)
+) AS v(subject_name, year_of_study, credits) ON TRUE
+JOIN subjects s ON s.name = v.subject_name
+WHERE f.name = 'Facultatea de Medicină – UMF „Grigore T. Popa” Iași';

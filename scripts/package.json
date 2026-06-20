@@ -3,7 +3,8 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "seed-questions": "node seed-questions.js"
+    "seed-questions": "node seed-questions.js",
+    "seed-questions-test": "node seed_questions_test.js"
   },
   "dependencies": {
     "pg": "^8.13.1"

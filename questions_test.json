@@ -1,0 +1,349 @@
+{
+  "subjects": [
+    {
+      "subject": "Anatomie",
+      "questions": [
+        {
+          "text": "Care dintre următoarele oase aparțin scheletului axial?",
+          "explanation": "Scheletul axial cuprinde oasele situate pe linia mediană a corpului: craniul, coloana vertebrală, coastele și sternul. Oasele membrelor și centurile aparțin scheletului apendicular.",
+          "answers": [
+            { "text": "Vertebrele", "isCorrect": true },
+            { "text": "Sternul", "isCorrect": true },
+            { "text": "Coastele", "isCorrect": true },
+            { "text": "Oasele craniului", "isCorrect": true },
+            { "text": "Osul hioid", "isCorrect": true },
+            { "text": "Femurul", "isCorrect": false },
+            { "text": "Humerusul", "isCorrect": false },
+            { "text": "Clavicula", "isCorrect": false },
+            { "text": "Scapula", "isCorrect": false },
+            { "text": "Tibia", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre inimă sunt corecte?",
+          "explanation": "Inima are patru camere (două atrii și două ventricule), este situată în mediastin, iar ventriculul stâng pompează sânge în circulația sistemică. Valvele atrioventriculare împiedică refluxul sângelui.",
+          "answers": [
+            { "text": "Are patru camere", "isCorrect": true },
+            { "text": "Ventriculul stâng pompează sânge în aortă", "isCorrect": true },
+            { "text": "Este situată în mediastin", "isCorrect": true },
+            { "text": "Valva mitrală separă atriul stâng de ventriculul stâng", "isCorrect": true },
+            { "text": "Miocardul este țesut muscular striat de tip cardiac", "isCorrect": true },
+            { "text": "Are o singură cameră", "isCorrect": false },
+            { "text": "Ventriculul drept pompează sânge în aortă", "isCorrect": false },
+            { "text": "Este situată în cavitatea abdominală", "isCorrect": false },
+            { "text": "Valva tricuspidă separă cele două atrii", "isCorrect": false },
+            { "text": "Miocardul este țesut muscular neted", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele structuri fac parte din sistemul nervos central?",
+          "explanation": "Sistemul nervos central este format din encefal (creier, cerebel, trunchi cerebral) și măduva spinării. Nervii periferici și ganglionii aparțin sistemului nervos periferic.",
+          "answers": [
+            { "text": "Măduva spinării", "isCorrect": true },
+            { "text": "Cerebelul", "isCorrect": true },
+            { "text": "Bulbul rahidian", "isCorrect": true },
+            { "text": "Emisferele cerebrale", "isCorrect": true },
+            { "text": "Mezencefalul", "isCorrect": true },
+            { "text": "Nervul sciatic", "isCorrect": false },
+            { "text": "Ganglionii spinali", "isCorrect": false },
+            { "text": "Nervul vag", "isCorrect": false },
+            { "text": "Plexul brahial", "isCorrect": false },
+            { "text": "Nervul facial", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre plămâni sunt corecte?",
+          "explanation": "Plămânul drept are trei lobi, iar cel stâng doi lobi (datorită incizurii cardiace). Schimbul de gaze are loc la nivelul alveolelor, iar plămânii sunt înveliți de pleură.",
+          "answers": [
+            { "text": "Plămânul drept are trei lobi", "isCorrect": true },
+            { "text": "Plămânul stâng are doi lobi", "isCorrect": true },
+            { "text": "Schimbul de gaze are loc la nivelul alveolelor", "isCorrect": true },
+            { "text": "Sunt înveliți de pleură", "isCorrect": true },
+            { "text": "Bronhiile principale se ramifică din trahee", "isCorrect": true },
+            { "text": "Plămânul stâng are trei lobi", "isCorrect": false },
+            { "text": "Plămânul drept are doi lobi", "isCorrect": false },
+            { "text": "Schimbul de gaze are loc în bronhii", "isCorrect": false },
+            { "text": "Sunt înveliți de peritoneu", "isCorrect": false },
+            { "text": "Alveolele produc surfactant doar la adult", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Fiziologie",
+      "questions": [
+        {
+          "text": "Care dintre următoarele afirmații despre potențialul de acțiune sunt corecte?",
+          "explanation": "Potențialul de acțiune are o fază de depolarizare datorată influxului de Na+ și o fază de repolarizare datorată efluxului de K+. Respectă legea tot-sau-nimic și se propagă fără decrement de-a lungul axonului.",
+          "answers": [
+            { "text": "Depolarizarea se datorează influxului de Na+", "isCorrect": true },
+            { "text": "Repolarizarea se datorează efluxului de K+", "isCorrect": true },
+            { "text": "Respectă legea tot-sau-nimic", "isCorrect": true },
+            { "text": "Se propagă fără decrement de-a lungul axonului", "isCorrect": true },
+            { "text": "Pompa Na+/K+ ATP-aza restabilește gradientele ionice", "isCorrect": true },
+            { "text": "Depolarizarea se datorează efluxului de Cl-", "isCorrect": false },
+            { "text": "Amplitudinea crește cu intensitatea stimulului", "isCorrect": false },
+            { "text": "În timpul perioadei refractare absolute poate fi reluat oricând", "isCorrect": false },
+            { "text": "Repolarizarea se datorează influxului de Ca2+", "isCorrect": false },
+            { "text": "Are loc fără modificarea permeabilității membranei", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre filtrarea glomerulară sunt corecte?",
+          "explanation": "Filtrarea glomerulară are loc la nivelul corpusculului renal, este determinată de presiunea hidrostatică din capilarele glomerulare și se opune presiunii coloid-osmotice a proteinelor plasmatice. Membrana filtrantă reține în mod normal proteinele mari și celulele.",
+          "answers": [
+            { "text": "Are loc la nivelul corpusculului renal", "isCorrect": true },
+            { "text": "Presiunea hidrostatică glomerulară favorizează filtrarea", "isCorrect": true },
+            { "text": "Presiunea coloid-osmotică plasmatică se opune filtrării", "isCorrect": true },
+            { "text": "În mod normal proteinele mari nu sunt filtrate", "isCorrect": true },
+            { "text": "Rata filtrării glomerulare (RFG) este în jur de 125 ml/min", "isCorrect": true },
+            { "text": "Are loc la nivelul tubului colector", "isCorrect": false },
+            { "text": "Glucoza nu este filtrată în mod normal", "isCorrect": false },
+            { "text": "Presiunea coloid-osmotică favorizează filtrarea", "isCorrect": false },
+            { "text": "Hematiile trec liber prin membrana filtrantă normală", "isCorrect": false },
+            { "text": "RFG normală este de aproximativ 5 ml/min", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre reglarea respirației sunt corecte?",
+          "explanation": "Centrii respiratori se află în bulb și punte. Principalul stimul al respirației este creșterea PaCO2, detectată de chemoreceptorii centrali; chemoreceptorii periferici (glomus carotidian și aortic) răspund mai ales la hipoxie.",
+          "answers": [
+            { "text": "Centrii respiratori bazali se află în bulbul rahidian", "isCorrect": true },
+            { "text": "Creșterea PaCO2 stimulează ventilația", "isCorrect": true },
+            { "text": "Chemoreceptorii centrali răspund la variațiile de CO2/H+", "isCorrect": true },
+            { "text": "Chemoreceptorii periferici răspund mai ales la hipoxie", "isCorrect": true },
+            { "text": "Glomusul carotidian este un chemoreceptor periferic", "isCorrect": true },
+            { "text": "Principalul stimul fiziologic este hipoxia ușoară", "isCorrect": false },
+            { "text": "Centrii respiratori se află în cerebel", "isCorrect": false },
+            { "text": "Scăderea PaCO2 stimulează puternic respirația", "isCorrect": false },
+            { "text": "Chemoreceptorii centrali răspund direct la presiunea O2", "isCorrect": false },
+            { "text": "Respirația nu poate fi controlată voluntar", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre ciclul cardiac sunt corecte?",
+          "explanation": "Ciclul cardiac cuprinde sistola și diastola. În timpul sistolei ventriculare valvele semilunare se deschid și cele atrioventriculare se închid (zgomotul I). Debitul cardiac este produsul dintre frecvența cardiacă și volumul-bătaie.",
+          "answers": [
+            { "text": "Cuprinde sistola și diastola", "isCorrect": true },
+            { "text": "În sistola ventriculară valvele semilunare se deschid", "isCorrect": true },
+            { "text": "Zgomotul I corespunde închiderii valvelor atrioventriculare", "isCorrect": true },
+            { "text": "Debitul cardiac = frecvența cardiacă × volumul-bătaie", "isCorrect": true },
+            { "text": "Cea mai mare parte a umplerii ventriculare este pasivă", "isCorrect": true },
+            { "text": "În diastolă valvele semilunare sunt deschise", "isCorrect": false },
+            { "text": "Zgomotul II corespunde deschiderii valvei mitrale", "isCorrect": false },
+            { "text": "Sistola atrială asigură peste 70% din umplerea ventriculară", "isCorrect": false },
+            { "text": "Debitul cardiac nu depinde de frecvența cardiacă", "isCorrect": false },
+            { "text": "Valvele atrioventriculare sunt deschise în sistola ventriculară", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Histologie",
+      "questions": [
+        {
+          "text": "Care dintre următoarele sunt tipuri fundamentale de țesuturi?",
+          "explanation": "Cele patru țesuturi fundamentale ale organismului sunt: epitelial, conjunctiv, muscular și nervos. Sângele și osul sunt forme specializate de țesut conjunctiv, nu țesuturi fundamentale separate.",
+          "answers": [
+            { "text": "Țesutul epitelial", "isCorrect": true },
+            { "text": "Țesutul conjunctiv", "isCorrect": true },
+            { "text": "Țesutul muscular", "isCorrect": true },
+            { "text": "Țesutul nervos", "isCorrect": true },
+            { "text": "Epiteliul de acoperire este un tip de țesut epitelial", "isCorrect": true },
+            { "text": "Țesutul sanguin este un țesut fundamental distinct", "isCorrect": false },
+            { "text": "Țesutul osos este un țesut fundamental distinct", "isCorrect": false },
+            { "text": "Țesutul adipos este un țesut fundamental distinct", "isCorrect": false },
+            { "text": "Țesutul cartilaginos este un țesut fundamental distinct", "isCorrect": false },
+            { "text": "Țesutul limfatic este un țesut fundamental distinct", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre țesutul epitelial sunt corecte?",
+          "explanation": "Epiteliile sunt avasculare, se hrănesc prin difuziune de la țesutul conjunctiv subiacent, se sprijină pe o membrană bazală și au capacitate mare de regenerare. Sunt clasificate după numărul de straturi și forma celulelor.",
+          "answers": [
+            { "text": "Sunt avasculare", "isCorrect": true },
+            { "text": "Se sprijină pe o membrană bazală", "isCorrect": true },
+            { "text": "Au capacitate mare de regenerare", "isCorrect": true },
+            { "text": "Se clasifică în simple și stratificate", "isCorrect": true },
+            { "text": "Se hrănesc prin difuziune de la țesutul conjunctiv subiacent", "isCorrect": true },
+            { "text": "Conțin numeroase vase de sânge proprii", "isCorrect": false },
+            { "text": "Nu prezintă niciodată cili sau microvili", "isCorrect": false },
+            { "text": "Sunt formate predominant din matrice extracelulară", "isCorrect": false },
+            { "text": "Nu au polaritate celulară", "isCorrect": false },
+            { "text": "Sunt incapabile de regenerare", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele celule aparțin țesutului conjunctiv?",
+          "explanation": "Țesutul conjunctiv conține fibroblaste (sintetizează matricea), macrofage, mastocite, plasmocite și adipocite. Neuronii aparțin țesutului nervos, iar cardiomiocitele țesutului muscular.",
+          "answers": [
+            { "text": "Fibroblastele", "isCorrect": true },
+            { "text": "Macrofagele", "isCorrect": true },
+            { "text": "Mastocitele", "isCorrect": true },
+            { "text": "Plasmocitele", "isCorrect": true },
+            { "text": "Adipocitele", "isCorrect": true },
+            { "text": "Neuronii", "isCorrect": false },
+            { "text": "Cardiomiocitele", "isCorrect": false },
+            { "text": "Celulele Purkinje", "isCorrect": false },
+            { "text": "Celulele epiteliale columnare", "isCorrect": false },
+            { "text": "Oligodendrocitele", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre țesutul muscular sunt corecte?",
+          "explanation": "Țesutul muscular striat scheletic este multinucleat și controlat voluntar; cel cardiac prezintă discuri intercalare și este involuntar; cel neted nu prezintă striații și este involuntar. Toate au capacitatea de a se contracta.",
+          "answers": [
+            { "text": "Mușchiul scheletic este striat și multinucleat", "isCorrect": true },
+            { "text": "Mușchiul cardiac prezintă discuri intercalare", "isCorrect": true },
+            { "text": "Mușchiul neted nu prezintă striații", "isCorrect": true },
+            { "text": "Mușchiul scheletic este controlat voluntar", "isCorrect": true },
+            { "text": "Mușchiul neted este controlat involuntar", "isCorrect": true },
+            { "text": "Mușchiul cardiac este controlat voluntar", "isCorrect": false },
+            { "text": "Mușchiul neted este striat", "isCorrect": false },
+            { "text": "Mușchiul scheletic prezintă discuri intercalare", "isCorrect": false },
+            { "text": "Mușchiul cardiac este multinucleat ca cel scheletic", "isCorrect": false },
+            { "text": "Niciun tip de mușchi nu se poate contracta", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Microbiologie",
+      "questions": [
+        {
+          "text": "Care dintre următoarele afirmații despre bacteriile Gram-pozitive sunt corecte?",
+          "explanation": "Bacteriile Gram-pozitive au un perete celular gros de peptidoglican, rețin colorantul cristal-violet și apar albastru-violet. Nu au membrană externă, iar acidul teicoic este caracteristic peretelui lor.",
+          "answers": [
+            { "text": "Au un perete gros de peptidoglican", "isCorrect": true },
+            { "text": "Rețin colorantul cristal-violet", "isCorrect": true },
+            { "text": "Apar albastru-violet la colorația Gram", "isCorrect": true },
+            { "text": "Conțin acid teicoic în perete", "isCorrect": true },
+            { "text": "Nu posedă membrană externă", "isCorrect": true },
+            { "text": "Apar roșu-roz la colorația Gram", "isCorrect": false },
+            { "text": "Au o membrană externă cu lipopolizaharid", "isCorrect": false },
+            { "text": "Au un strat subțire de peptidoglican", "isCorrect": false },
+            { "text": "Pierd cristal-violetul după decolorare", "isCorrect": false },
+            { "text": "Endotoxina (LPS) este componenta lor principală de perete", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele sunt caracteristici ale virusurilor?",
+          "explanation": "Virusurile sunt paraziți intracelulari obligatorii, conțin un singur tip de acid nucleic (ADN sau ARN), nu au metabolism propriu și nu sunt sensibile la antibiotice. Se replică folosind mașinăria celulei-gazdă.",
+          "answers": [
+            { "text": "Sunt paraziți intracelulari obligatorii", "isCorrect": true },
+            { "text": "Conțin un singur tip de acid nucleic (ADN sau ARN)", "isCorrect": true },
+            { "text": "Nu au metabolism propriu", "isCorrect": true },
+            { "text": "Nu sunt sensibile la antibiotice", "isCorrect": true },
+            { "text": "Se replică folosind mașinăria celulei-gazdă", "isCorrect": true },
+            { "text": "Conțin atât ADN cât și ARN simultan", "isCorrect": false },
+            { "text": "Au perete celular de peptidoglican", "isCorrect": false },
+            { "text": "Se înmulțesc prin diviziune binară", "isCorrect": false },
+            { "text": "Posedă ribozomi proprii", "isCorrect": false },
+            { "text": "Sunt distruse eficient de antibioticele beta-lactamice", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre sterilizare și dezinfecție sunt corecte?",
+          "explanation": "Sterilizarea distruge toate formele de viață microbiană, inclusiv sporii; autoclavul folosește abur sub presiune. Dezinfecția reduce numărul de microorganisme patogene de pe suprafețe inerte, fără a garanta distrugerea sporilor.",
+          "answers": [
+            { "text": "Sterilizarea distruge inclusiv sporii bacterieni", "isCorrect": true },
+            { "text": "Autoclavul folosește abur sub presiune", "isCorrect": true },
+            { "text": "Dezinfecția se aplică suprafețelor inerte", "isCorrect": true },
+            { "text": "Antisepticele se aplică pe țesuturi vii", "isCorrect": true },
+            { "text": "Căldura uscată (Poupinel) este o metodă de sterilizare", "isCorrect": true },
+            { "text": "Dezinfecția distruge întotdeauna toți sporii", "isCorrect": false },
+            { "text": "Sterilizarea și dezinfecția sunt termeni sinonimi", "isCorrect": false },
+            { "text": "Antisepticele se folosesc doar pe suprafețe metalice", "isCorrect": false },
+            { "text": "Autoclavul funcționează fără apă sau abur", "isCorrect": false },
+            { "text": "Sterilizarea lasă intactă o parte din flora sporulată", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre antibiotice sunt corecte?",
+          "explanation": "Antibioticele acționează asupra bacteriilor prin mecanisme precum inhibarea sintezei peretelui (beta-lactaminele), a sintezei proteice (aminoglicozide, macrolide) sau a sintezei acizilor nucleici. Folosirea abuzivă favorizează rezistența bacteriană.",
+          "answers": [
+            { "text": "Penicilinele inhibă sinteza peretelui celular", "isCorrect": true },
+            { "text": "Aminoglicozidele inhibă sinteza proteică bacteriană", "isCorrect": true },
+            { "text": "Folosirea abuzivă favorizează rezistența bacteriană", "isCorrect": true },
+            { "text": "Unele antibiotice sunt bactericide, altele bacteriostatice", "isCorrect": true },
+            { "text": "Antibiograma ghidează alegerea antibioticului", "isCorrect": true },
+            { "text": "Antibioticele sunt eficiente împotriva virusurilor", "isCorrect": false },
+            { "text": "Toate antibioticele au același mecanism de acțiune", "isCorrect": false },
+            { "text": "Rezistența bacteriană nu poate fi transmisă între bacterii", "isCorrect": false },
+            { "text": "Antibioticele acționează asupra ribozomilor umani 80S", "isCorrect": false },
+            { "text": "Niciun antibiotic nu afectează sinteza peretelui celular", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Farmacologie",
+      "questions": [
+        {
+          "text": "Care dintre următoarele procese fac parte din farmacocinetică?",
+          "explanation": "Farmacocinetica descrie ce face organismul cu medicamentul: absorbția, distribuția, metabolizarea și eliminarea (modelul ADME). Mecanismul de acțiune la nivelul receptorului aparține farmacodinamiei.",
+          "answers": [
+            { "text": "Absorbția", "isCorrect": true },
+            { "text": "Distribuția", "isCorrect": true },
+            { "text": "Metabolizarea (biotransformarea)", "isCorrect": true },
+            { "text": "Eliminarea (excreția)", "isCorrect": true },
+            { "text": "Biodisponibilitatea", "isCorrect": true },
+            { "text": "Legarea de receptor și efectul produs", "isCorrect": false },
+            { "text": "Relația doză-efect", "isCorrect": false },
+            { "text": "Mecanismul de acțiune agonist/antagonist", "isCorrect": false },
+            { "text": "Eficacitatea maximă (Emax)", "isCorrect": false },
+            { "text": "Potența relativă la receptor", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre metabolizarea hepatică a medicamentelor sunt corecte?",
+          "explanation": "Ficatul este principalul organ de metabolizare. Reacțiile de fază I (oxidare, reducere, hidroliză) implică citocromul P450, iar cele de fază II sunt reacții de conjugare. Metabolizarea crește de obicei hidrosolubilitatea, facilitând eliminarea.",
+          "answers": [
+            { "text": "Ficatul este principalul organ de metabolizare", "isCorrect": true },
+            { "text": "Reacțiile de fază I implică sistemul citocrom P450", "isCorrect": true },
+            { "text": "Reacțiile de fază II sunt reacții de conjugare", "isCorrect": true },
+            { "text": "Metabolizarea crește de obicei hidrosolubilitatea", "isCorrect": true },
+            { "text": "Efectul primului pasaj reduce biodisponibilitatea orală", "isCorrect": true },
+            { "text": "Metabolizarea face medicamentele mai liposolubile", "isCorrect": false },
+            { "text": "Citocromul P450 acționează doar în reacțiile de fază II", "isCorrect": false },
+            { "text": "Rinichiul este principalul organ de metabolizare", "isCorrect": false },
+            { "text": "Metaboliții sunt întotdeauna inactivi", "isCorrect": false },
+            { "text": "Efectul primului pasaj crește biodisponibilitatea orală", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre agoniști și antagoniști sunt corecte?",
+          "explanation": "Un agonist se leagă de receptor și produce un efect; un antagonist se leagă fără a produce efect și blochează agonistul. Antagoniștii competitivi pot fi depășiți prin creșterea dozei de agonist (deplasarea curbei la dreapta).",
+          "answers": [
+            { "text": "Agonistul se leagă de receptor și produce un efect", "isCorrect": true },
+            { "text": "Antagonistul se leagă de receptor fără a-l activa", "isCorrect": true },
+            { "text": "Antagonistul competitiv poate fi depășit crescând doza de agonist", "isCorrect": true },
+            { "text": "Un agonist parțial produce un efect submaximal", "isCorrect": true },
+            { "text": "Afinitatea descrie capacitatea de legare de receptor", "isCorrect": true },
+            { "text": "Antagonistul produce singur efectul maxim", "isCorrect": false },
+            { "text": "Agonistul nu se leagă de receptor", "isCorrect": false },
+            { "text": "Antagonistul competitiv nu poate fi depășit niciodată", "isCorrect": false },
+            { "text": "Un agonist parțial are întotdeauna Emax maxim", "isCorrect": false },
+            { "text": "Afinitatea și efectul sunt termeni identici", "isCorrect": false }
+          ]
+        },
+        {
+          "text": "Care dintre următoarele afirmații despre căile de administrare a medicamentelor sunt corecte?",
+          "explanation": "Calea intravenoasă oferă biodisponibilitate de 100% și efect rapid. Calea orală este cea mai comodă, dar e supusă efectului primului pasaj hepatic. Calea sublinguală ocolește primul pasaj hepatic.",
+          "answers": [
+            { "text": "Calea intravenoasă are biodisponibilitate de 100%", "isCorrect": true },
+            { "text": "Calea orală este supusă efectului primului pasaj hepatic", "isCorrect": true },
+            { "text": "Calea sublinguală ocolește primul pasaj hepatic", "isCorrect": true },
+            { "text": "Calea intravenoasă produce efectul cel mai rapid", "isCorrect": true },
+            { "text": "Calea orală este cea mai comodă pentru pacient", "isCorrect": true },
+            { "text": "Calea orală are întotdeauna biodisponibilitate de 100%", "isCorrect": false },
+            { "text": "Calea intravenoasă necesită absorbție intestinală", "isCorrect": false },
+            { "text": "Calea sublinguală trece obligatoriu prin ficat înainte de circulație", "isCorrect": false },
+            { "text": "Administrarea orală are efectul cel mai rapid dintre toate", "isCorrect": false },
+            { "text": "Toate căile de administrare au aceeași biodisponibilitate", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
