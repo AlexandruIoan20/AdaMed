@@ -1,5 +1,6 @@
-package service.quiz;
+package ro.platformamedicala.service.quiz;
 
+import io.quarkus.logging.Log;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
@@ -14,6 +15,7 @@ import ro.platformamedicala.dto.quiz.SubmitAnswerRequestDTO;
 import ro.platformamedicala.entities.Answer;
 import ro.platformamedicala.entities.Question;
 import ro.platformamedicala.entities.QuizSession;
+import ro.platformamedicala.entities.SessionMode;
 import ro.platformamedicala.entities.SessionStatus;
 import ro.platformamedicala.entities.User;
 import ro.platformamedicala.entities.UserAnswer;
@@ -29,22 +31,28 @@ import java.util.UUID;
 public class QuizSessionService {
     private final QuizAccessService accessService;
     private final UserAnswerRepository userAnswerRepository;
+    private final QuestionOptionsService questionOptionsService;
 
-    public QuizSessionService(QuizAccessService accessService, UserAnswerRepository userAnswerRepository) {
+    public QuizSessionService(QuizAccessService accessService,
+                              UserAnswerRepository userAnswerRepository,
+                              QuestionOptionsService questionOptionsService) {
         this.accessService = accessService;
         this.userAnswerRepository = userAnswerRepository;
+        this.questionOptionsService = questionOptionsService;
     }
 
     @Inject
     EntityManager em;
 
     @Transactional
-    public SessionResultDTO startSession(User user, UUID subjectId) {
+    public SessionResultDTO startSession(User user, UUID subjectId, SessionMode mode) {
         accessService.requireAccess(user, subjectId);
 
+        SessionMode effectiveMode = mode == null ? SessionMode.LEARNING : mode;
+
         QuizSession existing = QuizSession.<QuizSession>find(
-                        "user.id = ?1 and subject.id = ?2 and status = ?3",
-                        user.getId(), subjectId, SessionStatus.ACTIVE)
+                        "user.id = ?1 and subject.id = ?2 and status = ?3 and mode = ?4",
+                        user.getId(), subjectId, SessionStatus.ACTIVE, effectiveMode)
                 .firstResult();
 
         if (existing != null) {
@@ -55,6 +63,7 @@ public class QuizSessionService {
         session.setUser(user);
         session.setSubject(em.getReference(ro.platformamedicala.entities.Subject.class, subjectId));
         session.setStatus(SessionStatus.ACTIVE);
+        session.setMode(effectiveMode);
         session.setTotalQuestions((int) countQuestions(subjectId));
         session.setCorrectAnswers(0);
         session.setStartedAt(LocalDateTime.now());
@@ -65,6 +74,7 @@ public class QuizSessionService {
 
     @Transactional
     public QuestionDTO getNextQuestion(User user, UUID sessionId) {
+        Log.info("ESTE APELAT GET NEXT QUESTIONS");
         QuizSession session = loadOwnedSession(user, sessionId);
         if (session.getStatus() != SessionStatus.ACTIVE) {
             return null;
@@ -86,7 +96,12 @@ public class QuizSessionService {
         }
 
         List<Answer> answers = Answer.list("question.id", next.getId());
-        return QuestionDTO.fromEntity(next, answers);
+        List<Answer> options = questionOptionsService.optionsFor(sessionId, next.getId(), session.getMode(), answers);
+
+        Log.infof("getNextQuestion: mode=%s grila=%s optiuni=%d%n%s",
+                session.getMode(), next.getId(), options.size(), options);
+
+        return QuestionDTO.fromEntity(next, options);
     }
 
     @Transactional
@@ -107,9 +122,11 @@ public class QuizSessionService {
         }
 
         List<Answer> answers = Answer.list("question.id", question.getId());
+        List<Answer> options = questionOptionsService.optionsFor(sessionId, request.questionId, session.getMode(), answers);
+
         Set<UUID> correctIds = new HashSet<>();
         Set<UUID> validIds = new HashSet<>();
-        for (Answer a : answers) {
+        for (Answer a : options) {
             validIds.add(a.getId());
             if (Boolean.TRUE.equals(a.getIsCorrect())) {
                 correctIds.add(a.getId());

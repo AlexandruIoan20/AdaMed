@@ -11,8 +11,8 @@ import org.eclipse.microprofile.jwt.JsonWebToken;
 import ro.platformamedicala.dto.quiz.SubjectDetailDTO;
 import ro.platformamedicala.dto.quiz.SubjectListItemDTO;
 import ro.platformamedicala.entities.User;
-import service.auth.CurrentUserService;
-import service.quiz.SubjectQueryService;
+import ro.platformamedicala.service.auth.CurrentUserService;
+import ro.platformamedicala.service.quiz.SubjectService;
 
 import java.util.List;
 import java.util.UUID;
@@ -21,13 +21,13 @@ import java.util.UUID;
 @Produces(MediaType.APPLICATION_JSON)
 @Authenticated
 public class SubjectResource {
-    private final SubjectQueryService subjectQueryService;
+    private final SubjectService subjectQueryService;
     private final CurrentUserService currentUserService;
 
     @Inject
     JsonWebToken jwt;
 
-    public SubjectResource(SubjectQueryService subjectQueryService, CurrentUserService currentUserService) {
+    public SubjectResource(SubjectService subjectQueryService, CurrentUserService currentUserService) {
         this.subjectQueryService = subjectQueryService;
         this.currentUserService = currentUserService;
     }

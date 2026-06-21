@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import { subjectService } from "../service/subject.service";
 import { quizService } from "../service/quiz.service";
-import type { SubjectDetail } from "../types/quiz.types";
+import { MODE_LABELS, type SessionMode, type SubjectDetail } from "../types/quiz.types";
 import { Button } from "../components/ui/button";
 
 export default function SubjectDetailPage() {
@@ -10,7 +10,7 @@ export default function SubjectDetailPage() {
   const navigate = useNavigate();
   const [detail, setDetail] = useState<SubjectDetail | null>(null);
   const [loading, setLoading] = useState(true);
-  const [starting, setStarting] = useState(false);
+  const [startingMode, setStartingMode] = useState<SessionMode | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -22,21 +22,24 @@ export default function SubjectDetailPage() {
       .finally(() => setLoading(false));
   }, [subjectId]);
 
-  async function start() {
+  async function start(mode: SessionMode) {
     if (!subjectId) return;
-    setStarting(true);
+    setStartingMode(mode);
     try {
-      const session = await quizService.startSession(subjectId);
+      const session = await quizService.startSession(subjectId, mode);
       navigate(`/quiz/${session.sessionId}`);
     } catch {
       setError("Nu am putut porni sesiunea.");
-      setStarting(false);
+      setStartingMode(null);
     }
   }
 
   if (loading) return <div className="p-8 text-muted-foreground">Se încarcă...</div>;
   if (error) return <div className="p-8 text-destructive">{error}</div>;
   if (!detail) return null;
+
+  const learningActive = detail.learningActiveSessionId != null;
+  const practiceActive = detail.practiceActiveSessionId != null;
 
   return (
     <div className="mx-auto max-w-3xl space-y-6 p-8">
@@ -52,13 +55,36 @@ export default function SubjectDetailPage() {
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         <Metric label="An" value={detail.yearOfStudy ?? "—"} />
         <Metric label="Credite" value={detail.credits ?? "—"} />
-        <Metric label="Total grile" value={detail.totalQuestions} />
-        <Metric label="Rezolvate" value={`${detail.solvedQuestions} / ${detail.totalQuestions}`} />
+        <Metric
+          label="Învățare"
+          value={`${detail.learningSolvedQuestions} / ${detail.totalQuestions}`}
+        />
+        <Metric
+          label="Practică"
+          value={`${detail.practiceSolvedQuestions} / ${detail.totalQuestions}`}
+        />
       </div>
 
-      <Button onClick={start} disabled={starting}>
-        {starting ? "Se pornește..." : detail.hasActiveSession ? "Continuă grilele" : "Începe grile"}
-      </Button>
+      <div className="flex flex-wrap gap-3">
+        <Button onClick={() => start("LEARNING")} disabled={startingMode !== null}>
+          {startingMode === "LEARNING"
+            ? "Se pornește..."
+            : learningActive
+              ? "Continuă învățare"
+              : "Începe învățare"}
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => start("PRACTICE")}
+          disabled={startingMode !== null}
+        >
+          {startingMode === "PRACTICE"
+            ? "Se pornește..."
+            : practiceActive
+              ? "Continuă practică"
+              : "Începe practică"}
+        </Button>
+      </div>
 
       {detail.sessions.length > 0 && (
         <div className="space-y-2">
@@ -69,12 +95,13 @@ export default function SubjectDetailPage() {
                 key={s.sessionId}
                 className="flex items-center justify-between rounded-lg border border-border bg-card px-4 py-2 text-sm"
               >
-                <span className="text-muted-foreground">
+                <span className="flex items-center gap-2 text-muted-foreground">
+                  <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+                    {MODE_LABELS[s.mode]}
+                  </span>
                   {s.status} · {s.answeredQuestions ?? 0} / {s.totalQuestions ?? 0} răspunse
                 </span>
-                <span className="font-medium text-foreground">
-                  {s.correctAnswers ?? 0} corecte
-                </span>
+                <span className="font-medium text-foreground">{s.correctAnswers ?? 0} corecte</span>
               </li>
             ))}
           </ul>

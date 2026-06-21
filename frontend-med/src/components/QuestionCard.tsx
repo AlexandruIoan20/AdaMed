@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { AnswerResult, Question } from "../types/quiz.types";
 import AnswerOption, { type OptionVisualState } from "./AnswerOption";
 import { Button } from "./ui/button";
@@ -10,6 +10,10 @@ interface Props {
   onSubmit: (selectedIds: string[]) => void;
   onNext: () => void;
   isLast: boolean;
+}
+
+function letterFor(index: number) {
+  return String.fromCharCode(97 + index); // 0 -> a, 1 -> b ...
 }
 
 export default function QuestionCard({ question, result, submitting, onSubmit, onNext, isLast }: Props) {
@@ -42,15 +46,39 @@ export default function QuestionCard({ question, result, submitting, onSubmit, o
     return "neutral";
   }
 
-  return (
-    <div className="space-y-5 rounded-2xl border border-border bg-card p-6 shadow-sm">
-      <h2 className="text-lg font-semibold text-foreground">{question.text}</h2>
+  const hasMultipleCorrect = useMemo(
+    () => (result ? result.correctAnswerIds.length > 1 : question.answers.length > 5),
+    [result, question.answers.length],
+  );
 
-      <div className="space-y-2">
-        {question.answers.map((option) => (
+  return (
+    <div className="mx-auto flex w-full max-w-2xl flex-col gap-7">
+      {/* Enunțul — serif, ca într-un caiet de grile tipărit. */}
+      <div className="space-y-4">
+        <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">Întrebarea</p>
+        <h1 className="font-serif text-[1.55rem] leading-snug text-foreground sm:text-[1.8rem]">
+          {question.text}
+        </h1>
+
+        {/* Figura întrebării e vizibilă cât rezolvi (poate fi necesară pentru răspuns);
+            după submit migrează în panoul de studiu, lângă explicație. */}
+        {!answered && question.imageUrl && (
+          <figure className="overflow-hidden rounded-xl border border-border bg-muted/30">
+            <img
+              src={question.imageUrl}
+              alt="Imaginea întrebării"
+              className="max-h-[22rem] w-full object-contain"
+            />
+          </figure>
+        )}
+      </div>
+
+      <div className="space-y-2.5">
+        {question.answers.map((option, i) => (
           <AnswerOption
             key={option.id}
             option={option}
+            letter={letterFor(i)}
             checked={answered ? result!.selectedAnswerIds.includes(option.id) : selected.has(option.id)}
             disabled={answered}
             state={optionState(option.id)}
@@ -59,35 +87,29 @@ export default function QuestionCard({ question, result, submitting, onSubmit, o
         ))}
       </div>
 
-      {answered && (
-        <div className="space-y-2 rounded-lg border border-border bg-muted/40 p-4">
-          <p className={result!.wasCorrect ? "font-medium text-green-600" : "font-medium text-red-600"}>
-            {result!.wasCorrect ? "Răspuns corect!" : "Răspuns greșit"}
-          </p>
-          {!result!.wasCorrect && (
-            <p className="text-sm text-muted-foreground">
-              Verde = corect bifat · Roșu = bifat greșit · Portocaliu = corect, dar omis.
-            </p>
-          )}
-          {result!.explanation && (
-            <p className="text-sm text-foreground">{result!.explanation}</p>
-          )}
-        </div>
-      )}
-
-      {!answered ? (
-        <Button
-          className="w-full"
-          disabled={selected.size === 0 || submitting}
-          onClick={() => onSubmit([...selected])}
-        >
-          {submitting ? "Se trimite..." : "Trimite răspuns"}
-        </Button>
-      ) : (
-        <Button className="w-full" onClick={onNext}>
-          {isLast ? "Vezi rezultatul" : "Următoarea grilă"}
-        </Button>
-      )}
+      <div className="flex flex-col gap-3 border-t border-border pt-5 sm:flex-row sm:items-center sm:justify-between">
+        <p className="text-sm text-muted-foreground">
+          {answered
+            ? "Vezi explicația în panoul din dreapta."
+            : hasMultipleCorrect
+              ? "Bifează toate variantele corecte."
+              : "Bifează variantele corecte — pot fi una sau mai multe."}
+        </p>
+        {!answered ? (
+          <Button
+            size="lg"
+            className="h-11 px-6 text-[0.95rem] sm:w-auto"
+            disabled={selected.size === 0 || submitting}
+            onClick={() => onSubmit([...selected])}
+          >
+            {submitting ? "Se trimite..." : "Trimite răspuns"}
+          </Button>
+        ) : (
+          <Button size="lg" className="h-11 px-6 text-[0.95rem] sm:w-auto" onClick={onNext}>
+            {isLast ? "Vezi rezultatul" : "Următoarea grilă"}
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

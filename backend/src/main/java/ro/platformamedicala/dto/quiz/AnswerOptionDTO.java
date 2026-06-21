@@ -12,12 +12,12 @@ public class AnswerOptionDTO {
     public String imageUrl;
     public Integer position;
 
-    public static AnswerOptionDTO fromEntity(Answer answer) {
+    public static AnswerOptionDTO fromEntity(Answer answer, int position) {
         AnswerOptionDTO dto = new AnswerOptionDTO();
         dto.id = answer.getId();
         dto.text = answer.getText();
         dto.imageUrl = answer.getImageUrl();
-        dto.position = answer.getPosition();
+        dto.position = position;
         return dto;
     }
 }

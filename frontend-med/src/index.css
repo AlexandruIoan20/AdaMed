@@ -9,6 +9,8 @@
 @theme inline {
     --font-heading: var(--font-sans);
     --font-sans: 'Geist Variable', sans-serif;
+    /* Serif doar pentru enunț + explicația AI — „materialul de citit", nu interfața. */
+    --font-serif: 'Georgia', 'Iowan Old Style', 'Times New Roman', serif;
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -128,4 +130,26 @@
   html {
     @apply font-sans;
     }
+}
+
+/* =====================================================================
+   Quiz — momentul „panoul de studiu se trezește" la submit.
+   Un singur moment orchestrat; restul rămâne disciplinat.
+   ===================================================================== */
+@keyframes adamed-wake {
+  from { opacity: 0; transform: translateX(14px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes adamed-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-wake { animation: adamed-wake 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) both; }
+.animate-rise { animation: adamed-rise 0.42s ease-out both; }
+.animate-rise-2 { animation: adamed-rise 0.42s ease-out 0.08s both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-wake,
+  .animate-rise,
+  .animate-rise-2 { animation: none; }
 }

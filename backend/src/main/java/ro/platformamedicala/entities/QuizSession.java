@@ -40,6 +40,11 @@ public class QuizSession extends PanacheEntityBase {
     @Column(columnDefinition = "session_status")
     private SessionStatus status = SessionStatus.ACTIVE;
 
+    @JdbcTypeCode(SqlTypes.NAMED_ENUM)
+    @Enumerated(EnumType.STRING)
+    @Column(columnDefinition = "session_mode", nullable = false)
+    private SessionMode mode = SessionMode.LEARNING;
+
     @Column(name = "total_questions")
     private Integer totalQuestions;
 
@@ -85,6 +90,14 @@ public class QuizSession extends PanacheEntityBase {
 
     public void setStatus(SessionStatus status) {
         this.status = status;
+    }
+
+    public SessionMode getMode() {
+        return mode;
+    }
+
+    public void setMode(SessionMode mode) {
+        this.mode = mode;
     }
 
     public Integer getTotalQuestions() {

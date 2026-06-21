@@ -1,9 +1,9 @@
 import { api } from "./api";
-import type { AnswerResult, Question, SessionResult } from "../types/quiz.types";
+import type { AnswerResult, Question, SessionMode, SessionResult } from "../types/quiz.types";
 
 export const quizService = {
-  startSession: (subjectId: string) =>
-    api.post<SessionResult>("/quiz/sessions", { subjectId }),
+  startSession: (subjectId: string, mode: SessionMode) =>
+    api.post<SessionResult>("/quiz/sessions", { subjectId, mode }),
 
   getSession: (sessionId: string) =>
     api.get<SessionResult>(`/quiz/sessions/${sessionId}`),

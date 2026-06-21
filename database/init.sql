@@ -3,6 +3,7 @@ CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 -- ENUMS
 CREATE TYPE user_roles AS ENUM ('USER', 'ADMIN');
 CREATE TYPE session_status AS ENUM ('ACTIVE', 'FINISHED', 'ABANDONED');
+CREATE TYPE session_mode AS ENUM ('LEARNING', 'PRACTICE');
 
 -- FACULTIES
 CREATE TABLE faculties (
@@ -84,6 +85,7 @@ CREATE TABLE quiz_sessions (
   subject_id UUID REFERENCES subjects(id),
 
   status session_status DEFAULT 'ACTIVE',
+  mode session_mode NOT NULL DEFAULT 'LEARNING',
 
   total_questions INT,
   correct_answers INT,

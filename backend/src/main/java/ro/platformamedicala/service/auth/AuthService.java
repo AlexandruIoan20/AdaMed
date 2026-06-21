@@ -1,4 +1,4 @@
-package service.auth;
+package ro.platformamedicala.service.auth;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;

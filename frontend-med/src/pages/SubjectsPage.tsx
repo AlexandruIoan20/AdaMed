@@ -36,17 +36,25 @@ export default function SubjectsPage() {
             >
               <div className="flex items-start justify-between gap-2">
                 <h2 className="font-semibold text-foreground">{s.name}</h2>
-                {s.hasActiveSession && (
-                  <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs text-primary">
-                    în curs
-                  </span>
-                )}
+                <div className="flex shrink-0 gap-1">
+                  {s.learningActiveSessionId != null && (
+                    <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs text-primary">
+                      învățare în curs
+                    </span>
+                  )}
+                  {s.practiceActiveSessionId != null && (
+                    <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs text-primary">
+                      practică în curs
+                    </span>
+                  )}
+                </div>
               </div>
               {s.description && (
                 <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">{s.description}</p>
               )}
               <p className="mt-3 text-sm text-muted-foreground">
-                {s.solvedQuestions} / {s.totalQuestions} grile rezolvate
+                Învățare {s.learningSolvedQuestions} / {s.totalQuestions} · Practică{" "}
+                {s.practiceSolvedQuestions} / {s.totalQuestions}
                 {s.yearOfStudy != null && ` · anul ${s.yearOfStudy}`}
                 {s.credits != null && ` · ${s.credits} credite`}
               </p>

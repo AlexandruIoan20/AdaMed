@@ -9,7 +9,8 @@ public class SubjectListItemDTO {
     public Integer yearOfStudy;
     public Integer credits;
     public long totalQuestions;
-    public long solvedQuestions;   // grile distincte la care userul a raspuns (orice sesiune)
-    public boolean hasActiveSession;
-    public UUID activeSessionId;
+    public long learningSolvedQuestions;
+    public long practiceSolvedQuestions;
+    public UUID learningActiveSessionId;
+    public UUID practiceActiveSessionId;
 }

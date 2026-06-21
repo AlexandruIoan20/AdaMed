@@ -1,6 +1,7 @@
 package ro.platformamedicala.dto.quiz;
 
 import ro.platformamedicala.entities.QuizSession;
+import ro.platformamedicala.entities.SessionMode;
 import ro.platformamedicala.entities.SessionStatus;
 
 import java.time.LocalDateTime;
@@ -15,6 +16,7 @@ public class SessionResultDTO {
     public Integer answeredQuestions;
     public LocalDateTime startedAt;
     public LocalDateTime finishedAt;
+    public SessionMode mode;
 
     public static SessionResultDTO fromEntity(QuizSession session, int answeredQuestions) {
         SessionResultDTO dto = new SessionResultDTO();
@@ -26,6 +28,7 @@ public class SessionResultDTO {
         dto.answeredQuestions = answeredQuestions;
         dto.startedAt = session.getStartedAt();
         dto.finishedAt = session.getFinishedAt();
+        dto.mode = session.getMode();
         return dto;
     }
 }

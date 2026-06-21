@@ -1,4 +1,4 @@
-package service.quiz;
+package ro.platformamedicala.service.quiz;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.ws.rs.ForbiddenException;

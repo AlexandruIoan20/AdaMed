@@ -1,4 +1,4 @@
-package service.auth;
+package ro.platformamedicala.service.auth;
 
 import io.quarkus.elytron.security.common.BcryptUtil;
 import jakarta.enterprise.context.ApplicationScoped;

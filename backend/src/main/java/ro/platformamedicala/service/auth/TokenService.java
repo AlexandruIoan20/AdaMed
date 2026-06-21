@@ -1,4 +1,4 @@
-package service.auth;
+package ro.platformamedicala.service.auth;
 
 import io.smallrye.jwt.build.Jwt;
 import jakarta.enterprise.context.ApplicationScoped;

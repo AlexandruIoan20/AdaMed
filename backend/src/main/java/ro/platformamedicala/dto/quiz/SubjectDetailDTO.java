@@ -10,10 +10,10 @@ public class SubjectDetailDTO {
     public Integer yearOfStudy;
     public Integer credits;
     public long totalQuestions;
-    public long solvedQuestions;
-    public boolean hasActiveSession;
-    public UUID activeSessionId;
+    public long learningSolvedQuestions;
+    public long practiceSolvedQuestions;
+    public UUID learningActiveSessionId;
+    public UUID practiceActiveSessionId;
 
-    // Sesiunile userului pe aceasta materie (recente intai).
     public List<SessionResultDTO> sessions;
 }

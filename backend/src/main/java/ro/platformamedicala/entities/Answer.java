@@ -82,4 +82,15 @@ public class Answer extends PanacheEntityBase {
     public void setPosition(Integer position) {
         this.position = position;
     }
+
+    // Nu atingem `question` (LAZY) ca sa nu declansam un load / LazyInitializationException.
+    @Override
+    public String toString() {
+        return "Answer{" +
+                "id=" + id +
+                ", text='" + text + '\'' +
+                ", isCorrect=" + isCorrect +
+                ", position=" + position +
+                '}';
+    }
 }

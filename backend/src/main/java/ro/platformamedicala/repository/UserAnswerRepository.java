@@ -13,7 +13,7 @@ import java.util.UUID;
 public class UserAnswerRepository implements PanacheRepository<UserAnswer> {
     public Set<UUID> answeredQuestionIds(UUID sessionId) {
         List<UUID> ids = getEntityManager()
-                .createQuery("select distinct ua.question.id from UserAnswer ua where ua.quizSession.id = :sid", UUID.class)
+                .createQuery("select distinct ua.question.id from UserAnswer ua where ua.session.id = :sid", UUID.class)
                 .setParameter("sid", sessionId)
                 .getResultList();
         return new HashSet<>(ids);
@@ -21,7 +21,7 @@ public class UserAnswerRepository implements PanacheRepository<UserAnswer> {
 
     public int countAnsweredQuestions(UUID sessionId) {
         Long count = getEntityManager()
-                .createQuery("select count(distinct ua.question.id) from UserAnswer ua where ua.quizSession.id = :sid", Long.class)
+                .createQuery("select count(distinct ua.question.id) from UserAnswer ua where ua.session.id = :sid", Long.class)
                 .setParameter("sid", sessionId)
                 .getSingleResult();
         return count.intValue();

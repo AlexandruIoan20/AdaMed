@@ -14,7 +14,7 @@ import ro.platformamedicala.dto.auth.LoginRequestDTO;
 import ro.platformamedicala.dto.auth.RegisterRequestDTO;
 import ro.platformamedicala.dto.auth.UserResponseDTO;
 import ro.platformamedicala.entities.User;
-import service.auth.AuthService;
+import ro.platformamedicala.service.auth.AuthService;
 
 import java.util.UUID;
 

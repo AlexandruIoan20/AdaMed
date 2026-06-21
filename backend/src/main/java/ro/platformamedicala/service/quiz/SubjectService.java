@@ -1,4 +1,4 @@
-package service.quiz;
+package ro.platformamedicala.service.quiz;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;
@@ -12,11 +12,11 @@ import java.util.List;
 import java.util.UUID;
 
 @ApplicationScoped
-public class SubjectQueryService {
+public class SubjectService {
     private final QuizAccessService accessService;
     private final SubjectRepository subjectRepository;
 
-    public SubjectQueryService(QuizAccessService accessService, SubjectRepository subjectRepository) {
+    public SubjectService(QuizAccessService accessService, SubjectRepository subjectRepository) {
         this.accessService = accessService;
         this.subjectRepository = subjectRepository;
     }
@@ -35,10 +35,16 @@ public class SubjectQueryService {
             dto.yearOfStudy = fs.getYearOfStudy();
             dto.credits = fs.getCredits();
             dto.totalQuestions = countQuestions(subject.getId());
-            dto.solvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subject.getId());
-            QuizSession active = findActiveSession(user.getId(), subject.getId());
-            dto.hasActiveSession = active != null;
-            dto.activeSessionId = active != null ? active.getId() : null;
+
+            QuizSession activeLearning = subjectRepository.findActiveSession(user.getId(), subject.getId(), SessionMode.LEARNING);
+            QuizSession activePractice = subjectRepository.findActiveSession(user.getId(), subject.getId(), SessionMode.PRACTICE);
+
+            dto.learningActiveSessionId = activeLearning != null ? activeLearning.getId() : null;
+            dto.practiceActiveSessionId = activePractice != null ? activePractice.getId() : null;
+
+            dto.learningSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subject.getId(), SessionMode.LEARNING);
+            dto.practiceSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subject.getId(), SessionMode.PRACTICE);
+
             return dto;
         }).toList();
     }
@@ -55,11 +61,15 @@ public class SubjectQueryService {
         dto.yearOfStudy = fs.getYearOfStudy();
         dto.credits = fs.getCredits();
         dto.totalQuestions = countQuestions(subjectId);
-        dto.solvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subjectId);
 
-        QuizSession active = findActiveSession(user.getId(), subjectId);
-        dto.hasActiveSession = active != null;
-        dto.activeSessionId = active != null ? active.getId() : null;
+        QuizSession activeLearning = subjectRepository.findActiveSession(user.getId(), subjectId, SessionMode.LEARNING);
+        QuizSession activePractice = subjectRepository.findActiveSession(user.getId(), subjectId, SessionMode.PRACTICE);
+
+        dto.learningActiveSessionId = activeLearning != null ? activeLearning.getId() : null;
+        dto.practiceActiveSessionId = activePractice != null ? activePractice.getId() : null;
+
+        dto.learningSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subjectId, SessionMode.LEARNING);
+        dto.practiceSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subjectId, SessionMode.PRACTICE);
 
         List<QuizSession> sessions = QuizSession.list(
                 "user.id = ?1 and subject.id = ?2 order by startedAt desc",
@@ -72,12 +82,5 @@ public class SubjectQueryService {
 
     long countQuestions(UUID subjectId) {
         return Question.count("subject.id", subjectId);
-    }
-
-    QuizSession findActiveSession(UUID userId, UUID subjectId) {
-        return QuizSession.<QuizSession>find(
-                        "user.id = ?1 and subject.id = ?2 and status = ?3",
-                        userId, subjectId, SessionStatus.ACTIVE)
-                .firstResult();
     }
 }

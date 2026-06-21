@@ -1,5 +1,14 @@
 export type SessionStatus = "ACTIVE" | "FINISHED" | "ABANDONED";
 
+export type SessionMode = "LEARNING" | "PRACTICE";
+
+export const SESSION_MODES: SessionMode[] = ["LEARNING", "PRACTICE"];
+
+export const MODE_LABELS: Record<SessionMode, string> = {
+  LEARNING: "Învățare",
+  PRACTICE: "Practică",
+};
+
 export interface SubjectListItem {
   subjectId: string;
   name: string;
@@ -7,15 +16,17 @@ export interface SubjectListItem {
   yearOfStudy: number | null;
   credits: number | null;
   totalQuestions: number;
-  solvedQuestions: number;
-  hasActiveSession: boolean;
-  activeSessionId: string | null;
+  learningSolvedQuestions: number;
+  practiceSolvedQuestions: number;
+  learningActiveSessionId: string | null;
+  practiceActiveSessionId: string | null;
 }
 
 export interface SessionResult {
   sessionId: string;
   subjectId: string | null;
   status: SessionStatus;
+  mode: SessionMode;
   totalQuestions: number | null;
   correctAnswers: number | null;
   answeredQuestions: number | null;
@@ -30,9 +41,10 @@ export interface SubjectDetail {
   yearOfStudy: number | null;
   credits: number | null;
   totalQuestions: number;
-  solvedQuestions: number;
-  hasActiveSession: boolean;
-  activeSessionId: string | null;
+  learningSolvedQuestions: number;
+  practiceSolvedQuestions: number;
+  learningActiveSessionId: string | null;
+  practiceActiveSessionId: string | null;
   sessions: SessionResult[];
 }
 

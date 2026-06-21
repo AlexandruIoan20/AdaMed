@@ -18,8 +18,8 @@ import ro.platformamedicala.dto.quiz.SessionResultDTO;
 import ro.platformamedicala.dto.quiz.StartSessionRequestDTO;
 import ro.platformamedicala.dto.quiz.SubmitAnswerRequestDTO;
 import ro.platformamedicala.entities.User;
-import service.auth.CurrentUserService;
-import service.quiz.QuizSessionService;
+import ro.platformamedicala.service.auth.CurrentUserService;
+import ro.platformamedicala.service.quiz.QuizSessionService;
 
 import java.util.UUID;
 
@@ -43,7 +43,7 @@ public class QuizResource {
     @Path("/sessions")
     public SessionResultDTO startSession(@Valid StartSessionRequestDTO request) {
         User user = currentUserService.require(jwt);
-        return quizSessionService.startSession(user, request.subjectId);
+        return quizSessionService.startSession(user, request.subjectId, request.mode);
     }
 
     @GET
