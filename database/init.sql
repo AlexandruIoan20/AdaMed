@@ -54,15 +54,27 @@ CREATE TABLE faculty_subjects (
 -- QUESTIONS
 CREATE TABLE questions (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-
   subject_id UUID NOT NULL REFERENCES subjects(id),
 
   text TEXT NOT NULL,
-  image_url VARCHAR(255),
+  image_url VARCHAR(255), 
   explanation TEXT,
 
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE question_images (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(), 
+  question_id UUID NOT NULL REFERENCES questions(id) ON DELETE CASCADE, 
+
+  image_key VARCHAR(500) NOT NULL, 
+  image_url VARCHAR(1000) NOT NULL, 
+
+  display_order INT NOT NULL DEFAULT 0, 
+  created_at TIMESTAMP NOT NULL DEFAULT now() 
+); 
+
+CREATE INDEX idx_question_images_question_id ON question_images(question_id); 
 
 -- ANSWERS
 CREATE TABLE answers (

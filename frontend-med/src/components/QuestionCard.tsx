@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { AnswerResult, Question } from "../types/quiz.types";
+import { questionFigures, type AnswerResult, type Question } from "../types/quiz.types";
 import AnswerOption, { type OptionVisualState } from "./AnswerOption";
 import { Button } from "./ui/button";
 
@@ -51,6 +51,8 @@ export default function QuestionCard({ question, result, submitting, onSubmit, o
     [result, question.answers.length],
   );
 
+  const figures = questionFigures(question);
+
   return (
     <div className="mx-auto flex w-full max-w-2xl flex-col gap-7">
       {/* Enunțul — serif, ca într-un caiet de grile tipărit. */}
@@ -60,16 +62,23 @@ export default function QuestionCard({ question, result, submitting, onSubmit, o
           {question.text}
         </h1>
 
-        {/* Figura întrebării e vizibilă cât rezolvi (poate fi necesară pentru răspuns);
+        {/* Figurile întrebării sunt vizibile cât rezolvi (pot fi necesare pentru răspuns);
             după submit migrează în panoul de studiu, lângă explicație. */}
-        {!answered && question.imageUrl && (
-          <figure className="overflow-hidden rounded-xl border border-border bg-muted/30">
-            <img
-              src={question.imageUrl}
-              alt="Imaginea întrebării"
-              className="max-h-[22rem] w-full object-contain"
-            />
-          </figure>
+        {!answered && figures.length > 0 && (
+          <div className="grid gap-3 sm:grid-cols-2">
+            {figures.map((src, i) => (
+              <figure
+                key={src}
+                className="overflow-hidden rounded-xl border border-border bg-muted/30"
+              >
+                <img
+                  src={src}
+                  alt={`Imaginea ${i + 1} a întrebării`}
+                  className="max-h-[22rem] w-full object-contain"
+                />
+              </figure>
+            ))}
+          </div>
         )}
       </div>
 

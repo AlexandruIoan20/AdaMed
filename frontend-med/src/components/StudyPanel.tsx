@@ -1,4 +1,4 @@
-import type { AnswerResult, Question } from "../types/quiz.types";
+import { questionFigures, type AnswerResult, type Question } from "../types/quiz.types";
 
 interface Props {
   question: Question;
@@ -9,6 +9,7 @@ export default function StudyPanel({ question, result }: Props) {
   if (!result) return <DormantPanel />;
 
   const correct = result.wasCorrect;
+  const figures = questionFigures(question);
 
   return (
     <div className="animate-wake mx-auto flex w-full max-w-xl flex-col gap-7">
@@ -51,18 +52,22 @@ export default function StudyPanel({ question, result }: Props) {
         )}
       </section>
 
-      {/* Figura de referință — după submit, imaginea trece aici, lângă explicație */}
-      {question.imageUrl && (
+      {/* Figurile de referință — după submit, imaginile trec aici, lângă explicație */}
+      {figures.length > 0 && (
         <figure className="animate-rise-2 space-y-2">
           <figcaption className="text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
-            Figură de referință
+            {figures.length > 1 ? "Figuri de referință" : "Figură de referință"}
           </figcaption>
-          <div className="overflow-hidden rounded-xl border border-border bg-background">
-            <img
-              src={question.imageUrl}
-              alt="Figura întrebării"
-              className="max-h-80 w-full object-contain"
-            />
+          <div className="space-y-3">
+            {figures.map((src, i) => (
+              <div key={src} className="overflow-hidden rounded-xl border border-border bg-background">
+                <img
+                  src={src}
+                  alt={`Figura ${i + 1} a întrebării`}
+                  className="max-h-80 w-full object-contain"
+                />
+              </div>
+            ))}
           </div>
         </figure>
       )}

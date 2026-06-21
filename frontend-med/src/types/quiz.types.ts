@@ -58,8 +58,15 @@ export interface AnswerOption {
 export interface Question {
   id: string;
   text: string;
-  imageUrl: string | null;
+  imageUrl: string | null; // legacy, o singură imagine (poate fi null)
+  images?: string[]; // imaginile din question_images (R2), ordonate
   answers: AnswerOption[];
+}
+
+// Toate figurile unei grile: preferă lista din R2, cu fallback pe câmpul legacy.
+export function questionFigures(q: Question): string[] {
+  if (q.images && q.images.length > 0) return q.images;
+  return q.imageUrl ? [q.imageUrl] : [];
 }
 
 export interface AnswerResult {

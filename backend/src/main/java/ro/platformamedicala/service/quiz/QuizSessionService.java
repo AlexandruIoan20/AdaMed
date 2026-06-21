@@ -14,6 +14,7 @@ import ro.platformamedicala.dto.quiz.SessionResultDTO;
 import ro.platformamedicala.dto.quiz.SubmitAnswerRequestDTO;
 import ro.platformamedicala.entities.Answer;
 import ro.platformamedicala.entities.Question;
+import ro.platformamedicala.entities.QuestionImage;
 import ro.platformamedicala.entities.QuizSession;
 import ro.platformamedicala.entities.SessionMode;
 import ro.platformamedicala.entities.SessionStatus;
@@ -98,10 +99,12 @@ public class QuizSessionService {
         List<Answer> answers = Answer.list("question.id", next.getId());
         List<Answer> options = questionOptionsService.optionsFor(sessionId, next.getId(), session.getMode(), answers);
 
-        Log.infof("getNextQuestion: mode=%s grila=%s optiuni=%d%n%s",
-                session.getMode(), next.getId(), options.size(), options);
+        List<QuestionImage> images = QuestionImage.list("question.id = ?1 order by displayOrder", next.getId());
 
-        return QuestionDTO.fromEntity(next, options);
+        Log.infof("getNextQuestion: mode=%s grila=%s optiuni=%d imagini=%d%n%s",
+                session.getMode(), next.getId(), options.size(), images.size(), options);
+
+        return QuestionDTO.fromEntity(next, options, images);
     }
 
     @Transactional
