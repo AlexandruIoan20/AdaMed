@@ -1,6 +1,7 @@
 package ro.platformamedicala.resource;
 
 import io.quarkus.security.Authenticated;
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
@@ -18,8 +19,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
-// NOTĂ: nu există încă verificare de ownership/acces — se adaugă mai târziu.
-// Momentan endpointul e doar pentru testing (orice user autentificat).
 @Authenticated
 @Path("/api/questions/{questionId}/images")
 public class QuestionImageResource {
@@ -34,6 +33,7 @@ public class QuestionImageResource {
     }
 
     @POST
+    @RolesAllowed("ADMIN")
     @Consumes(MediaType.MULTIPART_FORM_DATA)
     @Produces(MediaType.APPLICATION_JSON)
     @Transactional
@@ -78,6 +78,7 @@ public class QuestionImageResource {
     }
 
     @DELETE
+    @RolesAllowed("ADMIN")
     @Path("/{imageId}")
     @Transactional
     public Response delete(@PathParam("imageId") UUID imageId) {

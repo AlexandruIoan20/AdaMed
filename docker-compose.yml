@@ -26,6 +26,11 @@ services:
     depends_on:
       - db
 
+    # Injectează variabilele din .env în container (R2_*, JWT_SECRET etc.),
+    # nu doar substituția ${VAR} din acest fișier compose.
+    env_file:
+      - .env
+
     environment:
       QUARKUS_DATASOURCE_USERNAME: ${POSTGRES_USER}
       QUARKUS_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}

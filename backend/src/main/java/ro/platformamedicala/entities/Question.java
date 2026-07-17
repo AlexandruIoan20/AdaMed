@@ -24,8 +24,8 @@ public class Question extends PanacheEntityBase {
     private UUID id;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "subject_id", nullable = false)
-    private Subject subject;
+    @JoinColumn(name = "faculty_subject_id", nullable = false)
+    private FacultySubject facultySubject;
 
     @Column(nullable = false, columnDefinition = "TEXT")
     private String text;
@@ -50,12 +50,12 @@ public class Question extends PanacheEntityBase {
         this.id = id;
     }
 
-    public Subject getSubject() {
-        return subject;
+    public FacultySubject getFacultySubject() {
+        return facultySubject;
     }
 
-    public void setSubject(Subject subject) {
-        this.subject = subject;
+    public void setFacultySubject(FacultySubject facultySubject) {
+        this.facultySubject = facultySubject;
     }
 
     public String getText() {

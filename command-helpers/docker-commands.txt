@@ -1,0 +1,27 @@
+# Comenzi Docker utile pentru AdaMed
+# (valori luate din .env: POSTGRES_USER=admin, POSTGRES_DB=quiz_db)
+# Containerul bazei de date: adamed-db-1
+
+
+# === Conectare la baza de date (consola psql interactiva) ===
+docker exec -it adamed-db-1 psql -U admin -d quiz_db
+
+
+# === Rulare rapida a unei singure comenzi SQL (fara consola interactiva) ===
+docker exec -it adamed-db-1 psql -U admin -d quiz_db -c "SELECT * FROM faculties;"
+
+
+# === Recreare completa a bazei de date (ruleaza din nou init.sql) ===
+# ATENTIE: sterge TOATE datele din volum.
+docker compose down -v && docker compose up -d
+
+
+# === Loguri ===
+docker compose logs -f db        # logurile bazei de date
+docker compose logs -f api       # logurile backend-ului
+
+
+# === Comenzi rapide in psql (dupa conectare) ===
+#   \dt          - listeaza tabelele
+#   \d questions - descrie tabelul questions
+#   \q           - iesire

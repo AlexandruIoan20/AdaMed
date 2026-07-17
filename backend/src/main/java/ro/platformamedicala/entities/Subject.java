@@ -29,9 +29,6 @@ public class Subject extends PanacheEntityBase {
     @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
     private List<FacultySubject> facultySubjects = new ArrayList<>();
 
-    @OneToMany(mappedBy = "subject", fetch = FetchType.LAZY)
-    private List<Question> questions = new ArrayList<>();
-
     public UUID getId() {
         return id;
     }
@@ -62,13 +59,5 @@ public class Subject extends PanacheEntityBase {
 
     public void setFacultySubjects(List<FacultySubject> facultySubjects) {
         this.facultySubjects = facultySubjects;
-    }
-
-    public List<Question> getQuestions() {
-        return questions;
-    }
-
-    public void setQuestions(List<Question> questions) {
-        this.questions = questions;
     }
 }

@@ -40,6 +40,9 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Index pentru căutarea/paginarea userilor în panoul de admin (email are deja unique -> index implicit)
+CREATE INDEX idx_users_username ON users(username);
+
 -- FACULTY SUBJECTS (MANY-TO-MANY + metadata)
 CREATE TABLE faculty_subjects (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -48,13 +51,18 @@ CREATE TABLE faculty_subjects (
   subject_id UUID NOT NULL REFERENCES subjects(id),
 
   year_of_study INT,
-  credits INT
+  credits INT,
+
+  -- o materie poate fi legată o singură dată de o facultate
+  UNIQUE (faculty_id, subject_id)
 );
 
 -- QUESTIONS
+-- Grilele atârnă de perechea (facultate, materie) prin faculty_subjects,
+-- nu de materia globală: fiecare facultate își are propriile grile.
 CREATE TABLE questions (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  subject_id UUID NOT NULL REFERENCES subjects(id),
+  faculty_subject_id UUID NOT NULL REFERENCES faculty_subjects(id),
 
   text TEXT NOT NULL,
   image_url VARCHAR(255), 
@@ -94,7 +102,7 @@ CREATE TABLE quiz_sessions (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
 
   user_id UUID NOT NULL REFERENCES users(id),
-  subject_id UUID REFERENCES subjects(id),
+  faculty_subject_id UUID REFERENCES faculty_subjects(id),
 
   status session_status DEFAULT 'ACTIVE',
   mode session_mode NOT NULL DEFAULT 'LEARNING',

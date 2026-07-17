@@ -43,6 +43,48 @@ const navItems: NavItem[] = [
   },
 ];
 
+// Afișate doar la useri cu rol ADMIN, într-o secțiune separată de „Administrare".
+const adminNavItems: NavItem[] = [
+  {
+    to: "/admin/users",
+    label: "Utilizatori",
+    isActive: (p) => p.startsWith("/admin/users"),
+    icon: (
+      <>
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </>
+    ),
+  },
+  {
+    to: "/admin/faculties",
+    label: "Facultăți",
+    isActive: (p) =>
+      p.startsWith("/admin/faculties") ||
+      p.startsWith("/admin/faculty-subjects") ||
+      p.startsWith("/admin/questions"),
+    icon: (
+      <>
+        <path d="m22 10-10-5L2 10l10 5 10-5Z" />
+        <path d="M6 12v5c0 1 2 3 6 3s6-2 6-3v-5" />
+      </>
+    ),
+  },
+  {
+    to: "/admin/subjects",
+    label: "Materii",
+    isActive: (p) => p.startsWith("/admin/subjects"),
+    icon: (
+      <>
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" />
+      </>
+    ),
+  },
+];
+
 export default function Sidebar() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
@@ -58,6 +100,39 @@ export default function Sidebar() {
     await logout();
     navigate("/login", { replace: true });
   }
+
+  const renderItem = (item: NavItem) => {
+    const active = item.isActive(pathname);
+    return (
+      <NavLink
+        key={item.to}
+        to={item.to}
+        className={cn(
+          "group relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm transition-colors outline-none focus-visible:ring-3 focus-visible:ring-primary/40",
+          active
+            ? "bg-emerald-50 font-medium text-emerald-700"
+            : "text-slate-600 hover:bg-slate-50 hover:text-slate-900",
+        )}
+      >
+        {active && (
+          <span className="absolute top-1/2 left-0 h-5 w-1 -translate-y-1/2 rounded-r-full bg-emerald-500" />
+        )}
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className={cn("size-5", active ? "text-emerald-600" : "text-slate-400 group-hover:text-slate-500")}
+          aria-hidden="true"
+        >
+          {item.icon}
+        </svg>
+        {item.label}
+      </NavLink>
+    );
+  };
 
   return (
     <>
@@ -113,38 +188,16 @@ export default function Sidebar() {
           <p className="px-3 pb-2 text-xs font-medium tracking-wide text-emerald-700/60 uppercase">
             Meniu
           </p>
-          {navItems.map((item) => {
-            const active = item.isActive(pathname);
-            return (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                className={cn(
-                  "group relative flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm transition-colors outline-none focus-visible:ring-3 focus-visible:ring-primary/40",
-                  active
-                    ? "bg-emerald-50 font-medium text-emerald-700"
-                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900",
-                )}
-              >
-                {active && (
-                  <span className="absolute top-1/2 left-0 h-5 w-1 -translate-y-1/2 rounded-r-full bg-emerald-500" />
-                )}
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className={cn("size-5", active ? "text-emerald-600" : "text-slate-400 group-hover:text-slate-500")}
-                  aria-hidden="true"
-                >
-                  {item.icon}
-                </svg>
-                {item.label}
-              </NavLink>
-            );
-          })}
+          {navItems.map(renderItem)}
+
+          {user?.role === "ADMIN" && (
+            <>
+              <p className="px-3 pt-5 pb-2 text-xs font-medium tracking-wide text-emerald-700/60 uppercase">
+                Administrare
+              </p>
+              {adminNavItems.map(renderItem)}
+            </>
+          )}
         </nav>
 
         {/* Cont + deconectare */}

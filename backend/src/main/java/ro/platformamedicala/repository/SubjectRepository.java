@@ -28,20 +28,20 @@ public class SubjectRepository implements PanacheRepository<Subject> {
                 .intValue();
     }
 
-    public long countSolvedQuestions(UUID userId, UUID subjectId, SessionMode mode) {
+    public long countSolvedQuestions(UUID userId, UUID facultySubjectId, SessionMode mode) {
         return getEntityManager()
                 .createQuery("select count(distinct ua.question.id) from UserAnswer ua "
-                        + "where ua.user.id = :uid and ua.question.subject.id = :sid and ua.session.mode = :mode", Long.class)
+                        + "where ua.user.id = :uid and ua.question.facultySubject.id = :fsid and ua.session.mode = :mode", Long.class)
                 .setParameter("uid", userId)
-                .setParameter("sid", subjectId)
+                .setParameter("fsid", facultySubjectId)
                 .setParameter("mode", mode)
                 .getSingleResult();
     }
 
-    public QuizSession findActiveSession(UUID userId, UUID subjectId, SessionMode mode) {
+    public QuizSession findActiveSession(UUID userId, UUID facultySubjectId, SessionMode mode) {
         return QuizSession.<QuizSession>find(
-                        "user.id = ?1 and subject.id = ?2 and status = ?3 and mode = ?4",
-                        userId, subjectId, SessionStatus.ACTIVE, mode)
+                        "user.id = ?1 and facultySubject.id = ?2 and status = ?3 and mode = ?4",
+                        userId, facultySubjectId, SessionStatus.ACTIVE, mode)
                 .firstResult();
     }
 }

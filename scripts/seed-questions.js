@@ -30,6 +30,38 @@ function loadEnv(envPath) {
   return env;
 }
 
+// Grilele atârnă de perechea (facultate, materie) = faculty_subjects, nu de
+// materia globală. Rezolvăm faculty_subject_id după numele materiei și, opțional,
+// numele facultății (necesar doar dacă materia e legată de mai multe facultăți).
+async function resolveFacultySubjectId(client, subjectName, facultyName) {
+  const params = [subjectName];
+  let sql =
+    "SELECT fs.id, f.name AS faculty_name FROM faculty_subjects fs " +
+    "JOIN subjects s ON s.id = fs.subject_id " +
+    "JOIN faculties f ON f.id = fs.faculty_id " +
+    "WHERE s.name = $1";
+  if (facultyName) {
+    sql += " AND f.name = $2";
+    params.push(facultyName);
+  }
+
+  const result = await client.query(sql, params);
+  if (result.rowCount === 0) {
+    throw new Error(
+      `Materia "${subjectName}"${facultyName ? ` la facultatea "${facultyName}"` : ""} nu e legată de nicio facultate ` +
+        "(lipsește din faculty_subjects). Adaug-o întâi (vezi database/init.sql).",
+    );
+  }
+  if (result.rowCount > 1) {
+    const faculties = result.rows.map((r) => `"${r.faculty_name}"`).join(", ");
+    throw new Error(
+      `Materia "${subjectName}" e legată de mai multe facultăți (${faculties}). ` +
+        'Adaugă câmpul "faculty" în JSON pentru a alege facultatea.',
+    );
+  }
+  return result.rows[0].id;
+}
+
 async function main() {
   const env = { ...loadEnv(path.join(ROOT_DIR, ".env")), ...process.env };
 
@@ -65,25 +97,21 @@ async function main() {
   try {
     await client.query("BEGIN");
 
-    const subjectResult = await client.query("SELECT id FROM subjects WHERE name = $1", [data.subject]);
-    if (subjectResult.rowCount === 0) {
-      throw new Error(`Materia "${data.subject}" nu există în tabela subjects. Adaug-o întâi (vezi database/init.sql).`);
-    }
-    const subjectId = subjectResult.rows[0].id;
+    const facultySubjectId = await resolveFacultySubjectId(client, data.subject, data.faculty);
 
-    // Idempotent: șterge întrebările existente ale materiei înainte de reseed
+    // Idempotent: șterge întrebările existente ale legăturii înainte de reseed
     // (answers se șterg automat prin ON DELETE CASCADE pe question_id).
-    await client.query("DELETE FROM questions WHERE subject_id = $1", [subjectId]);
+    await client.query("DELETE FROM questions WHERE faculty_subject_id = $1", [facultySubjectId]);
 
     let insertedQuestions = 0;
     let insertedAnswers = 0;
 
     for (const q of data.questions) {
       const questionResult = await client.query(
-        `INSERT INTO questions (subject_id, text, image_url, explanation)
+        `INSERT INTO questions (faculty_subject_id, text, image_url, explanation)
          VALUES ($1, $2, $3, $4)
          RETURNING id`,
-        [subjectId, q.text, q.imageUrl ?? null, q.explanation ?? null],
+        [facultySubjectId, q.text, q.imageUrl ?? null, q.explanation ?? null],
       );
       const questionId = questionResult.rows[0].id;
       insertedQuestions += 1;

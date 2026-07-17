@@ -34,16 +34,16 @@ public class SubjectService {
             dto.description = subject.getDescription();
             dto.yearOfStudy = fs.getYearOfStudy();
             dto.credits = fs.getCredits();
-            dto.totalQuestions = countQuestions(subject.getId());
+            dto.totalQuestions = countQuestions(fs.getId());
 
-            QuizSession activeLearning = subjectRepository.findActiveSession(user.getId(), subject.getId(), SessionMode.LEARNING);
-            QuizSession activePractice = subjectRepository.findActiveSession(user.getId(), subject.getId(), SessionMode.PRACTICE);
+            QuizSession activeLearning = subjectRepository.findActiveSession(user.getId(), fs.getId(), SessionMode.LEARNING);
+            QuizSession activePractice = subjectRepository.findActiveSession(user.getId(), fs.getId(), SessionMode.PRACTICE);
 
             dto.learningActiveSessionId = activeLearning != null ? activeLearning.getId() : null;
             dto.practiceActiveSessionId = activePractice != null ? activePractice.getId() : null;
 
-            dto.learningSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subject.getId(), SessionMode.LEARNING);
-            dto.practiceSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subject.getId(), SessionMode.PRACTICE);
+            dto.learningSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), fs.getId(), SessionMode.LEARNING);
+            dto.practiceSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), fs.getId(), SessionMode.PRACTICE);
 
             return dto;
         }).toList();
@@ -60,27 +60,27 @@ public class SubjectService {
         dto.description = subject.getDescription();
         dto.yearOfStudy = fs.getYearOfStudy();
         dto.credits = fs.getCredits();
-        dto.totalQuestions = countQuestions(subjectId);
+        dto.totalQuestions = countQuestions(fs.getId());
 
-        QuizSession activeLearning = subjectRepository.findActiveSession(user.getId(), subjectId, SessionMode.LEARNING);
-        QuizSession activePractice = subjectRepository.findActiveSession(user.getId(), subjectId, SessionMode.PRACTICE);
+        QuizSession activeLearning = subjectRepository.findActiveSession(user.getId(), fs.getId(), SessionMode.LEARNING);
+        QuizSession activePractice = subjectRepository.findActiveSession(user.getId(), fs.getId(), SessionMode.PRACTICE);
 
         dto.learningActiveSessionId = activeLearning != null ? activeLearning.getId() : null;
         dto.practiceActiveSessionId = activePractice != null ? activePractice.getId() : null;
 
-        dto.learningSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subjectId, SessionMode.LEARNING);
-        dto.practiceSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), subjectId, SessionMode.PRACTICE);
+        dto.learningSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), fs.getId(), SessionMode.LEARNING);
+        dto.practiceSolvedQuestions = subjectRepository.countSolvedQuestions(user.getId(), fs.getId(), SessionMode.PRACTICE);
 
         List<QuizSession> sessions = QuizSession.list(
-                "user.id = ?1 and subject.id = ?2 order by startedAt desc",
-                user.getId(), subjectId);
+                "user.id = ?1 and facultySubject.id = ?2 order by startedAt desc",
+                user.getId(), fs.getId());
         dto.sessions = sessions.stream()
                 .map(s -> SessionResultDTO.fromEntity(s, subjectRepository.countAnsweredQuestions(s.getId())))
                 .toList();
         return dto;
     }
 
-    long countQuestions(UUID subjectId) {
-        return Question.count("subject.id", subjectId);
+    long countQuestions(UUID facultySubjectId) {
+        return Question.count("facultySubject.id", facultySubjectId);
     }
 }

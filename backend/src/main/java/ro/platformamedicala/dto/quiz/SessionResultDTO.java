@@ -21,7 +21,7 @@ public class SessionResultDTO {
     public static SessionResultDTO fromEntity(QuizSession session, int answeredQuestions) {
         SessionResultDTO dto = new SessionResultDTO();
         dto.sessionId = session.getId();
-        dto.subjectId = session.getSubject() != null ? session.getSubject().getId() : null;
+        dto.subjectId = session.getFacultySubject() != null ? session.getFacultySubject().getSubject().getId() : null;
         dto.status = session.getStatus();
         dto.totalQuestions = session.getTotalQuestions();
         dto.correctAnswers = session.getCorrectAnswers();

@@ -13,6 +13,7 @@ import ro.platformamedicala.dto.quiz.QuestionDTO;
 import ro.platformamedicala.dto.quiz.SessionResultDTO;
 import ro.platformamedicala.dto.quiz.SubmitAnswerRequestDTO;
 import ro.platformamedicala.entities.Answer;
+import ro.platformamedicala.entities.FacultySubject;
 import ro.platformamedicala.entities.Question;
 import ro.platformamedicala.entities.QuestionImage;
 import ro.platformamedicala.entities.QuizSession;
@@ -47,13 +48,13 @@ public class QuizSessionService {
 
     @Transactional
     public SessionResultDTO startSession(User user, UUID subjectId, SessionMode mode) {
-        accessService.requireAccess(user, subjectId);
+        FacultySubject facultySubject = accessService.requireAccess(user, subjectId);
 
         SessionMode effectiveMode = mode == null ? SessionMode.LEARNING : mode;
 
         QuizSession existing = QuizSession.<QuizSession>find(
-                        "user.id = ?1 and subject.id = ?2 and status = ?3 and mode = ?4",
-                        user.getId(), subjectId, SessionStatus.ACTIVE, effectiveMode)
+                        "user.id = ?1 and facultySubject.id = ?2 and status = ?3 and mode = ?4",
+                        user.getId(), facultySubject.getId(), SessionStatus.ACTIVE, effectiveMode)
                 .firstResult();
 
         if (existing != null) {
@@ -62,10 +63,10 @@ public class QuizSessionService {
 
         QuizSession session = new QuizSession();
         session.setUser(user);
-        session.setSubject(em.getReference(ro.platformamedicala.entities.Subject.class, subjectId));
+        session.setFacultySubject(facultySubject);
         session.setStatus(SessionStatus.ACTIVE);
         session.setMode(effectiveMode);
-        session.setTotalQuestions((int) countQuestions(subjectId));
+        session.setTotalQuestions((int) countQuestions(facultySubject.getId()));
         session.setCorrectAnswers(0);
         session.setStartedAt(LocalDateTime.now());
         session.persist();
@@ -84,8 +85,8 @@ public class QuizSessionService {
         Set<UUID> answered = userAnswerRepository.answeredQuestionIds(sessionId);
 
         List<Question> questions = Question.list(
-                "subject.id = ?1 order by createdAt asc, id asc",
-                session.getSubject().getId());
+                "facultySubject.id = ?1 order by createdAt asc, id asc",
+                session.getFacultySubject().getId());
 
         Question next = questions.stream()
                 .filter(q -> !answered.contains(q.getId()))
@@ -115,7 +116,7 @@ public class QuizSessionService {
         }
 
         Question question = Question.findById(request.questionId);
-        if (question == null || !question.getSubject().getId().equals(session.getSubject().getId())) {
+        if (question == null || !question.getFacultySubject().getId().equals(session.getFacultySubject().getId())) {
             throw new BadRequestException("Grila nu aparține materiei acestei sesiuni.");
         }
 
@@ -206,7 +207,7 @@ public class QuizSessionService {
         return session;
     }
 
-    private long countQuestions(UUID subjectId) {
-        return Question.count("subject.id", subjectId);
+    private long countQuestions(UUID facultySubjectId) {
+        return Question.count("facultySubject.id", facultySubjectId);
     }
 }

@@ -32,8 +32,8 @@ public class QuizSession extends PanacheEntityBase {
     private User user;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "subject_id")
-    private Subject subject;
+    @JoinColumn(name = "faculty_subject_id")
+    private FacultySubject facultySubject;
 
     @JdbcTypeCode(SqlTypes.NAMED_ENUM)
     @Enumerated(EnumType.STRING)
@@ -76,12 +76,12 @@ public class QuizSession extends PanacheEntityBase {
         this.user = user;
     }
 
-    public Subject getSubject() {
-        return subject;
+    public FacultySubject getFacultySubject() {
+        return facultySubject;
     }
 
-    public void setSubject(Subject subject) {
-        this.subject = subject;
+    public void setFacultySubject(FacultySubject facultySubject) {
+        this.facultySubject = facultySubject;
     }
 
     public SessionStatus getStatus() {
