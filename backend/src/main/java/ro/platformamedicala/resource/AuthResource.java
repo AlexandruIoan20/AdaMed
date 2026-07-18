@@ -35,6 +35,11 @@ public class AuthResource {
     @ConfigProperty(name = "auth.cookie.secure")
     boolean cookieSecure;
 
+    // Dev: STRICT. Productie: NONE - frontend (Vercel) si backend (Render) sunt
+    // pe domenii diferite, vezi %prod.auth.cookie.same-site din application.properties.
+    @ConfigProperty(name = "auth.cookie.same-site")
+    NewCookie.SameSite cookieSameSite;
+
     public AuthResource(AuthService authService) {
         this.authService = authService;
     }
@@ -81,7 +86,7 @@ public class AuthResource {
                 .path("/")
                 .httpOnly(true)
                 .secure(cookieSecure)
-                .sameSite(NewCookie.SameSite.STRICT)
+                .sameSite(cookieSameSite)
                 .maxAge(COOKIE_MAX_AGE_SECONDS)
                 .build();
     }
@@ -92,7 +97,7 @@ public class AuthResource {
                 .path("/")
                 .httpOnly(true)
                 .secure(cookieSecure)
-                .sameSite(NewCookie.SameSite.STRICT)
+                .sameSite(cookieSameSite)
                 .maxAge(0)
                 .build();
     }
