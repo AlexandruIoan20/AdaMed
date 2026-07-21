@@ -1,0 +1,1294 @@
+2026-07-20 13:10:31,362 [INFO] === START | pdf  = pdf/grile-biochimie.pdf | dry_run = False ===
+2026-07-20 13:10:31,736 [INFO] Pagini PDF: 232 | Start de la pagina: 1
+2026-07-20 13:10:31,742 [INFO] --- Pagina 1 / 232 ---
+2026-07-20 13:10:31,757 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:31,770 [INFO]   ✓ Q1 → 48b829b4-f108-43de-899d-5903904cd7e2  (5 corecte din 10)
+2026-07-20 13:10:31,772 [INFO]   ✓ Q2 → 4c52edc1-1dd2-40ef-8f4c-3e1bbdf1edfa  (5 corecte din 10)
+2026-07-20 13:10:31,775 [INFO]   ✓ Q3 → c8956781-b0fc-4519-9d57-dbc1fe7e14fe  (5 corecte din 10)
+2026-07-20 13:10:31,776 [INFO]  Pagina salvata. Total insert pana acum: 3
+2026-07-20 13:10:31,777 [INFO] --- Pagina 2 / 232 ---
+2026-07-20 13:10:31,822 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:31,823 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:31,826 [INFO]   ✓ Q4 → 8db7c438-c10e-4cea-85c6-40d5019bf277  (5 corecte din 10)
+2026-07-20 13:10:32,793 [INFO]     Q5 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p2_q5_i0.jpeg
+2026-07-20 13:10:32,796 [INFO]   ✓ Q5 → 185355ad-fcc1-40d4-b639-4ca5789dd839  (5 corecte din 10)
+2026-07-20 13:10:32,797 [INFO]  Pagina salvata. Total insert pana acum: 5
+2026-07-20 13:10:32,798 [INFO] --- Pagina 3 / 232 ---
+2026-07-20 13:10:32,806 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:32,809 [INFO]   ✓ Q6 → 685c6b5a-6c52-491b-8c8b-ad78061d8b4c  (5 corecte din 10)
+2026-07-20 13:10:32,811 [INFO]   ✓ Q7 → bfd69f3e-7a1e-4158-beb9-e4ac10a9d390  (5 corecte din 10)
+2026-07-20 13:10:32,813 [INFO]  Pagina salvata. Total insert pana acum: 7
+2026-07-20 13:10:32,813 [INFO] --- Pagina 4 / 232 ---
+2026-07-20 13:10:32,821 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:32,821 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:33,165 [INFO]     Q8 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p4_q8_i0.jpeg
+2026-07-20 13:10:33,166 [INFO]   ✓ Q8 → 28f3770a-40aa-4eaa-a1f3-84487189a621  (5 corecte din 10)
+2026-07-20 13:10:33,173 [INFO]  Pagina salvata. Total insert pana acum: 8
+2026-07-20 13:10:33,174 [INFO] --- Pagina 5 / 232 ---
+2026-07-20 13:10:33,180 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:33,183 [INFO]   ✓ Q9 → 45987df9-3cbf-44c1-a537-6d3d30e14b37  (5 corecte din 10)
+2026-07-20 13:10:33,185 [INFO]   ✓ Q10 → f9b937b8-e9b5-4514-921a-57b1133146af  (5 corecte din 10)
+2026-07-20 13:10:33,187 [INFO]  Pagina salvata. Total insert pana acum: 10
+2026-07-20 13:10:33,188 [INFO] --- Pagina 6 / 232 ---
+2026-07-20 13:10:33,204 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:33,205 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:33,539 [INFO]     Q11 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p6_q11_i0.jpeg
+2026-07-20 13:10:33,541 [INFO]   ✓ Q11 → 00d760ae-cdf7-45e9-8c6f-73eed3bfe2c7  (5 corecte din 10)
+2026-07-20 13:10:33,544 [INFO]   ✓ Q12 → dc52bd31-a54f-4f4a-b6e2-353261dd985a  (5 corecte din 10)
+2026-07-20 13:10:33,550 [INFO]  Pagina salvata. Total insert pana acum: 12
+2026-07-20 13:10:33,552 [INFO] --- Pagina 7 / 232 ---
+2026-07-20 13:10:33,561 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:33,564 [INFO]   ✓ Q13 → dd1917be-b8e2-41e0-a4a4-9cdc6d6ab6ac  (5 corecte din 10)
+2026-07-20 13:10:33,567 [INFO]   ✓ Q14 → 72e30166-9a0f-46e7-9428-cc4f2c6ab552  (5 corecte din 10)
+2026-07-20 13:10:33,570 [INFO]   ✓ Q15 → 2337e76b-98db-4b42-b4c7-4a5d2e101eeb  (5 corecte din 10)
+2026-07-20 13:10:33,571 [INFO]  Pagina salvata. Total insert pana acum: 15
+2026-07-20 13:10:33,572 [INFO] --- Pagina 8 / 232 ---
+2026-07-20 13:10:33,586 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:33,586 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:33,590 [INFO]   ✓ Q16 → d71fa2ea-a508-4877-b697-5f54bfd16e9b  (5 corecte din 10)
+2026-07-20 13:10:33,867 [INFO]     Q17 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p8_q17_i0.jpeg
+2026-07-20 13:10:33,869 [INFO]   ✓ Q17 → 5daddde3-ee1e-4cfa-928a-ff63f470bf6b  (5 corecte din 10)
+2026-07-20 13:10:33,872 [INFO]  Pagina salvata. Total insert pana acum: 17
+2026-07-20 13:10:33,873 [INFO] --- Pagina 9 / 232 ---
+2026-07-20 13:10:33,883 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:33,886 [INFO]   ✓ Q18 → 7b11cd5c-c23f-443d-8164-96549d43fa41  (5 corecte din 10)
+2026-07-20 13:10:33,890 [INFO]   ✓ Q19 → 7ca57e49-9854-4ce9-8a94-543bf00033a8  (5 corecte din 10)
+2026-07-20 13:10:33,892 [INFO]   ✓ Q20 → 3d645716-d79a-4985-b0ab-5d266ff88bd5  (5 corecte din 10)
+2026-07-20 13:10:33,894 [INFO]  Pagina salvata. Total insert pana acum: 20
+2026-07-20 13:10:33,895 [INFO] --- Pagina 10 / 232 ---
+2026-07-20 13:10:33,906 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:33,910 [INFO]   ✓ Q21 → c55f47f3-b7f5-4867-a392-f81ecd6e8e9c  (5 corecte din 10)
+2026-07-20 13:10:33,912 [INFO]   ✓ Q22 → 7eab0e82-775c-4c26-92d1-d3a2e9ae59b3  (5 corecte din 10)
+2026-07-20 13:10:33,914 [INFO]   ✓ Q23 → 5b83edf8-ed53-4492-94ce-5af9f1df2018  (5 corecte din 10)
+2026-07-20 13:10:33,915 [INFO]  Pagina salvata. Total insert pana acum: 23
+2026-07-20 13:10:33,916 [INFO] --- Pagina 11 / 232 ---
+2026-07-20 13:10:33,925 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:33,928 [INFO]   ✓ Q24 → a14ceb05-afc6-410a-9dc0-5a804ae3cf69  (5 corecte din 10)
+2026-07-20 13:10:33,930 [INFO]   ✓ Q25 → b06c7517-28d1-4d69-b322-56876537775f  (5 corecte din 10)
+2026-07-20 13:10:33,932 [INFO]   ✓ Q26 → 94396dcd-7398-43c1-ad25-a0c5b82fb878  (5 corecte din 10)
+2026-07-20 13:10:33,934 [INFO]  Pagina salvata. Total insert pana acum: 26
+2026-07-20 13:10:33,935 [INFO] --- Pagina 12 / 232 ---
+2026-07-20 13:10:33,944 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:33,947 [INFO]   ✓ Q27 → 4b97a576-41a0-4cfa-b3dc-0e668c6da8f3  (5 corecte din 10)
+2026-07-20 13:10:33,949 [INFO]   ✓ Q28 → da22fc23-3b80-43cb-8f3a-9f88dea817f6  (5 corecte din 10)
+2026-07-20 13:10:33,952 [INFO]   ✓ Q29 → ccc56e33-2b7b-45f3-843b-af180b6f3355  (5 corecte din 10)
+2026-07-20 13:10:33,953 [INFO]  Pagina salvata. Total insert pana acum: 29
+2026-07-20 13:10:33,954 [INFO] --- Pagina 13 / 232 ---
+2026-07-20 13:10:33,964 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:33,965 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:34,522 [INFO]     Q30 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p13_q30_i0.jpeg
+2026-07-20 13:10:34,524 [INFO]   ✓ Q30 → 713a7bab-4885-4f45-b42f-e0a92ecdaad8  (5 corecte din 10)
+2026-07-20 13:10:34,530 [INFO]  Pagina salvata. Total insert pana acum: 30
+2026-07-20 13:10:34,531 [INFO] --- Pagina 14 / 232 ---
+2026-07-20 13:10:34,542 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:34,543 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:34,808 [INFO]     Q31 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p14_q31_i0.jpeg
+2026-07-20 13:10:34,810 [INFO]   ✓ Q31 → 75e39c6f-4da5-4010-8b75-56d054ec436f  (5 corecte din 10)
+2026-07-20 13:10:34,817 [INFO]  Pagina salvata. Total insert pana acum: 31
+2026-07-20 13:10:34,819 [INFO] --- Pagina 15 / 232 ---
+2026-07-20 13:10:34,829 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:34,832 [INFO]   ✓ Q32 → 4acaa67f-7dfa-4210-ab9f-0bfc320be239  (5 corecte din 10)
+2026-07-20 13:10:34,835 [INFO]   ✓ Q33 → b5226f55-5816-4f4d-85a4-6ef853a08dc5  (5 corecte din 10)
+2026-07-20 13:10:34,837 [INFO]   ✓ Q34 → 4772ebd0-45a7-429c-a8eb-063b81139205  (5 corecte din 10)
+2026-07-20 13:10:34,839 [INFO]  Pagina salvata. Total insert pana acum: 34
+2026-07-20 13:10:34,840 [INFO] --- Pagina 16 / 232 ---
+2026-07-20 13:10:34,848 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:34,851 [INFO]   ✓ Q35 → 5ada336a-a859-45f1-9df2-759bb3139aed  (5 corecte din 10)
+2026-07-20 13:10:34,853 [INFO]   ✓ Q36 → 53b106e6-d27b-495a-a196-c0c83d73a5f1  (5 corecte din 10)
+2026-07-20 13:10:34,854 [INFO]  Pagina salvata. Total insert pana acum: 36
+2026-07-20 13:10:34,855 [INFO] --- Pagina 17 / 232 ---
+2026-07-20 13:10:34,863 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:34,863 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:35,142 [INFO]     Q37 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p17_q37_i0.jpeg
+2026-07-20 13:10:35,144 [INFO]   ✓ Q37 → cc53dc2d-0b7d-44d2-bf5c-4b55aa7856be  (5 corecte din 10)
+2026-07-20 13:10:35,151 [INFO]  Pagina salvata. Total insert pana acum: 37
+2026-07-20 13:10:35,152 [INFO] --- Pagina 18 / 232 ---
+2026-07-20 13:10:35,161 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:35,164 [INFO]   ✓ Q38 → 4300c25f-9223-4af3-8058-3772f6e57dc1  (5 corecte din 10)
+2026-07-20 13:10:35,168 [INFO]   ✓ Q39 → 041a7e0d-03d5-4357-8de9-047ccad5bef7  (5 corecte din 10)
+2026-07-20 13:10:35,170 [INFO]   ✓ Q40 → 4394a0dd-0131-46e6-a6e4-49f956652947  (5 corecte din 10)
+2026-07-20 13:10:35,172 [INFO]  Pagina salvata. Total insert pana acum: 40
+2026-07-20 13:10:35,173 [INFO] --- Pagina 19 / 232 ---
+2026-07-20 13:10:35,183 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:35,183 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:35,454 [INFO]     Q41 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p19_q41_i0.jpeg
+2026-07-20 13:10:35,456 [INFO]   ✓ Q41 → 3c772109-fd52-4ca2-9d3f-fafaaaf441c4  (5 corecte din 10)
+2026-07-20 13:10:35,464 [INFO]  Pagina salvata. Total insert pana acum: 41
+2026-07-20 13:10:35,465 [INFO] --- Pagina 20 / 232 ---
+2026-07-20 13:10:35,472 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:35,475 [INFO]   ✓ Q42 → f0e2c9ab-f2da-45cc-81c5-6ae93b63ce10  (5 corecte din 10)
+2026-07-20 13:10:35,478 [INFO]   ✓ Q43 → 45ee7a2f-da64-4298-a7cd-bab1b6a93aff  (5 corecte din 10)
+2026-07-20 13:10:35,480 [INFO]  Pagina salvata. Total insert pana acum: 43
+2026-07-20 13:10:35,481 [INFO] --- Pagina 21 / 232 ---
+2026-07-20 13:10:35,492 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:35,492 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:35,736 [INFO]     Q44 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p21_q44_i0.jpeg
+2026-07-20 13:10:35,739 [INFO]   ✓ Q44 → 4efbbed4-caad-4b76-9389-903a8d6b373e  (5 corecte din 10)
+2026-07-20 13:10:35,746 [INFO]  Pagina salvata. Total insert pana acum: 44
+2026-07-20 13:10:35,747 [INFO] --- Pagina 22 / 232 ---
+2026-07-20 13:10:35,755 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:35,755 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:35,999 [INFO]     Q45 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p22_q45_i0.jpeg
+2026-07-20 13:10:36,001 [INFO]   ✓ Q45 → 6d995b86-916f-489b-97ec-6dff1532ca54  (5 corecte din 10)
+2026-07-20 13:10:36,008 [INFO]  Pagina salvata. Total insert pana acum: 45
+2026-07-20 13:10:36,009 [INFO] --- Pagina 23 / 232 ---
+2026-07-20 13:10:36,025 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:36,025 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:36,273 [INFO]     Q46 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p23_q46_i0.jpeg
+2026-07-20 13:10:36,275 [INFO]   ✓ Q46 → b582a3ca-9a5d-453c-ad3b-4acbe7984784  (5 corecte din 10)
+2026-07-20 13:10:36,278 [INFO]   ✓ Q47 → e2853ee1-c684-401c-a83e-a5d5a6202ee9  (5 corecte din 10)
+2026-07-20 13:10:36,286 [INFO]  Pagina salvata. Total insert pana acum: 47
+2026-07-20 13:10:36,287 [INFO] --- Pagina 24 / 232 ---
+2026-07-20 13:10:36,295 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:36,298 [INFO]   ✓ Q48 → 4bcbba01-1c27-4f15-a013-701b0a97accd  (5 corecte din 10)
+2026-07-20 13:10:36,301 [INFO]   ✓ Q49 → 1dbfd619-b369-4c7c-985a-f0173571bcd2  (5 corecte din 10)
+2026-07-20 13:10:36,302 [INFO]  Pagina salvata. Total insert pana acum: 49
+2026-07-20 13:10:36,303 [INFO] --- Pagina 25 / 232 ---
+2026-07-20 13:10:36,314 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:36,317 [INFO]   ✓ Q50 → ecd0b222-2370-468e-a82a-6767e9b4216a  (5 corecte din 10)
+2026-07-20 13:10:36,319 [INFO]   ✓ Q51 → 9e9bec2b-a090-4151-83c0-518898a51e89  (5 corecte din 10)
+2026-07-20 13:10:36,321 [INFO]   ✓ Q52 → 79a6aff7-f004-49d9-ac45-4635ceb59524  (5 corecte din 10)
+2026-07-20 13:10:36,322 [INFO]  Pagina salvata. Total insert pana acum: 52
+2026-07-20 13:10:36,323 [INFO] --- Pagina 26 / 232 ---
+2026-07-20 13:10:36,330 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:36,334 [INFO]   ✓ Q53 → e7701eb2-04d8-4a16-8eac-2a0572575f69  (5 corecte din 10)
+2026-07-20 13:10:36,336 [INFO]   ✓ Q54 → 5698cb27-28da-4f5c-b275-3f15eec4261d  (5 corecte din 10)
+2026-07-20 13:10:36,337 [INFO]  Pagina salvata. Total insert pana acum: 54
+2026-07-20 13:10:36,338 [INFO] --- Pagina 27 / 232 ---
+2026-07-20 13:10:36,347 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:36,348 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:36,604 [INFO]     Q55 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p27_q55_i0.jpeg
+2026-07-20 13:10:36,606 [INFO]   ✓ Q55 → 643463f5-fb00-4b8d-867a-2bbf382296d4  (5 corecte din 10)
+2026-07-20 13:10:36,612 [INFO]  Pagina salvata. Total insert pana acum: 55
+2026-07-20 13:10:36,613 [INFO] --- Pagina 28 / 232 ---
+2026-07-20 13:10:36,620 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:36,620 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:36,853 [INFO]     Q56 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p28_q56_i0.jpeg
+2026-07-20 13:10:36,854 [INFO]   ✓ Q56 → d9a135a2-b58e-4890-89af-66f1bfcb1c0a  (5 corecte din 10)
+2026-07-20 13:10:36,861 [INFO]  Pagina salvata. Total insert pana acum: 56
+2026-07-20 13:10:36,861 [INFO] --- Pagina 29 / 232 ---
+2026-07-20 13:10:36,869 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:36,870 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:37,132 [INFO]     Q57 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p29_q57_i0.jpeg
+2026-07-20 13:10:37,133 [INFO]   ✓ Q57 → 17558197-038a-43ce-a52f-0b4831ede917  (0 corecte din 0)
+2026-07-20 13:10:37,140 [INFO]  Pagina salvata. Total insert pana acum: 57
+2026-07-20 13:10:37,141 [INFO] --- Pagina 30 / 232 ---
+2026-07-20 13:10:37,151 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:37,151 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:37,151 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:37,152 [INFO]   ✓ Q10 → 882797f8-f5ec-48ff-93ec-5a578a746e5a  (0 corecte din 0)
+2026-07-20 13:10:37,154 [INFO]  Pagina salvata. Total insert pana acum: 58
+2026-07-20 13:10:37,155 [INFO] --- Pagina 31 / 232 ---
+2026-07-20 13:10:37,159 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:37,162 [INFO]   ✓ Q58 → 36c46b0a-8b88-4627-9ee9-d43515e35ac8  (5 corecte din 10)
+2026-07-20 13:10:37,163 [INFO]  Pagina salvata. Total insert pana acum: 59
+2026-07-20 13:10:37,164 [INFO] --- Pagina 32 / 232 ---
+2026-07-20 13:10:37,179 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:37,179 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:37,426 [INFO]     Q59 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p32_q59_i0.jpeg
+2026-07-20 13:10:37,427 [INFO]   ✓ Q59 → 9bb38b47-af82-4c91-b076-fab4eb731c71  (5 corecte din 10)
+2026-07-20 13:10:37,430 [INFO]   ✓ Q60 → e95464d6-f056-4f57-b249-96c97d9aea14  (5 corecte din 10)
+2026-07-20 13:10:37,437 [INFO]  Pagina salvata. Total insert pana acum: 61
+2026-07-20 13:10:37,438 [INFO] --- Pagina 33 / 232 ---
+2026-07-20 13:10:37,452 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:37,452 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:37,731 [INFO]     Q61 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p33_q61_i0.jpeg
+2026-07-20 13:10:37,733 [INFO]   ✓ Q61 → 1d30eef5-bb3a-456e-bd4d-f929638649b7  (5 corecte din 10)
+2026-07-20 13:10:37,740 [INFO]  Pagina salvata. Total insert pana acum: 62
+2026-07-20 13:10:37,741 [INFO] --- Pagina 34 / 232 ---
+2026-07-20 13:10:37,748 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:37,751 [INFO]   ✓ Q62 → 1353092e-61e0-46c8-a195-cb7f6b526773  (5 corecte din 10)
+2026-07-20 13:10:37,753 [INFO]   ✓ Q63 → d1ab91d2-7a56-4f90-bf82-59ffc4d691f0  (5 corecte din 10)
+2026-07-20 13:10:37,755 [INFO]  Pagina salvata. Total insert pana acum: 64
+2026-07-20 13:10:37,756 [INFO] --- Pagina 35 / 232 ---
+2026-07-20 13:10:37,766 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:37,769 [INFO]   ✓ Q64 → 9e869986-2792-4fce-8a2e-95ee4459754d  (5 corecte din 10)
+2026-07-20 13:10:37,771 [INFO]   ✓ Q65 → 5aadf014-eb17-45d5-8e8b-f2680036b6e1  (5 corecte din 10)
+2026-07-20 13:10:37,773 [INFO]   ✓ Q66 → a9e153c4-6e2a-430b-91e7-b618af8a7c57  (5 corecte din 10)
+2026-07-20 13:10:37,774 [INFO]  Pagina salvata. Total insert pana acum: 67
+2026-07-20 13:10:37,775 [INFO] --- Pagina 36 / 232 ---
+2026-07-20 13:10:37,781 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:37,784 [INFO]   ✓ Q67 → 08413bb7-c934-4e5c-b0d0-325a52a9d931  (5 corecte din 10)
+2026-07-20 13:10:37,786 [INFO]   ✓ Q68 → 1c13d794-bdd0-4f99-94cf-b5b668d83d56  (5 corecte din 10)
+2026-07-20 13:10:37,787 [INFO]  Pagina salvata. Total insert pana acum: 69
+2026-07-20 13:10:37,788 [INFO] --- Pagina 37 / 232 ---
+2026-07-20 13:10:37,807 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:37,808 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:37,811 [INFO]   ✓ Q69 → 84c21b9b-2ed7-437e-abd8-8cab808053db  (5 corecte din 10)
+2026-07-20 13:10:38,148 [INFO]     Q70 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p37_q70_i0.jpeg
+2026-07-20 13:10:38,150 [INFO]   ✓ Q70 → 5266121c-869e-42cc-b96c-a10a088286fa  (5 corecte din 10)
+2026-07-20 13:10:38,157 [INFO]  Pagina salvata. Total insert pana acum: 71
+2026-07-20 13:10:38,158 [INFO] --- Pagina 38 / 232 ---
+2026-07-20 13:10:38,164 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,167 [INFO]   ✓ Q71 → 0ceff6ee-e794-4a77-b3a5-f2fa5af68b53  (5 corecte din 10)
+2026-07-20 13:10:38,169 [INFO]   ✓ Q72 → 04cbe3e4-aeb8-4d36-94db-a993e0ac80c0  (5 corecte din 10)
+2026-07-20 13:10:38,170 [INFO]  Pagina salvata. Total insert pana acum: 73
+2026-07-20 13:10:38,171 [INFO] --- Pagina 39 / 232 ---
+2026-07-20 13:10:38,177 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,180 [INFO]   ✓ Q73 → aa0a3da7-7846-4d30-954a-0f8ef00a172e  (5 corecte din 10)
+2026-07-20 13:10:38,182 [INFO]   ✓ Q74 → 718e87b4-8d4a-44b2-bafd-ded9651c4927  (5 corecte din 10)
+2026-07-20 13:10:38,183 [INFO]  Pagina salvata. Total insert pana acum: 75
+2026-07-20 13:10:38,184 [INFO] --- Pagina 40 / 232 ---
+2026-07-20 13:10:38,191 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,194 [INFO]   ✓ Q75 → 7e220de7-17d2-4d64-b5ed-101fbd89cd7d  (5 corecte din 10)
+2026-07-20 13:10:38,196 [INFO]   ✓ Q76 → 557f3ab6-154d-452e-8ecd-f3217db77b7d  (5 corecte din 10)
+2026-07-20 13:10:38,197 [INFO]  Pagina salvata. Total insert pana acum: 77
+2026-07-20 13:10:38,198 [INFO] --- Pagina 41 / 232 ---
+2026-07-20 13:10:38,204 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,207 [INFO]   ✓ Q77 → 1c9557b5-65c6-43b3-972e-45c126b036a6  (5 corecte din 10)
+2026-07-20 13:10:38,210 [INFO]   ✓ Q78 → 4d8f1978-f327-408b-b672-d366dde393cc  (5 corecte din 10)
+2026-07-20 13:10:38,211 [INFO]  Pagina salvata. Total insert pana acum: 79
+2026-07-20 13:10:38,212 [INFO] --- Pagina 42 / 232 ---
+2026-07-20 13:10:38,218 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,220 [INFO]   ✓ Q79 → 4744f28f-9358-418e-91b5-d39f793bacc7  (5 corecte din 10)
+2026-07-20 13:10:38,222 [INFO]   ✓ Q80 → d198b277-30bf-48ea-acc7-5de97c95b29e  (5 corecte din 10)
+2026-07-20 13:10:38,223 [INFO]  Pagina salvata. Total insert pana acum: 81
+2026-07-20 13:10:38,223 [INFO] --- Pagina 43 / 232 ---
+2026-07-20 13:10:38,243 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:38,243 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:38,487 [INFO]     Q81 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p43_q81_i0.jpeg
+2026-07-20 13:10:38,489 [INFO]   ✓ Q81 → 6e573a7f-96e2-4aa5-abef-f2ef73ea31c9  (5 corecte din 10)
+2026-07-20 13:10:38,496 [INFO]  Pagina salvata. Total insert pana acum: 82
+2026-07-20 13:10:38,497 [INFO] --- Pagina 44 / 232 ---
+2026-07-20 13:10:38,513 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:38,514 [INFO]  1 Intrebari | 7 raspunsuri | 5 corecte
+2026-07-20 13:10:38,893 [INFO]     Q82 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p44_q82_i0.jpeg
+2026-07-20 13:10:38,895 [INFO]   ✓ Q82 → b01c26d8-8f24-4329-9c1e-0d1026e562b8  (5 corecte din 7)
+2026-07-20 13:10:38,902 [INFO]  Pagina salvata. Total insert pana acum: 83
+2026-07-20 13:10:38,903 [INFO] --- Pagina 45 / 232 ---
+2026-07-20 13:10:38,910 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,913 [INFO]   ✓ Q83 → c1597d9e-88c7-4a95-8afb-6d6cff569592  (5 corecte din 10)
+2026-07-20 13:10:38,916 [INFO]   ✓ Q84 → e647d98e-3886-417c-bafd-b239559bd6e3  (5 corecte din 10)
+2026-07-20 13:10:38,918 [INFO]  Pagina salvata. Total insert pana acum: 85
+2026-07-20 13:10:38,919 [INFO] --- Pagina 46 / 232 ---
+2026-07-20 13:10:38,926 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:38,929 [INFO]   ✓ Q85 → 54a0c60f-8cc6-4f24-8aa9-96c29183e18f  (5 corecte din 10)
+2026-07-20 13:10:38,931 [INFO]   ✓ Q86 → e209d58b-fe88-41df-b2f3-52cba6da49ef  (5 corecte din 10)
+2026-07-20 13:10:38,932 [INFO]  Pagina salvata. Total insert pana acum: 87
+2026-07-20 13:10:38,933 [INFO] --- Pagina 47 / 232 ---
+2026-07-20 13:10:38,937 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:38,939 [INFO]   ✓ Q87 → 9cb45e80-7742-47b3-965b-22e5f9fa0496  (5 corecte din 10)
+2026-07-20 13:10:38,940 [INFO]  Pagina salvata. Total insert pana acum: 88
+2026-07-20 13:10:38,941 [INFO] --- Pagina 48 / 232 ---
+2026-07-20 13:10:38,961 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:38,962 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:39,201 [INFO]     Q88 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p48_q88_i0.jpeg
+2026-07-20 13:10:39,203 [INFO]   ✓ Q88 → 1ef7d6a2-d810-404f-9ef0-aa53aa82f64b  (5 corecte din 10)
+2026-07-20 13:10:39,210 [INFO]  Pagina salvata. Total insert pana acum: 89
+2026-07-20 13:10:39,211 [INFO] --- Pagina 49 / 232 ---
+2026-07-20 13:10:39,226 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:39,226 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:39,439 [INFO]     Q89 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p49_q89_i0.jpeg
+2026-07-20 13:10:39,441 [INFO]   ✓ Q89 → 426d7169-5c1d-42e8-9199-7bc6b2706d55  (5 corecte din 10)
+2026-07-20 13:10:39,448 [INFO]  Pagina salvata. Total insert pana acum: 90
+2026-07-20 13:10:39,449 [INFO] --- Pagina 50 / 232 ---
+2026-07-20 13:10:39,458 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:39,461 [INFO]   ✓ Q90 → 0d77fff8-00a0-45ab-99b0-72d703bd0b5e  (5 corecte din 10)
+2026-07-20 13:10:39,463 [INFO]   ✓ Q91 → bb566653-2c4c-407d-a8a2-b7e575c23429  (5 corecte din 10)
+2026-07-20 13:10:39,465 [INFO]   ✓ Q92 → aa498ee8-8671-4b27-9cae-9c1187a63260  (5 corecte din 10)
+2026-07-20 13:10:39,466 [INFO]  Pagina salvata. Total insert pana acum: 93
+2026-07-20 13:10:39,467 [INFO] --- Pagina 51 / 232 ---
+2026-07-20 13:10:39,475 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:39,478 [INFO]   ✓ Q93 → aab0aaff-a69c-4baa-b7c2-552baea2e6df  (5 corecte din 10)
+2026-07-20 13:10:39,480 [INFO]   ✓ Q94 → 9586565c-c8fb-4fda-b37f-1110010fe3ef  (5 corecte din 10)
+2026-07-20 13:10:39,482 [INFO]   ✓ Q95 → dbd4bb44-5757-4e52-bca4-c9d296ef6a9c  (5 corecte din 10)
+2026-07-20 13:10:39,483 [INFO]  Pagina salvata. Total insert pana acum: 96
+2026-07-20 13:10:39,484 [INFO] --- Pagina 52 / 232 ---
+2026-07-20 13:10:39,525 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:39,525 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:39,528 [INFO]   ✓ Q96 → 6d542651-016d-47d8-86bb-c3d38e4a4cdb  (5 corecte din 10)
+2026-07-20 13:10:39,804 [INFO]     Q97 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p52_q97_i0.png
+2026-07-20 13:10:39,806 [INFO]   ✓ Q97 → 0107b685-1184-4467-b9fd-587cca17fbb0  (5 corecte din 10)
+2026-07-20 13:10:39,813 [INFO]  Pagina salvata. Total insert pana acum: 98
+2026-07-20 13:10:39,814 [INFO] --- Pagina 53 / 232 ---
+2026-07-20 13:10:39,854 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:39,855 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:40,279 [INFO]     Q98 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p53_q98_i0.png
+2026-07-20 13:10:40,282 [INFO]   ✓ Q98 → 53419b7f-dd73-4b78-b742-403e2f5fa74c  (5 corecte din 10)
+2026-07-20 13:10:40,288 [INFO]  Pagina salvata. Total insert pana acum: 99
+2026-07-20 13:10:40,289 [INFO] --- Pagina 54 / 232 ---
+2026-07-20 13:10:40,329 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:40,329 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:40,575 [INFO]     Q99 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p54_q99_i0.png
+2026-07-20 13:10:40,577 [INFO]   ✓ Q99 → eb007a75-f891-4bfc-aa5c-fcf9d72b4ccd  (5 corecte din 10)
+2026-07-20 13:10:40,584 [INFO]  Pagina salvata. Total insert pana acum: 100
+2026-07-20 13:10:40,585 [INFO] --- Pagina 55 / 232 ---
+2026-07-20 13:10:40,623 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:40,623 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:40,980 [INFO]     Q100 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p55_q100_i0.png
+2026-07-20 13:10:40,982 [INFO]   ✓ Q100 → cc1ac8a4-1fe2-495e-b004-e53a26b23fe4  (5 corecte din 10)
+2026-07-20 13:10:40,989 [INFO]  Pagina salvata. Total insert pana acum: 101
+2026-07-20 13:10:40,990 [INFO] --- Pagina 56 / 232 ---
+2026-07-20 13:10:41,000 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:41,000 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:41,258 [INFO]     Q101 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p56_q101_i0.jpeg
+2026-07-20 13:10:41,260 [INFO]   ✓ Q101 → 2a8ad913-37d5-4eca-ad2e-04c7ab10a2c6  (5 corecte din 10)
+2026-07-20 13:10:41,267 [INFO]  Pagina salvata. Total insert pana acum: 102
+2026-07-20 13:10:41,268 [INFO] --- Pagina 57 / 232 ---
+2026-07-20 13:10:41,277 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:41,277 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:41,724 [INFO]     Q102 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p57_q102_i0.jpeg
+2026-07-20 13:10:41,726 [INFO]   ✓ Q102 → 83a730b6-0954-456f-9a88-d600d78dd8f5  (5 corecte din 10)
+2026-07-20 13:10:41,733 [INFO]  Pagina salvata. Total insert pana acum: 103
+2026-07-20 13:10:41,734 [INFO] --- Pagina 58 / 232 ---
+2026-07-20 13:10:41,745 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:41,746 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:42,028 [INFO]     Q103 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p58_q103_i0.jpeg
+2026-07-20 13:10:42,030 [INFO]   ✓ Q103 → 3b0a6216-f198-4c3b-a972-7a63a71ae464  (5 corecte din 10)
+2026-07-20 13:10:42,037 [INFO]  Pagina salvata. Total insert pana acum: 104
+2026-07-20 13:10:42,038 [INFO] --- Pagina 59 / 232 ---
+2026-07-20 13:10:42,045 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:42,048 [INFO]   ✓ Q104 → 81dce9ab-ddab-4aff-8a6c-6ffbd7fbf36a  (5 corecte din 10)
+2026-07-20 13:10:42,051 [INFO]   ✓ Q105 → e70050b2-b1ba-4e5f-81f1-4cbb83f0b414  (5 corecte din 10)
+2026-07-20 13:10:42,053 [INFO]  Pagina salvata. Total insert pana acum: 106
+2026-07-20 13:10:42,054 [INFO] --- Pagina 60 / 232 ---
+2026-07-20 13:10:42,061 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:42,063 [INFO]   ✓ Q106 → 2bc710a7-cada-4061-bd38-a28563d91d07  (5 corecte din 10)
+2026-07-20 13:10:42,066 [INFO]   ✓ Q107 → 8bb00d79-373e-4442-80b0-289c70d8a797  (5 corecte din 10)
+2026-07-20 13:10:42,068 [INFO]  Pagina salvata. Total insert pana acum: 108
+2026-07-20 13:10:42,069 [INFO] --- Pagina 61 / 232 ---
+2026-07-20 13:10:42,078 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:42,081 [INFO]   ✓ Q108 → 2a7d163d-3ee7-43d6-a6c3-3f06a33bd092  (5 corecte din 10)
+2026-07-20 13:10:42,083 [INFO]   ✓ Q109 → 97bfa31b-8804-4818-a336-28e8c8d41be7  (5 corecte din 10)
+2026-07-20 13:10:42,085 [INFO]   ✓ Q110 → efa85cb1-234b-42bc-a081-f989fdde606d  (5 corecte din 10)
+2026-07-20 13:10:42,087 [INFO]  Pagina salvata. Total insert pana acum: 111
+2026-07-20 13:10:42,088 [INFO] --- Pagina 62 / 232 ---
+2026-07-20 13:10:42,094 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:42,097 [INFO]   ✓ Q111 → 3f91d554-063b-45cb-9042-1183365b9217  (5 corecte din 10)
+2026-07-20 13:10:42,099 [INFO]   ✓ Q112 → a97b16e6-75da-4f44-b6cd-8450d14df7af  (5 corecte din 10)
+2026-07-20 13:10:42,100 [INFO]  Pagina salvata. Total insert pana acum: 113
+2026-07-20 13:10:42,101 [INFO] --- Pagina 63 / 232 ---
+2026-07-20 13:10:42,104 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:42,107 [INFO]   ✓ Q113 → d4212d02-9dc8-41ac-a560-1b9e607c8d2f  (5 corecte din 10)
+2026-07-20 13:10:42,108 [INFO]  Pagina salvata. Total insert pana acum: 114
+2026-07-20 13:10:42,109 [INFO] --- Pagina 64 / 232 ---
+2026-07-20 13:10:42,115 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:42,115 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:42,537 [INFO]     Q114 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p64_q114_i0.jpeg
+2026-07-20 13:10:42,539 [INFO]   ✓ Q114 → bffc6490-f157-4d9d-b30d-54631d4fd0ba  (5 corecte din 10)
+2026-07-20 13:10:42,546 [INFO]  Pagina salvata. Total insert pana acum: 115
+2026-07-20 13:10:42,547 [INFO] --- Pagina 65 / 232 ---
+2026-07-20 13:10:42,554 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:42,558 [INFO]   ✓ Q115 → 1fca4543-c4d9-409d-ba6b-06252bc8a44c  (5 corecte din 10)
+2026-07-20 13:10:42,560 [INFO]  Pagina salvata. Total insert pana acum: 116
+2026-07-20 13:10:42,560 [INFO] --- Pagina 66 / 232 ---
+2026-07-20 13:10:42,573 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:42,573 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:42,979 [INFO]     Q116 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p66_q116_i0.jpeg
+2026-07-20 13:10:42,979 [INFO]   ✓ Q116 → 26dd0524-1055-440e-ac1e-e7fb0598e848  (0 corecte din 0)
+2026-07-20 13:10:42,986 [INFO]  Pagina salvata. Total insert pana acum: 117
+2026-07-20 13:10:42,987 [INFO] --- Pagina 67 / 232 ---
+2026-07-20 13:10:42,990 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:42,992 [INFO]   ✓ Q10 → b109c2d7-6777-4d58-bc10-14de6ac7915f  (0 corecte din 0)
+2026-07-20 13:10:42,994 [INFO]  Pagina salvata. Total insert pana acum: 118
+2026-07-20 13:10:42,994 [INFO] --- Pagina 68 / 232 ---
+2026-07-20 13:10:43,005 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:43,005 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:43,239 [INFO]     Q117 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p68_q117_i0.jpeg
+2026-07-20 13:10:43,239 [INFO]   ✓ Q117 → 46fc1bd8-2e7c-438f-babe-3e388a0cde66  (0 corecte din 0)
+2026-07-20 13:10:43,246 [INFO]  Pagina salvata. Total insert pana acum: 119
+2026-07-20 13:10:43,247 [INFO] --- Pagina 69 / 232 ---
+2026-07-20 13:10:43,251 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:43,253 [INFO]   ✓ Q10 → 4f5c1ff1-5a70-45ec-bdc0-3f8cb06c48ba  (0 corecte din 0)
+2026-07-20 13:10:43,254 [INFO]  Pagina salvata. Total insert pana acum: 120
+2026-07-20 13:10:43,255 [INFO] --- Pagina 70 / 232 ---
+2026-07-20 13:10:43,273 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:43,273 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:43,560 [INFO]     Q118 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p70_q118_i0.jpeg
+2026-07-20 13:10:43,560 [INFO]   ✓ Q118 → be1ec628-d752-4dda-ac08-bd66b7fa1690  (0 corecte din 0)
+2026-07-20 13:10:43,567 [INFO]  Pagina salvata. Total insert pana acum: 121
+2026-07-20 13:10:43,567 [INFO] --- Pagina 71 / 232 ---
+2026-07-20 13:10:43,581 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:43,581 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:43,581 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:43,582 [INFO]   ✓ Q10 → 02423669-b02e-4ce7-9864-9c46f6e7bb9c  (0 corecte din 0)
+2026-07-20 13:10:43,584 [INFO]  Pagina salvata. Total insert pana acum: 122
+2026-07-20 13:10:43,584 [INFO] --- Pagina 72 / 232 ---
+2026-07-20 13:10:43,601 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:43,601 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:43,999 [INFO]     Q119 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p72_q119_i0.jpeg
+2026-07-20 13:10:43,999 [INFO]   ✓ Q119 → 46a926db-df85-46d4-b74e-e43ace0cbbed  (0 corecte din 0)
+2026-07-20 13:10:44,006 [INFO]  Pagina salvata. Total insert pana acum: 123
+2026-07-20 13:10:44,007 [INFO] --- Pagina 73 / 232 ---
+2026-07-20 13:10:44,024 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:44,024 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:44,024 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:44,026 [INFO]   ✓ Q10 → e90bb945-b49b-422d-8c5e-e6ae38a728b4  (0 corecte din 0)
+2026-07-20 13:10:44,027 [INFO]  Pagina salvata. Total insert pana acum: 124
+2026-07-20 13:10:44,028 [INFO] --- Pagina 74 / 232 ---
+2026-07-20 13:10:44,046 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:44,046 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:44,507 [INFO]     Q120 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p74_q120_i0.jpeg
+2026-07-20 13:10:44,507 [INFO]   ✓ Q120 → a2ea1c29-6874-477d-8660-14cfc81a1ccb  (0 corecte din 0)
+2026-07-20 13:10:44,515 [INFO]  Pagina salvata. Total insert pana acum: 125
+2026-07-20 13:10:44,515 [INFO] --- Pagina 75 / 232 ---
+2026-07-20 13:10:44,529 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:44,530 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:44,530 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:44,531 [INFO]   ✓ Q10 → ba0f6eeb-f81e-4ad5-8224-513192d7945a  (0 corecte din 0)
+2026-07-20 13:10:44,533 [INFO]  Pagina salvata. Total insert pana acum: 126
+2026-07-20 13:10:44,533 [INFO] --- Pagina 76 / 232 ---
+2026-07-20 13:10:44,548 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:44,548 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:44,845 [INFO]     Q121 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p76_q121_i0.jpeg
+2026-07-20 13:10:44,847 [INFO]   ✓ Q121 → 9de36e34-bfdb-4333-9460-278c01749730  (5 corecte din 10)
+2026-07-20 13:10:44,854 [INFO]  Pagina salvata. Total insert pana acum: 127
+2026-07-20 13:10:44,855 [INFO] --- Pagina 77 / 232 ---
+2026-07-20 13:10:44,871 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:44,871 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:45,142 [INFO]     Q122 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p77_q122_i0.jpeg
+2026-07-20 13:10:45,145 [INFO]   ✓ Q122 → bef5e9c4-1142-4b3e-aa7d-aa31b0ff9c73  (5 corecte din 10)
+2026-07-20 13:10:45,152 [INFO]  Pagina salvata. Total insert pana acum: 128
+2026-07-20 13:10:45,153 [INFO] --- Pagina 78 / 232 ---
+2026-07-20 13:10:45,167 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:45,168 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:45,406 [INFO]     Q123 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p78_q123_i0.jpeg
+2026-07-20 13:10:45,408 [INFO]   ✓ Q123 → f111fe6f-e634-4388-9cf2-346ac7b55ba6  (5 corecte din 10)
+2026-07-20 13:10:45,415 [INFO]  Pagina salvata. Total insert pana acum: 129
+2026-07-20 13:10:45,416 [INFO] --- Pagina 79 / 232 ---
+2026-07-20 13:10:45,451 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:45,451 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:45,737 [INFO]     Q124 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p79_q124_i0.jpeg
+2026-07-20 13:10:45,739 [INFO]   ✓ Q124 → eeb52562-2a55-45b8-be1c-4f3afb076644  (5 corecte din 10)
+2026-07-20 13:10:45,747 [INFO]  Pagina salvata. Total insert pana acum: 130
+2026-07-20 13:10:45,748 [INFO] --- Pagina 80 / 232 ---
+2026-07-20 13:10:45,784 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:45,784 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:46,030 [INFO]     Q125 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p80_q125_i0.jpeg
+2026-07-20 13:10:46,033 [INFO]   ✓ Q125 → 8fa6cfab-ff29-404c-9ca1-c69537bf4eef  (5 corecte din 10)
+2026-07-20 13:10:46,039 [INFO]  Pagina salvata. Total insert pana acum: 131
+2026-07-20 13:10:46,040 [INFO] --- Pagina 81 / 232 ---
+2026-07-20 13:10:46,048 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:46,051 [INFO]   ✓ Q126 → 2d771d67-8e94-49ad-b8f7-fdc46a3e1b2e  (5 corecte din 10)
+2026-07-20 13:10:46,054 [INFO]   ✓ Q127 → dfd4b70b-4cd2-4abe-9f83-d49990214d7f  (5 corecte din 10)
+2026-07-20 13:10:46,055 [INFO]  Pagina salvata. Total insert pana acum: 133
+2026-07-20 13:10:46,056 [INFO] --- Pagina 82 / 232 ---
+2026-07-20 13:10:46,063 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:46,066 [INFO]   ✓ Q128 → 24e60201-aad6-44e0-9513-5ef4f46ee54a  (5 corecte din 10)
+2026-07-20 13:10:46,069 [INFO]   ✓ Q129 → 9bcda603-2979-4365-a818-d0a17425e788  (5 corecte din 10)
+2026-07-20 13:10:46,070 [INFO]  Pagina salvata. Total insert pana acum: 135
+2026-07-20 13:10:46,071 [INFO] --- Pagina 83 / 232 ---
+2026-07-20 13:10:46,078 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:46,081 [INFO]   ✓ Q130 → af5f158f-625c-4864-b1b7-cfc675afc516  (5 corecte din 10)
+2026-07-20 13:10:46,084 [INFO]   ✓ Q131 → 96d64bb0-979f-4020-934d-dfa61eb18c86  (5 corecte din 10)
+2026-07-20 13:10:46,085 [INFO]  Pagina salvata. Total insert pana acum: 137
+2026-07-20 13:10:46,087 [INFO] --- Pagina 84 / 232 ---
+2026-07-20 13:10:46,093 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:46,097 [INFO]   ✓ Q132 → bb8e9f17-afab-473a-8e3b-14298dcb426b  (5 corecte din 10)
+2026-07-20 13:10:46,099 [INFO]   ✓ Q133 → 097f42ad-9641-4e81-948e-afc792a55131  (5 corecte din 10)
+2026-07-20 13:10:46,101 [INFO]  Pagina salvata. Total insert pana acum: 139
+2026-07-20 13:10:46,102 [INFO] --- Pagina 85 / 232 ---
+2026-07-20 13:10:46,114 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:46,114 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:46,117 [INFO]   ✓ Q134 → 58fc31a8-226a-4fad-942f-ade1ce67b732  (5 corecte din 10)
+2026-07-20 13:10:46,359 [INFO]     Q135 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p85_q135_i0.jpeg
+2026-07-20 13:10:46,362 [INFO]   ✓ Q135 → 83157013-d895-4671-9b7f-843a2931c2f6  (5 corecte din 10)
+2026-07-20 13:10:46,369 [INFO]  Pagina salvata. Total insert pana acum: 141
+2026-07-20 13:10:46,370 [INFO] --- Pagina 86 / 232 ---
+2026-07-20 13:10:46,379 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:46,379 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:46,627 [INFO]     Q136 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p86_q136_i0.jpeg
+2026-07-20 13:10:46,630 [INFO]   ✓ Q136 → b169dfb6-4fed-49b5-8b1f-b1a8f2adaffd  (5 corecte din 10)
+2026-07-20 13:10:46,637 [INFO]  Pagina salvata. Total insert pana acum: 142
+2026-07-20 13:10:46,638 [INFO] --- Pagina 87 / 232 ---
+2026-07-20 13:10:46,647 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:46,647 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:46,917 [INFO]     Q137 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p87_q137_i0.jpeg
+2026-07-20 13:10:46,917 [INFO]   ✓ Q137 → 1822fb06-47f4-4172-b2ea-8bfa53bae42a  (0 corecte din 0)
+2026-07-20 13:10:46,925 [INFO]  Pagina salvata. Total insert pana acum: 143
+2026-07-20 13:10:46,926 [INFO] --- Pagina 88 / 232 ---
+2026-07-20 13:10:46,934 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:46,934 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:46,935 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:46,936 [INFO]   ✓ Q10 → d65a3c89-04ef-4114-a5e9-c7b6e9738958  (0 corecte din 0)
+2026-07-20 13:10:46,938 [INFO]  Pagina salvata. Total insert pana acum: 144
+2026-07-20 13:10:46,938 [INFO] --- Pagina 89 / 232 ---
+2026-07-20 13:10:46,956 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:46,956 [INFO]  1 Intrebari | 7 raspunsuri | 4 corecte
+2026-07-20 13:10:47,227 [INFO]     Q138 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p89_q138_i0.jpeg
+2026-07-20 13:10:47,229 [INFO]   ✓ Q138 → 300e7f04-865e-47b0-8579-dd41c6973500  (4 corecte din 7)
+2026-07-20 13:10:47,237 [INFO]  Pagina salvata. Total insert pana acum: 145
+2026-07-20 13:10:47,237 [INFO] --- Pagina 90 / 232 ---
+2026-07-20 13:10:47,239 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:47,241 [INFO]   ✓ Q10 → fce4e444-f4a9-4853-afd2-2957ff831b41  (0 corecte din 0)
+2026-07-20 13:10:47,242 [INFO]  Pagina salvata. Total insert pana acum: 146
+2026-07-20 13:10:47,243 [INFO] --- Pagina 91 / 232 ---
+2026-07-20 13:10:47,261 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:47,262 [INFO]  1 Intrebari | 8 raspunsuri | 4 corecte
+2026-07-20 13:10:47,538 [INFO]     Q139 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p91_q139_i0.jpeg
+2026-07-20 13:10:47,540 [INFO]   ✓ Q139 → b15ca4f1-ddf8-461b-a8c8-127a0ac4f42f  (4 corecte din 8)
+2026-07-20 13:10:47,547 [INFO]  Pagina salvata. Total insert pana acum: 147
+2026-07-20 13:10:47,548 [INFO] --- Pagina 92 / 232 ---
+2026-07-20 13:10:47,557 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:47,558 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:47,814 [INFO]     Q140 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p92_q140_i0.jpeg
+2026-07-20 13:10:47,817 [INFO]   ✓ Q140 → fefa77d9-b973-46a0-b740-2f4b8a10f37b  (5 corecte din 10)
+2026-07-20 13:10:47,821 [INFO]  Pagina salvata. Total insert pana acum: 148
+2026-07-20 13:10:47,822 [INFO] --- Pagina 93 / 232 ---
+2026-07-20 13:10:47,831 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:47,831 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:48,087 [INFO]     Q141 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p93_q141_i0.jpeg
+2026-07-20 13:10:48,089 [INFO]   ✓ Q141 → f7af6e38-5652-4af2-9d9f-a8f599982165  (5 corecte din 10)
+2026-07-20 13:10:48,096 [INFO]  Pagina salvata. Total insert pana acum: 149
+2026-07-20 13:10:48,097 [INFO] --- Pagina 94 / 232 ---
+2026-07-20 13:10:48,104 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:48,104 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:48,349 [INFO]     Q142 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p94_q142_i0.jpeg
+2026-07-20 13:10:48,349 [INFO]   ✓ Q142 → ea1284f0-5cf7-43a4-ac31-d52376ed31a4  (0 corecte din 0)
+2026-07-20 13:10:48,356 [INFO]  Pagina salvata. Total insert pana acum: 150
+2026-07-20 13:10:48,357 [INFO] --- Pagina 95 / 232 ---
+2026-07-20 13:10:48,361 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:48,363 [INFO]   ✓ Q10 → bb9c2e83-3813-4a5a-a813-2047a50636c8  (0 corecte din 0)
+2026-07-20 13:10:48,364 [INFO]  Pagina salvata. Total insert pana acum: 151
+2026-07-20 13:10:48,365 [INFO] --- Pagina 96 / 232 ---
+2026-07-20 13:10:48,375 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:48,375 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:48,645 [INFO]     Q143 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p96_q143_i0.jpeg
+2026-07-20 13:10:48,648 [INFO]   ✓ Q143 → f7c57984-af1f-4275-bf51-d324c66584f0  (5 corecte din 10)
+2026-07-20 13:10:48,655 [INFO]  Pagina salvata. Total insert pana acum: 152
+2026-07-20 13:10:48,655 [INFO] --- Pagina 97 / 232 ---
+2026-07-20 13:10:48,674 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:48,675 [INFO]  1 Intrebari | 8 raspunsuri | 5 corecte
+2026-07-20 13:10:48,902 [INFO]     Q144 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p97_q144_i0.jpeg
+2026-07-20 13:10:48,903 [INFO]   ✓ Q144 → 07d84ef7-ffaf-4326-bef9-058cde8b1d50  (5 corecte din 8)
+2026-07-20 13:10:48,910 [INFO]  Pagina salvata. Total insert pana acum: 153
+2026-07-20 13:10:48,911 [INFO] --- Pagina 98 / 232 ---
+2026-07-20 13:10:48,918 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:48,922 [INFO]   ✓ Q145 → 331cc87d-df72-4ca8-8a9a-3b502fc095c6  (5 corecte din 10)
+2026-07-20 13:10:48,924 [INFO]   ✓ Q146 → 15d8bb44-6bae-46b0-94d0-9b07378eecf1  (5 corecte din 10)
+2026-07-20 13:10:48,926 [INFO]  Pagina salvata. Total insert pana acum: 155
+2026-07-20 13:10:48,927 [INFO] --- Pagina 99 / 232 ---
+2026-07-20 13:10:48,944 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:48,944 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:48,947 [INFO]   ✓ Q147 → d3dabdea-24b3-4a45-a1d3-49e623a9e323  (5 corecte din 10)
+2026-07-20 13:10:49,190 [INFO]     Q148 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p99_q148_i0.jpeg
+2026-07-20 13:10:49,192 [INFO]   ✓ Q148 → e7a28970-10e1-45a9-9401-1d699b753a16  (5 corecte din 10)
+2026-07-20 13:10:49,199 [INFO]  Pagina salvata. Total insert pana acum: 157
+2026-07-20 13:10:49,200 [INFO] --- Pagina 100 / 232 ---
+2026-07-20 13:10:49,209 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:49,209 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:49,528 [INFO]     Q149 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p100_q149_i0.jpeg
+2026-07-20 13:10:49,530 [INFO]   ✓ Q149 → 879f4b00-08bc-40fc-b072-a73631bd58c8  (5 corecte din 10)
+2026-07-20 13:10:49,537 [INFO]  Pagina salvata. Total insert pana acum: 158
+2026-07-20 13:10:49,538 [INFO] --- Pagina 101 / 232 ---
+2026-07-20 13:10:49,555 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:49,559 [INFO]   ✓ Q150 → 38c4f7fd-9296-4ae0-9fe4-01120182f28f  (5 corecte din 10)
+2026-07-20 13:10:49,562 [INFO]   ✓ Q151 → 329eb11b-fb0a-45d5-9c25-a2e40b742961  (5 corecte din 10)
+2026-07-20 13:10:49,563 [INFO]  Pagina salvata. Total insert pana acum: 160
+2026-07-20 13:10:49,565 [INFO] --- Pagina 102 / 232 ---
+2026-07-20 13:10:49,574 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:49,577 [INFO]   ✓ Q152 → ff023d10-56b8-4f3f-9a20-5682f3844bf8  (5 corecte din 10)
+2026-07-20 13:10:49,579 [INFO]   ✓ Q153 → d0e6a122-0820-40da-871a-0831aa8e7754  (5 corecte din 10)
+2026-07-20 13:10:49,581 [INFO]   ✓ Q154 → 1a48cfff-849c-421a-a75f-e40d38926293  (5 corecte din 10)
+2026-07-20 13:10:49,583 [INFO]  Pagina salvata. Total insert pana acum: 163
+2026-07-20 13:10:49,583 [INFO] --- Pagina 103 / 232 ---
+2026-07-20 13:10:49,596 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:49,596 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:49,900 [INFO]     Q155 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p103_q155_i0.jpeg
+2026-07-20 13:10:49,901 [INFO]   ✓ Q155 → a54ce54a-ee43-40a0-a53c-b3bcd5d744cc  (5 corecte din 10)
+2026-07-20 13:10:49,902 [INFO]  Pagina salvata. Total insert pana acum: 164
+2026-07-20 13:10:49,903 [INFO] --- Pagina 104 / 232 ---
+2026-07-20 13:10:49,908 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:49,911 [INFO]   ✓ Q156 → 4005865a-323f-46ae-90fd-a4e4acef1370  (5 corecte din 10)
+2026-07-20 13:10:49,913 [INFO]   ✓ Q157 → cb6d3f4c-8d54-454d-b277-4f61a8ee5abd  (5 corecte din 10)
+2026-07-20 13:10:49,915 [INFO]  Pagina salvata. Total insert pana acum: 166
+2026-07-20 13:10:49,916 [INFO] --- Pagina 105 / 232 ---
+2026-07-20 13:10:49,924 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:49,927 [INFO]   ✓ Q158 → 261d1e4a-07ad-4ca3-9a2e-100b041b0219  (5 corecte din 10)
+2026-07-20 13:10:49,930 [INFO]   ✓ Q159 → fa0f5751-1cd0-4161-b582-4a442f2e3d23  (5 corecte din 10)
+2026-07-20 13:10:49,933 [INFO]   ✓ Q160 → 697d194b-f46d-43a9-9b9a-a4727e67b38b  (5 corecte din 10)
+2026-07-20 13:10:49,934 [INFO]  Pagina salvata. Total insert pana acum: 169
+2026-07-20 13:10:49,935 [INFO] --- Pagina 106 / 232 ---
+2026-07-20 13:10:49,943 [INFO]  3 Intrebari | 30 raspunsuri | 14 corecte
+2026-07-20 13:10:49,946 [INFO]   ✓ Q161 → 12834947-d165-43ed-bb16-2f064f153f7e  (5 corecte din 10)
+2026-07-20 13:10:49,949 [INFO]   ✓ Q162 → f7b3bdfb-ba20-4e08-addc-1443f2f01896  (5 corecte din 10)
+2026-07-20 13:10:49,952 [INFO]   ✓ Q163 → cc0f437b-a8b7-48db-8395-6fda051f0c72  (4 corecte din 10)
+2026-07-20 13:10:49,954 [INFO]  Pagina salvata. Total insert pana acum: 172
+2026-07-20 13:10:49,955 [INFO] --- Pagina 107 / 232 ---
+2026-07-20 13:10:49,977 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:49,980 [INFO]   ✓ Q164 → 397ef36c-cde5-4faa-b2d9-ea07bc10b395  (5 corecte din 10)
+2026-07-20 13:10:49,983 [INFO]   ✓ Q165 → 69a217aa-f265-4fe6-8190-c13c6f3efd1b  (5 corecte din 10)
+2026-07-20 13:10:49,985 [INFO]  Pagina salvata. Total insert pana acum: 174
+2026-07-20 13:10:49,986 [INFO] --- Pagina 108 / 232 ---
+2026-07-20 13:10:49,996 [INFO]  3 Intrebari | 30 raspunsuri | 14 corecte
+2026-07-20 13:10:50,000 [INFO]   ✓ Q166 → f69abf09-a007-4ff0-bafb-06cc87737246  (4 corecte din 10)
+2026-07-20 13:10:50,002 [INFO]   ✓ Q167 → 4d40224e-cbcd-483b-9b93-4132b5da7311  (5 corecte din 10)
+2026-07-20 13:10:50,005 [INFO]   ✓ Q168 → 3bd942c2-c1e1-4d9e-b15c-88eff147ec21  (5 corecte din 10)
+2026-07-20 13:10:50,006 [INFO]  Pagina salvata. Total insert pana acum: 177
+2026-07-20 13:10:50,007 [INFO] --- Pagina 109 / 232 ---
+2026-07-20 13:10:50,018 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:50,018 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:50,318 [INFO]     Q169 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p109_q169_i0.jpeg
+2026-07-20 13:10:50,321 [INFO]   ✓ Q169 → 7fabd1a4-c29a-4479-bf67-2bb13e60f6d4  (5 corecte din 10)
+2026-07-20 13:10:50,328 [INFO]  Pagina salvata. Total insert pana acum: 178
+2026-07-20 13:10:50,329 [INFO] --- Pagina 110 / 232 ---
+2026-07-20 13:10:50,335 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,339 [INFO]   ✓ Q170 → 64407605-d1c3-47f1-879b-27f051de573b  (5 corecte din 10)
+2026-07-20 13:10:50,342 [INFO]   ✓ Q171 → 80b91f6a-5e78-434a-b38a-9a459d41ca9e  (5 corecte din 10)
+2026-07-20 13:10:50,344 [INFO]  Pagina salvata. Total insert pana acum: 180
+2026-07-20 13:10:50,345 [INFO] --- Pagina 111 / 232 ---
+2026-07-20 13:10:50,352 [INFO]  2 Intrebari | 20 raspunsuri | 9 corecte
+2026-07-20 13:10:50,356 [INFO]   ✓ Q172 → 86019f09-7535-4c46-8c89-3701fea100bf  (4 corecte din 10)
+2026-07-20 13:10:50,359 [INFO]   ✓ Q173 → 77900a26-8e60-49ce-8636-9f27838feb2b  (5 corecte din 10)
+2026-07-20 13:10:50,360 [INFO]  Pagina salvata. Total insert pana acum: 182
+2026-07-20 13:10:50,361 [INFO] --- Pagina 112 / 232 ---
+2026-07-20 13:10:50,366 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,369 [INFO]   ✓ Q174 → 649f8f74-fa04-49b4-b9b6-12f1e67b98d7  (5 corecte din 10)
+2026-07-20 13:10:50,372 [INFO]   ✓ Q175 → 29e34868-3d95-4a4a-9b2e-76c59fcaf866  (5 corecte din 10)
+2026-07-20 13:10:50,374 [INFO]  Pagina salvata. Total insert pana acum: 184
+2026-07-20 13:10:50,374 [INFO] --- Pagina 113 / 232 ---
+2026-07-20 13:10:50,380 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,384 [INFO]   ✓ Q176 → d36c189a-f5f1-42f0-86de-18dca829d90d  (5 corecte din 10)
+2026-07-20 13:10:50,386 [INFO]   ✓ Q177 → 76c353ad-bb22-4609-a5b1-10b0d1766fbd  (5 corecte din 10)
+2026-07-20 13:10:50,388 [INFO]  Pagina salvata. Total insert pana acum: 186
+2026-07-20 13:10:50,389 [INFO] --- Pagina 114 / 232 ---
+2026-07-20 13:10:50,397 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:50,401 [INFO]   ✓ Q178 → 27edff33-043c-4379-9301-80c1ea22b4bf  (5 corecte din 10)
+2026-07-20 13:10:50,404 [INFO]   ✓ Q179 → ac3b5a19-2d9c-40fc-af57-9652edc2f858  (5 corecte din 10)
+2026-07-20 13:10:50,406 [INFO]   ✓ Q180 → e67a3981-7616-4187-ba2b-06a13d1e8897  (5 corecte din 10)
+2026-07-20 13:10:50,408 [INFO]  Pagina salvata. Total insert pana acum: 189
+2026-07-20 13:10:50,409 [INFO] --- Pagina 115 / 232 ---
+2026-07-20 13:10:50,415 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,418 [INFO]   ✓ Q181 → 63905e65-81f7-40f9-8b12-42faea1ba6f4  (5 corecte din 10)
+2026-07-20 13:10:50,421 [INFO]   ✓ Q182 → a39b5e71-e204-4c5e-8fce-46513ba3627c  (5 corecte din 10)
+2026-07-20 13:10:50,422 [INFO]  Pagina salvata. Total insert pana acum: 191
+2026-07-20 13:10:50,423 [INFO] --- Pagina 116 / 232 ---
+2026-07-20 13:10:50,429 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,432 [INFO]   ✓ Q183 → c5bd153c-7c23-4b6c-9c47-36cdcdc60844  (5 corecte din 10)
+2026-07-20 13:10:50,435 [INFO]   ✓ Q184 → 1d02321b-f618-4816-b83d-95351505711c  (5 corecte din 10)
+2026-07-20 13:10:50,436 [INFO]  Pagina salvata. Total insert pana acum: 193
+2026-07-20 13:10:50,437 [INFO] --- Pagina 117 / 232 ---
+2026-07-20 13:10:50,443 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,446 [INFO]   ✓ Q185 → efb01a6b-0653-4319-8573-a7e71a79c7aa  (5 corecte din 10)
+2026-07-20 13:10:50,448 [INFO]   ✓ Q186 → 1589ebe1-8ca4-4bbe-ac11-216c8d64578b  (5 corecte din 10)
+2026-07-20 13:10:50,450 [INFO]  Pagina salvata. Total insert pana acum: 195
+2026-07-20 13:10:50,451 [INFO] --- Pagina 118 / 232 ---
+2026-07-20 13:10:50,456 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,459 [INFO]   ✓ Q187 → fe42875c-d188-44e6-af4b-0e2293d8fe59  (5 corecte din 10)
+2026-07-20 13:10:50,461 [INFO]   ✓ Q188 → 7319e4aa-eb1c-4e64-b8be-34d55aeba636  (5 corecte din 10)
+2026-07-20 13:10:50,463 [INFO]  Pagina salvata. Total insert pana acum: 197
+2026-07-20 13:10:50,463 [INFO] --- Pagina 119 / 232 ---
+2026-07-20 13:10:50,477 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:50,477 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:50,765 [INFO]     Q189 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p119_q189_i0.jpeg
+2026-07-20 13:10:50,767 [INFO]   ✓ Q189 → 3c5cb154-9fe7-4e71-9a58-429b0b7d3f8d  (5 corecte din 10)
+2026-07-20 13:10:50,774 [INFO]  Pagina salvata. Total insert pana acum: 198
+2026-07-20 13:10:50,775 [INFO] --- Pagina 120 / 232 ---
+2026-07-20 13:10:50,781 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,784 [INFO]   ✓ Q190 → 8a323c93-77ac-4f85-9881-78684d09988f  (5 corecte din 10)
+2026-07-20 13:10:50,787 [INFO]   ✓ Q191 → 1b01b1f6-1c1c-4229-b95d-273676968ac4  (5 corecte din 10)
+2026-07-20 13:10:50,788 [INFO]  Pagina salvata. Total insert pana acum: 200
+2026-07-20 13:10:50,789 [INFO] --- Pagina 121 / 232 ---
+2026-07-20 13:10:50,806 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:50,806 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:50,809 [INFO]   ✓ Q192 → ddec7554-5e4f-4544-88b6-4afe7faf5fe8  (5 corecte din 10)
+2026-07-20 13:10:51,052 [INFO]     Q193 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p121_q193_i0.jpeg
+2026-07-20 13:10:51,055 [INFO]   ✓ Q193 → 99a28cbc-f805-4fac-a83f-20f772ba68fb  (5 corecte din 10)
+2026-07-20 13:10:51,062 [INFO]  Pagina salvata. Total insert pana acum: 202
+2026-07-20 13:10:51,063 [INFO] --- Pagina 122 / 232 ---
+2026-07-20 13:10:51,073 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:51,077 [INFO]   ✓ Q194 → 34dfd4bb-a570-420c-93f6-8355b6069767  (5 corecte din 10)
+2026-07-20 13:10:51,079 [INFO]   ✓ Q195 → 62240d3b-0540-4aa3-9657-7d2898a4e658  (5 corecte din 10)
+2026-07-20 13:10:51,082 [INFO]   ✓ Q196 → cb79138e-0007-4eeb-9005-49e4c9b5ed42  (5 corecte din 10)
+2026-07-20 13:10:51,084 [INFO]  Pagina salvata. Total insert pana acum: 205
+2026-07-20 13:10:51,085 [INFO] --- Pagina 123 / 232 ---
+2026-07-20 13:10:51,098 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:51,099 [INFO]  1 Intrebari | 7 raspunsuri | 3 corecte
+2026-07-20 13:10:51,350 [INFO]     Q197 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p123_q197_i0.jpeg
+2026-07-20 13:10:51,352 [INFO]   ✓ Q197 → a73e5f73-6839-4e8c-a6e9-f8c91a6c120c  (3 corecte din 7)
+2026-07-20 13:10:51,354 [INFO]  Pagina salvata. Total insert pana acum: 206
+2026-07-20 13:10:51,355 [INFO] --- Pagina 124 / 232 ---
+2026-07-20 13:10:51,373 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:51,373 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:51,621 [INFO]     Q198 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p124_q198_i0.jpeg
+2026-07-20 13:10:51,624 [INFO]   ✓ Q198 → 7b0340d4-95f7-42af-921e-5401b21b7d09  (5 corecte din 10)
+2026-07-20 13:10:51,631 [INFO]  Pagina salvata. Total insert pana acum: 207
+2026-07-20 13:10:51,632 [INFO] --- Pagina 125 / 232 ---
+2026-07-20 13:10:51,641 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:51,644 [INFO]   ✓ Q199 → 2c2683fd-ed50-4629-b302-140e9fdf1dfd  (5 corecte din 10)
+2026-07-20 13:10:51,646 [INFO]   ✓ Q200 → e81bb961-220e-44de-aedd-fd78d33cecdb  (5 corecte din 10)
+2026-07-20 13:10:51,649 [INFO]   ✓ Q201 → a5b5b2c0-5812-48cc-8b66-019974019674  (5 corecte din 10)
+2026-07-20 13:10:51,651 [INFO]  Pagina salvata. Total insert pana acum: 210
+2026-07-20 13:10:51,652 [INFO] --- Pagina 126 / 232 ---
+2026-07-20 13:10:51,661 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:51,664 [INFO]   ✓ Q202 → 70183b58-c0f3-4684-934f-dcd70849657c  (5 corecte din 10)
+2026-07-20 13:10:51,667 [INFO]   ✓ Q203 → 86a823cc-d752-4f2c-af99-3ae77bc54acb  (5 corecte din 10)
+2026-07-20 13:10:51,669 [INFO]   ✓ Q204 → 8385a6d0-982a-4da8-aa0d-c75385dc6d8e  (5 corecte din 10)
+2026-07-20 13:10:51,670 [INFO]  Pagina salvata. Total insert pana acum: 213
+2026-07-20 13:10:51,671 [INFO] --- Pagina 127 / 232 ---
+2026-07-20 13:10:51,684 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:51,684 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:52,054 [INFO]     Q205 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p127_q205_i0.jpeg
+2026-07-20 13:10:52,057 [INFO]   ✓ Q205 → 0368a3ad-e950-4f9f-90e1-ec06e1230c0d  (5 corecte din 10)
+2026-07-20 13:10:52,064 [INFO]  Pagina salvata. Total insert pana acum: 214
+2026-07-20 13:10:52,064 [INFO] --- Pagina 128 / 232 ---
+2026-07-20 13:10:52,078 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:52,078 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:52,336 [INFO]     Q206 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p128_q206_i0.jpeg
+2026-07-20 13:10:52,338 [INFO]   ✓ Q206 → 3cb57407-95e5-4a92-a462-920664ce2dd7  (5 corecte din 10)
+2026-07-20 13:10:52,345 [INFO]  Pagina salvata. Total insert pana acum: 215
+2026-07-20 13:10:52,345 [INFO] --- Pagina 129 / 232 ---
+2026-07-20 13:10:52,359 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:52,359 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:52,604 [INFO]     Q207 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p129_q207_i0.jpeg
+2026-07-20 13:10:52,606 [INFO]   ✓ Q207 → ac95be1a-2dd0-4f21-ac68-2126f1376473  (5 corecte din 10)
+2026-07-20 13:10:52,613 [INFO]  Pagina salvata. Total insert pana acum: 216
+2026-07-20 13:10:52,613 [INFO] --- Pagina 130 / 232 ---
+2026-07-20 13:10:52,620 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:52,623 [INFO]   ✓ Q208 → ebde7a86-0a82-4f54-aef8-0dd90a5aec54  (5 corecte din 10)
+2026-07-20 13:10:52,626 [INFO]   ✓ Q209 → 1e914ad7-69e8-48f8-a3f2-b874adf88157  (5 corecte din 10)
+2026-07-20 13:10:52,627 [INFO]  Pagina salvata. Total insert pana acum: 218
+2026-07-20 13:10:52,628 [INFO] --- Pagina 131 / 232 ---
+2026-07-20 13:10:52,632 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:52,635 [INFO]   ✓ Q210 → b18c0769-b6ca-47c4-a036-9764ba38e3e5  (5 corecte din 10)
+2026-07-20 13:10:52,636 [INFO]  Pagina salvata. Total insert pana acum: 219
+2026-07-20 13:10:52,637 [INFO] --- Pagina 132 / 232 ---
+2026-07-20 13:10:52,641 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:52,644 [INFO]   ✓ Q211 → e81b8414-8acb-4b7c-900b-558e5393a171  (5 corecte din 10)
+2026-07-20 13:10:52,645 [INFO]  Pagina salvata. Total insert pana acum: 220
+2026-07-20 13:10:52,646 [INFO] --- Pagina 133 / 232 ---
+2026-07-20 13:10:52,651 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:52,655 [INFO]   ✓ Q212 → 2f68cfec-00b7-4a09-bc20-c38ab7629155  (5 corecte din 10)
+2026-07-20 13:10:52,656 [INFO]  Pagina salvata. Total insert pana acum: 221
+2026-07-20 13:10:52,657 [INFO] --- Pagina 134 / 232 ---
+2026-07-20 13:10:52,715 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:52,715 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:53,045 [INFO]     Q213 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p134_q213_i0.jpeg
+2026-07-20 13:10:53,047 [INFO]   ✓ Q213 → 54ac8bef-a4bf-488c-be37-e3d7f7673747  (5 corecte din 10)
+2026-07-20 13:10:53,055 [INFO]  Pagina salvata. Total insert pana acum: 222
+2026-07-20 13:10:53,055 [INFO] --- Pagina 135 / 232 ---
+2026-07-20 13:10:53,069 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:53,069 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:53,487 [INFO]     Q214 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p135_q214_i0.jpeg
+2026-07-20 13:10:53,487 [INFO]   ✓ Q214 → b1a02f99-19c0-4d1d-a532-a29283279734  (0 corecte din 0)
+2026-07-20 13:10:53,494 [INFO]  Pagina salvata. Total insert pana acum: 223
+2026-07-20 13:10:53,495 [INFO] --- Pagina 136 / 232 ---
+2026-07-20 13:10:53,498 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:53,501 [INFO]   ✓ Q10 → e643dcf7-24b3-4e32-80a9-683604eb347c  (0 corecte din 0)
+2026-07-20 13:10:53,502 [INFO]  Pagina salvata. Total insert pana acum: 224
+2026-07-20 13:10:53,503 [INFO] --- Pagina 137 / 232 ---
+2026-07-20 13:10:53,516 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:53,516 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:53,761 [INFO]     Q215 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p137_q215_i0.jpeg
+2026-07-20 13:10:53,761 [INFO]   ✓ Q215 → 61a08780-37d6-4816-958d-f76fd306dd4a  (0 corecte din 0)
+2026-07-20 13:10:53,768 [INFO]  Pagina salvata. Total insert pana acum: 225
+2026-07-20 13:10:53,769 [INFO] --- Pagina 138 / 232 ---
+2026-07-20 13:10:53,771 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:53,773 [INFO]   ✓ Q10 → fa79bd0a-421d-4ea5-8d47-dffe16960b51  (0 corecte din 0)
+2026-07-20 13:10:53,774 [INFO]  Pagina salvata. Total insert pana acum: 226
+2026-07-20 13:10:53,775 [INFO] --- Pagina 139 / 232 ---
+2026-07-20 13:10:53,784 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:53,784 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:54,030 [INFO]     Q216 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p139_q216_i0.jpeg
+2026-07-20 13:10:54,033 [INFO]   ✓ Q216 → bb7a9a00-03ea-447d-ac41-ec199a7a37ef  (5 corecte din 10)
+2026-07-20 13:10:54,040 [INFO]  Pagina salvata. Total insert pana acum: 227
+2026-07-20 13:10:54,041 [INFO] --- Pagina 140 / 232 ---
+2026-07-20 13:10:54,048 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:54,052 [INFO]   ✓ Q217 → bccdb04b-2bfd-4d1c-9e39-40b32a026aa1  (5 corecte din 10)
+2026-07-20 13:10:54,055 [INFO]   ✓ Q218 → 68df1416-5ebd-43f2-ba09-d5c092314c1f  (5 corecte din 10)
+2026-07-20 13:10:54,057 [INFO]  Pagina salvata. Total insert pana acum: 229
+2026-07-20 13:10:54,058 [INFO] --- Pagina 141 / 232 ---
+2026-07-20 13:10:54,066 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:54,066 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:54,349 [INFO]     Q219 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p141_q219_i0.jpeg
+2026-07-20 13:10:54,351 [INFO]   ✓ Q219 → 99092675-d420-4650-8430-940aaa275f72  (5 corecte din 10)
+2026-07-20 13:10:54,358 [INFO]  Pagina salvata. Total insert pana acum: 230
+2026-07-20 13:10:54,359 [INFO] --- Pagina 142 / 232 ---
+2026-07-20 13:10:54,376 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:54,377 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:54,792 [INFO]     Q220 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p142_q220_i0.jpeg
+2026-07-20 13:10:54,795 [INFO]   ✓ Q220 → f75d8d08-a771-43e3-a833-4c006613de92  (5 corecte din 10)
+2026-07-20 13:10:54,801 [INFO]  Pagina salvata. Total insert pana acum: 231
+2026-07-20 13:10:54,802 [INFO] --- Pagina 143 / 232 ---
+2026-07-20 13:10:54,810 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:54,813 [INFO]   ✓ Q221 → 37d090de-f695-40ec-ba65-271240fa6d10  (5 corecte din 10)
+2026-07-20 13:10:54,817 [INFO]   ✓ Q222 → 4c6202e5-7f2d-4482-8eb5-30de5e1f69ed  (5 corecte din 10)
+2026-07-20 13:10:54,818 [INFO]  Pagina salvata. Total insert pana acum: 233
+2026-07-20 13:10:54,819 [INFO] --- Pagina 144 / 232 ---
+2026-07-20 13:10:54,828 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:54,833 [INFO]   ✓ Q223 → e5f820dc-394b-4e29-bc61-1879147c58c2  (5 corecte din 10)
+2026-07-20 13:10:54,835 [INFO]   ✓ Q224 → 32ae19ae-0830-4925-b857-b52721d0100d  (5 corecte din 10)
+2026-07-20 13:10:54,838 [INFO]   ✓ Q225 → a25d12bf-3262-485d-bcdc-74bba919cc8d  (5 corecte din 10)
+2026-07-20 13:10:54,840 [INFO]  Pagina salvata. Total insert pana acum: 236
+2026-07-20 13:10:54,841 [INFO] --- Pagina 145 / 232 ---
+2026-07-20 13:10:54,849 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:54,853 [INFO]   ✓ Q226 → 1ba297ab-128e-42d1-a18c-1fad535bab38  (5 corecte din 10)
+2026-07-20 13:10:54,855 [INFO]   ✓ Q227 → f1b6fe3f-16da-4519-a676-2924fc77385e  (5 corecte din 10)
+2026-07-20 13:10:54,857 [INFO]  Pagina salvata. Total insert pana acum: 238
+2026-07-20 13:10:54,858 [INFO] --- Pagina 146 / 232 ---
+2026-07-20 13:10:54,866 [INFO]  3 Intrebari | 30 raspunsuri | 15 corecte
+2026-07-20 13:10:54,869 [INFO]   ✓ Q228 → bbd76e4f-db8a-4c11-bf99-bb8709ca5c18  (5 corecte din 10)
+2026-07-20 13:10:54,871 [INFO]   ✓ Q229 → 3d7beece-682d-42dc-8a98-3b33bf08f3e4  (5 corecte din 10)
+2026-07-20 13:10:54,873 [INFO]   ✓ Q230 → 411c0596-80b0-4c40-9e0e-176fe81608c8  (5 corecte din 10)
+2026-07-20 13:10:54,874 [INFO]  Pagina salvata. Total insert pana acum: 241
+2026-07-20 13:10:54,875 [INFO] --- Pagina 147 / 232 ---
+2026-07-20 13:10:54,881 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:54,883 [INFO]   ✓ Q231 → 678045f5-9dcf-4d9a-bce0-c71efbf13b3c  (5 corecte din 10)
+2026-07-20 13:10:54,885 [INFO]   ✓ Q232 → 8154ea6d-aa55-43bd-afc0-4076e9136b3c  (5 corecte din 10)
+2026-07-20 13:10:54,886 [INFO]  Pagina salvata. Total insert pana acum: 243
+2026-07-20 13:10:54,888 [INFO] --- Pagina 148 / 232 ---
+2026-07-20 13:10:54,896 [INFO]  3 Intrebari | 30 raspunsuri | 16 corecte
+2026-07-20 13:10:54,899 [INFO]   ✓ Q233 → 6c9c459e-e36a-4446-8f68-ae4a86696755  (5 corecte din 10)
+2026-07-20 13:10:54,901 [INFO]   ✓ Q234 → 020eb7cb-b029-4fd0-880c-6eb5ec6dec73  (5 corecte din 10)
+2026-07-20 13:10:54,904 [INFO]   ✓ Q235 → 4836deca-b5e9-4dbf-8e43-569521ed3014  (6 corecte din 10)
+2026-07-20 13:10:54,905 [INFO]  Pagina salvata. Total insert pana acum: 246
+2026-07-20 13:10:54,906 [INFO] --- Pagina 149 / 232 ---
+2026-07-20 13:10:54,912 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:54,915 [INFO]   ✓ Q236 → 1ad53102-48e0-42fb-a47a-1e6730a655da  (5 corecte din 10)
+2026-07-20 13:10:54,917 [INFO]   ✓ Q237 → 61848642-bb41-47e5-965f-11ed87bf0f6a  (5 corecte din 10)
+2026-07-20 13:10:54,919 [INFO]  Pagina salvata. Total insert pana acum: 248
+2026-07-20 13:10:54,920 [INFO] --- Pagina 150 / 232 ---
+2026-07-20 13:10:54,925 [INFO]  2 Intrebari | 20 raspunsuri | 10 corecte
+2026-07-20 13:10:54,928 [INFO]   ✓ Q238 → 2774ace6-3ea8-44c8-adfa-b52aad239830  (5 corecte din 10)
+2026-07-20 13:10:54,931 [INFO]   ✓ Q239 → c7cd891c-0676-4357-b220-d7efd922f160  (5 corecte din 10)
+2026-07-20 13:10:54,932 [INFO]  Pagina salvata. Total insert pana acum: 250
+2026-07-20 13:10:54,933 [INFO] --- Pagina 151 / 232 ---
+2026-07-20 13:10:54,944 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:54,944 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:55,260 [INFO]     Q240 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p151_q240_i0.jpeg
+2026-07-20 13:10:55,263 [INFO]   ✓ Q240 → 3673c639-afb7-413f-aba1-006b6f03b7fa  (5 corecte din 10)
+2026-07-20 13:10:55,270 [INFO]  Pagina salvata. Total insert pana acum: 251
+2026-07-20 13:10:55,271 [INFO] --- Pagina 152 / 232 ---
+2026-07-20 13:10:55,274 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:55,278 [INFO]   ✓ Q241 → fa5db180-e56c-4fc2-a35b-160e7c056087  (5 corecte din 10)
+2026-07-20 13:10:55,279 [INFO]  Pagina salvata. Total insert pana acum: 252
+2026-07-20 13:10:55,280 [INFO] --- Pagina 153 / 232 ---
+2026-07-20 13:10:55,296 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:55,297 [INFO]  1 Intrebari | 9 raspunsuri | 4 corecte
+2026-07-20 13:10:55,538 [INFO]     Q242 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p153_q242_i0.jpeg
+2026-07-20 13:10:55,540 [INFO]   ✓ Q242 → cca8080c-47f0-4324-8b23-e49ca3c86720  (4 corecte din 9)
+2026-07-20 13:10:55,547 [INFO]  Pagina salvata. Total insert pana acum: 253
+2026-07-20 13:10:55,548 [INFO] --- Pagina 154 / 232 ---
+2026-07-20 13:10:55,582 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:55,583 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:56,001 [INFO]     Q243 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p154_q243_i0.jpeg
+2026-07-20 13:10:56,003 [INFO]   ✓ Q243 → edf97ae6-1e8b-4150-a999-af19b745f25e  (5 corecte din 10)
+2026-07-20 13:10:56,011 [INFO]  Pagina salvata. Total insert pana acum: 254
+2026-07-20 13:10:56,011 [INFO] --- Pagina 155 / 232 ---
+2026-07-20 13:10:56,047 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:56,047 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:56,287 [INFO]     Q244 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p155_q244_i0.jpeg
+2026-07-20 13:10:56,290 [INFO]   ✓ Q244 → ea3a7eab-98c6-46b7-822f-31eb2f2eb673  (5 corecte din 10)
+2026-07-20 13:10:56,297 [INFO]  Pagina salvata. Total insert pana acum: 255
+2026-07-20 13:10:56,297 [INFO] --- Pagina 156 / 232 ---
+2026-07-20 13:10:56,334 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:56,334 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:56,755 [INFO]     Q245 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p156_q245_i0.jpeg
+2026-07-20 13:10:56,756 [INFO]   ✓ Q245 → 79cebdea-e8e7-49be-ae43-fcc8fd0114a3  (0 corecte din 0)
+2026-07-20 13:10:56,762 [INFO]  Pagina salvata. Total insert pana acum: 256
+2026-07-20 13:10:56,763 [INFO] --- Pagina 157 / 232 ---
+2026-07-20 13:10:56,788 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:56,789 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:56,789 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:56,790 [INFO]   ✓ Q10 → cff5d81d-ce1a-4637-b01c-530c7c45cdb2  (0 corecte din 0)
+2026-07-20 13:10:56,791 [INFO]  Pagina salvata. Total insert pana acum: 257
+2026-07-20 13:10:56,792 [INFO] --- Pagina 158 / 232 ---
+2026-07-20 13:10:56,853 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:56,853 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:57,120 [INFO]     Q246 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p158_q246_i0.jpeg
+2026-07-20 13:10:57,122 [INFO]   ✓ Q246 → 4e7e93a3-5da4-4b17-8f59-de779a339e39  (5 corecte din 10)
+2026-07-20 13:10:57,129 [INFO]  Pagina salvata. Total insert pana acum: 258
+2026-07-20 13:10:57,130 [INFO] --- Pagina 159 / 232 ---
+2026-07-20 13:10:57,188 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:57,188 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:57,431 [INFO]     Q247 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p159_q247_i0.jpeg
+2026-07-20 13:10:57,434 [INFO]   ✓ Q247 → 6d5b56b9-ad10-40a4-8ab8-b3bac25b36a4  (5 corecte din 10)
+2026-07-20 13:10:57,441 [INFO]  Pagina salvata. Total insert pana acum: 259
+2026-07-20 13:10:57,441 [INFO] --- Pagina 160 / 232 ---
+2026-07-20 13:10:57,477 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:57,478 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:10:57,780 [INFO]     Q248 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p160_q248_i0.jpeg
+2026-07-20 13:10:57,781 [INFO]   ✓ Q248 → 96b7198b-9773-4e8b-8d45-36dac2c9fdeb  (0 corecte din 0)
+2026-07-20 13:10:57,788 [INFO]  Pagina salvata. Total insert pana acum: 260
+2026-07-20 13:10:57,788 [INFO] --- Pagina 161 / 232 ---
+2026-07-20 13:10:57,789 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:10:57,790 [INFO] --- Pagina 162 / 232 ---
+2026-07-20 13:10:57,855 [WARNING]     Imagine y=-716 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:10:57,855 [INFO]   2 imagine(i) găsite pe pagină
+2026-07-20 13:10:57,855 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:58,148 [INFO]     Q249 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p162_q249_i0.jpeg
+2026-07-20 13:10:58,151 [INFO]   ✓ Q249 → 26877a01-37de-4b51-bab2-bdd71f2496bf  (5 corecte din 10)
+2026-07-20 13:10:58,158 [INFO]  Pagina salvata. Total insert pana acum: 261
+2026-07-20 13:10:58,158 [INFO] --- Pagina 163 / 232 ---
+2026-07-20 13:10:58,206 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:58,207 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:58,498 [INFO]     Q250 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p163_q250_i0.jpeg
+2026-07-20 13:10:58,501 [INFO]   ✓ Q250 → c5fb6085-f126-4d5b-927d-ded3f6a2e734  (5 corecte din 10)
+2026-07-20 13:10:58,508 [INFO]  Pagina salvata. Total insert pana acum: 262
+2026-07-20 13:10:58,509 [INFO] --- Pagina 164 / 232 ---
+2026-07-20 13:10:58,729 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:58,729 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:59,205 [INFO]     Q251 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p164_q251_i0.jpeg
+2026-07-20 13:10:59,208 [INFO]   ✓ Q251 → 021f99aa-00c9-461a-a375-2b975ee8397f  (5 corecte din 10)
+2026-07-20 13:10:59,214 [INFO]  Pagina salvata. Total insert pana acum: 263
+2026-07-20 13:10:59,215 [INFO] --- Pagina 165 / 232 ---
+2026-07-20 13:10:59,490 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:59,490 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:10:59,841 [INFO]     Q252 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p165_q252_i0.jpeg
+2026-07-20 13:10:59,843 [INFO]   ✓ Q252 → a207df06-8f39-486d-8f1c-4940177b9e1d  (5 corecte din 10)
+2026-07-20 13:10:59,850 [INFO]  Pagina salvata. Total insert pana acum: 264
+2026-07-20 13:10:59,851 [INFO] --- Pagina 166 / 232 ---
+2026-07-20 13:10:59,993 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:10:59,993 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:00,349 [INFO]     Q253 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p166_q253_i0.jpeg
+2026-07-20 13:11:00,352 [INFO]   ✓ Q253 → b3dc4647-033a-472e-8ebe-9472057e3e17  (5 corecte din 10)
+2026-07-20 13:11:00,360 [INFO]  Pagina salvata. Total insert pana acum: 265
+2026-07-20 13:11:00,360 [INFO] --- Pagina 167 / 232 ---
+2026-07-20 13:11:00,474 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:00,474 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:00,752 [INFO]     Q254 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p167_q254_i0.jpeg
+2026-07-20 13:11:00,753 [INFO]   ✓ Q254 → ee605d6f-d5af-4f1c-aa7b-098d2c08a05f  (0 corecte din 0)
+2026-07-20 13:11:00,759 [INFO]  Pagina salvata. Total insert pana acum: 266
+2026-07-20 13:11:00,760 [INFO] --- Pagina 168 / 232 ---
+2026-07-20 13:11:00,762 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:00,763 [INFO]   ✓ Q10 → 6d2d238b-68c9-49a2-accd-42af14b2a0ae  (0 corecte din 0)
+2026-07-20 13:11:00,764 [INFO]  Pagina salvata. Total insert pana acum: 267
+2026-07-20 13:11:00,765 [INFO] --- Pagina 169 / 232 ---
+2026-07-20 13:11:00,893 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:00,893 [INFO]  1 Intrebari | 7 raspunsuri | 4 corecte
+2026-07-20 13:11:01,166 [INFO]     Q255 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p169_q255_i0.jpeg
+2026-07-20 13:11:01,168 [INFO]   ✓ Q255 → 3784b156-ca5d-4965-a304-3c8309ab0d51  (4 corecte din 7)
+2026-07-20 13:11:01,175 [INFO]  Pagina salvata. Total insert pana acum: 268
+2026-07-20 13:11:01,176 [INFO] --- Pagina 170 / 232 ---
+2026-07-20 13:11:01,224 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:01,225 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:01,525 [INFO]     Q256 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p170_q256_i0.jpeg
+2026-07-20 13:11:01,528 [INFO]   ✓ Q256 → 68badeb8-0583-4f66-9b9c-8b871f70d963  (5 corecte din 10)
+2026-07-20 13:11:01,535 [INFO]  Pagina salvata. Total insert pana acum: 269
+2026-07-20 13:11:01,536 [INFO] --- Pagina 171 / 232 ---
+2026-07-20 13:11:01,655 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:01,655 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:01,969 [INFO]     Q257 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p171_q257_i0.jpeg
+2026-07-20 13:11:01,972 [INFO]   ✓ Q257 → e89ac8e5-83e9-48c1-b2cd-65c441c76481  (5 corecte din 10)
+2026-07-20 13:11:01,975 [INFO]  Pagina salvata. Total insert pana acum: 270
+2026-07-20 13:11:01,975 [INFO] --- Pagina 172 / 232 ---
+2026-07-20 13:11:02,058 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:02,058 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:02,389 [INFO]     Q258 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p172_q258_i0.jpeg
+2026-07-20 13:11:02,392 [INFO]   ✓ Q258 → d692587b-79f0-4f9f-b8aa-24db9edc41cb  (5 corecte din 10)
+2026-07-20 13:11:02,399 [INFO]  Pagina salvata. Total insert pana acum: 271
+2026-07-20 13:11:02,399 [INFO] --- Pagina 173 / 232 ---
+2026-07-20 13:11:02,555 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:02,556 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:02,855 [INFO]     Q259 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p173_q259_i0.jpeg
+2026-07-20 13:11:02,858 [INFO]   ✓ Q259 → 7d67ffbe-d1b1-42c9-9eec-e492081578e1  (5 corecte din 10)
+2026-07-20 13:11:02,863 [INFO]  Pagina salvata. Total insert pana acum: 272
+2026-07-20 13:11:02,863 [INFO] --- Pagina 174 / 232 ---
+2026-07-20 13:11:02,938 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:02,939 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:03,254 [INFO]     Q260 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p174_q260_i0.jpeg
+2026-07-20 13:11:03,254 [INFO]   ✓ Q260 → f022f32b-2b3a-494e-b8be-cabb754479dd  (0 corecte din 0)
+2026-07-20 13:11:03,261 [INFO]  Pagina salvata. Total insert pana acum: 273
+2026-07-20 13:11:03,261 [INFO] --- Pagina 175 / 232 ---
+2026-07-20 13:11:03,307 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:11:03,307 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:03,307 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:03,308 [INFO]   ✓ Q10 → 40e83a27-21a6-4303-b81f-a391bff7af73  (0 corecte din 0)
+2026-07-20 13:11:03,310 [INFO]  Pagina salvata. Total insert pana acum: 274
+2026-07-20 13:11:03,310 [INFO] --- Pagina 176 / 232 ---
+2026-07-20 13:11:03,376 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:03,376 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:03,712 [INFO]     Q261 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p176_q261_i0.jpeg
+2026-07-20 13:11:03,712 [INFO]   ✓ Q261 → 51709e29-c0d8-4eb5-8422-df07047f13e5  (0 corecte din 0)
+2026-07-20 13:11:03,719 [INFO]  Pagina salvata. Total insert pana acum: 275
+2026-07-20 13:11:03,720 [INFO] --- Pagina 177 / 232 ---
+2026-07-20 13:11:03,767 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:11:03,767 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:03,767 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:03,768 [INFO]   ✓ Q10 → b49eae8a-d91c-4229-9c6f-294b0d3c44b9  (0 corecte din 0)
+2026-07-20 13:11:03,770 [INFO]  Pagina salvata. Total insert pana acum: 276
+2026-07-20 13:11:03,770 [INFO] --- Pagina 178 / 232 ---
+2026-07-20 13:11:03,913 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:03,913 [INFO]  1 Intrebari | 7 raspunsuri | 5 corecte
+2026-07-20 13:11:04,348 [INFO]     Q262 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p178_q262_i0.jpeg
+2026-07-20 13:11:04,351 [INFO]   ✓ Q262 → ba00e1d6-fcc8-49d4-8cd4-5df5ce4fe2a0  (5 corecte din 7)
+2026-07-20 13:11:04,358 [INFO]  Pagina salvata. Total insert pana acum: 277
+2026-07-20 13:11:04,358 [INFO] --- Pagina 179 / 232 ---
+2026-07-20 13:11:04,359 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:04,361 [INFO]   ✓ Q10 → 3fdb230c-b34d-432d-a24d-5ce43888e772  (0 corecte din 0)
+2026-07-20 13:11:04,362 [INFO]  Pagina salvata. Total insert pana acum: 278
+2026-07-20 13:11:04,363 [INFO] --- Pagina 180 / 232 ---
+2026-07-20 13:11:04,444 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:04,444 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:04,770 [INFO]     Q263 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p180_q263_i0.jpeg
+2026-07-20 13:11:04,770 [INFO]   ✓ Q263 → ce966962-b56f-426c-8d96-7883537b0dbc  (0 corecte din 0)
+2026-07-20 13:11:04,778 [INFO]  Pagina salvata. Total insert pana acum: 279
+2026-07-20 13:11:04,778 [INFO] --- Pagina 181 / 232 ---
+2026-07-20 13:11:04,781 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:11:04,782 [INFO] --- Pagina 182 / 232 ---
+2026-07-20 13:11:04,783 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:11:04,784 [INFO] --- Pagina 183 / 232 ---
+2026-07-20 13:11:04,881 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:04,881 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:05,306 [INFO]     Q264 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p183_q264_i0.jpeg
+2026-07-20 13:11:05,307 [INFO]   ✓ Q264 → b7038094-940d-4fc3-9924-9932c36a35a2  (0 corecte din 0)
+2026-07-20 13:11:05,314 [INFO]  Pagina salvata. Total insert pana acum: 280
+2026-07-20 13:11:05,315 [INFO] --- Pagina 184 / 232 ---
+2026-07-20 13:11:05,379 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:11:05,379 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:05,379 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:05,381 [INFO]   ✓ Q10 → d26c3fd1-a4be-4731-b10f-c0133f5faaeb  (0 corecte din 0)
+2026-07-20 13:11:05,383 [INFO]  Pagina salvata. Total insert pana acum: 281
+2026-07-20 13:11:05,383 [INFO] --- Pagina 185 / 232 ---
+2026-07-20 13:11:05,435 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:05,436 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:05,749 [INFO]     Q265 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p185_q265_i0.jpeg
+2026-07-20 13:11:05,749 [INFO]   ✓ Q265 → fa97c281-61f7-40a1-b330-9a0d2992c6f8  (0 corecte din 0)
+2026-07-20 13:11:05,756 [INFO]  Pagina salvata. Total insert pana acum: 282
+2026-07-20 13:11:05,757 [INFO] --- Pagina 186 / 232 ---
+2026-07-20 13:11:05,797 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:11:05,798 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:05,798 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:05,800 [INFO]   ✓ Q10 → 41f94727-4f81-4bbe-9986-abe2644af1cf  (0 corecte din 0)
+2026-07-20 13:11:05,802 [INFO]  Pagina salvata. Total insert pana acum: 283
+2026-07-20 13:11:05,802 [INFO] --- Pagina 187 / 232 ---
+2026-07-20 13:11:05,908 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:05,909 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:06,269 [INFO]     Q266 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p187_q266_i0.jpeg
+2026-07-20 13:11:06,271 [INFO]   ✓ Q266 → fa860da7-2e7f-4956-b579-de613cd73a58  (5 corecte din 10)
+2026-07-20 13:11:06,279 [INFO]  Pagina salvata. Total insert pana acum: 284
+2026-07-20 13:11:06,280 [INFO] --- Pagina 188 / 232 ---
+2026-07-20 13:11:06,359 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:06,359 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:06,746 [INFO]     Q267 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p188_q267_i0.jpeg
+2026-07-20 13:11:06,748 [INFO]   ✓ Q267 → 7c88bdc3-5cb9-4392-96d5-0fc47d651d7b  (5 corecte din 10)
+2026-07-20 13:11:06,756 [INFO]  Pagina salvata. Total insert pana acum: 285
+2026-07-20 13:11:06,756 [INFO] --- Pagina 189 / 232 ---
+2026-07-20 13:11:06,866 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:06,866 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:07,528 [INFO]     Q268 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p189_q268_i0.jpeg
+2026-07-20 13:11:07,530 [INFO]   ✓ Q268 → f3f7f00d-d440-47b2-9681-a8cd1b03531f  (5 corecte din 10)
+2026-07-20 13:11:07,537 [INFO]  Pagina salvata. Total insert pana acum: 286
+2026-07-20 13:11:07,538 [INFO] --- Pagina 190 / 232 ---
+2026-07-20 13:11:07,591 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:07,592 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:08,004 [INFO]     Q269 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p190_q269_i0.jpeg
+2026-07-20 13:11:08,011 [INFO]   ✓ Q269 → b35b4df8-83cd-49b8-bc2a-e340940098bc  (5 corecte din 10)
+2026-07-20 13:11:08,013 [INFO]  Pagina salvata. Total insert pana acum: 287
+2026-07-20 13:11:08,014 [INFO] --- Pagina 191 / 232 ---
+2026-07-20 13:11:08,021 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:08,021 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:08,257 [INFO]     Q270 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p191_q270_i0.jpeg
+2026-07-20 13:11:08,260 [INFO]   ✓ Q270 → adcd91fb-3eef-4fa4-83a7-e3dfd46d6a5c  (5 corecte din 10)
+2026-07-20 13:11:08,267 [INFO]  Pagina salvata. Total insert pana acum: 288
+2026-07-20 13:11:08,268 [INFO] --- Pagina 192 / 232 ---
+2026-07-20 13:11:08,276 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:08,276 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:08,572 [INFO]     Q271 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p192_q271_i0.jpeg
+2026-07-20 13:11:08,575 [INFO]   ✓ Q271 → 4ae418a2-4619-4435-a175-9f0453c1c2a5  (5 corecte din 10)
+2026-07-20 13:11:08,582 [INFO]  Pagina salvata. Total insert pana acum: 289
+2026-07-20 13:11:08,583 [INFO] --- Pagina 193 / 232 ---
+2026-07-20 13:11:08,590 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:08,590 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:08,836 [INFO]     Q272 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p193_q272_i0.jpeg
+2026-07-20 13:11:08,838 [INFO]   ✓ Q272 → 8cbcd9c7-3e93-479e-8db6-a8948c93cee0  (5 corecte din 10)
+2026-07-20 13:11:08,845 [INFO]  Pagina salvata. Total insert pana acum: 290
+2026-07-20 13:11:08,846 [INFO] --- Pagina 194 / 232 ---
+2026-07-20 13:11:08,856 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:08,856 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:09,102 [INFO]     Q273 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p194_q273_i0.jpeg
+2026-07-20 13:11:09,105 [INFO]   ✓ Q273 → acca3c70-5d1e-45ef-b883-aff01905e9d1  (5 corecte din 10)
+2026-07-20 13:11:09,112 [INFO]  Pagina salvata. Total insert pana acum: 291
+2026-07-20 13:11:09,112 [INFO] --- Pagina 195 / 232 ---
+2026-07-20 13:11:09,119 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:09,120 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:09,368 [INFO]     Q274 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p195_q274_i0.jpeg
+2026-07-20 13:11:09,371 [INFO]   ✓ Q274 → e81bd7ab-4057-46ec-80d0-1f84908c6dcd  (5 corecte din 10)
+2026-07-20 13:11:09,378 [INFO]  Pagina salvata. Total insert pana acum: 292
+2026-07-20 13:11:09,379 [INFO] --- Pagina 196 / 232 ---
+2026-07-20 13:11:09,387 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:09,387 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:09,764 [INFO]     Q275 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p196_q275_i0.jpeg
+2026-07-20 13:11:09,767 [INFO]   ✓ Q275 → 77326d4a-de13-419d-aaa9-63f223030466  (5 corecte din 10)
+2026-07-20 13:11:09,774 [INFO]  Pagina salvata. Total insert pana acum: 293
+2026-07-20 13:11:09,775 [INFO] --- Pagina 197 / 232 ---
+2026-07-20 13:11:09,794 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:09,794 [INFO]  1 Intrebari | 10 raspunsuri | 6 corecte
+2026-07-20 13:11:10,027 [INFO]     Q276 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p197_q276_i0.jpeg
+2026-07-20 13:11:10,032 [INFO]   ✓ Q276 → e3a3d5cb-4afc-495d-8ef2-ef0499f0c16e  (6 corecte din 10)
+2026-07-20 13:11:10,038 [INFO]  Pagina salvata. Total insert pana acum: 294
+2026-07-20 13:11:10,039 [INFO] --- Pagina 198 / 232 ---
+2026-07-20 13:11:10,173 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:10,173 [INFO]  1 Intrebari | 10 raspunsuri | 4 corecte
+2026-07-20 13:11:10,558 [INFO]     Q277 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p198_q277_i0.jpeg
+2026-07-20 13:11:10,561 [INFO]   ✓ Q277 → f1b9de57-f343-4045-9f0a-f85fb6f3cb53  (4 corecte din 10)
+2026-07-20 13:11:10,567 [INFO]  Pagina salvata. Total insert pana acum: 295
+2026-07-20 13:11:10,568 [INFO] --- Pagina 199 / 232 ---
+2026-07-20 13:11:10,643 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:10,644 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:10,938 [INFO]     Q278 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p199_q278_i0.jpeg
+2026-07-20 13:11:10,940 [INFO]   ✓ Q278 → 8a4f05fb-5e2a-4d70-bf6a-64079c6981fd  (5 corecte din 10)
+2026-07-20 13:11:10,941 [INFO]  Pagina salvata. Total insert pana acum: 296
+2026-07-20 13:11:10,941 [INFO] --- Pagina 200 / 232 ---
+2026-07-20 13:11:10,958 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:10,959 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:11,247 [INFO]     Q279 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p200_q279_i0.jpeg
+2026-07-20 13:11:11,247 [INFO]   ✓ Q279 → 83c94102-f97d-4e01-8e5a-69aff2954698  (0 corecte din 0)
+2026-07-20 13:11:11,249 [INFO]  Pagina salvata. Total insert pana acum: 297
+2026-07-20 13:11:11,249 [INFO] --- Pagina 201 / 232 ---
+2026-07-20 13:11:11,253 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:11:11,254 [INFO] --- Pagina 202 / 232 ---
+2026-07-20 13:11:11,256 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:11,258 [INFO]   ✓ Q10 → b6d66f8f-d739-4fe6-808e-1607b614b752  (0 corecte din 0)
+2026-07-20 13:11:11,259 [INFO]  Pagina salvata. Total insert pana acum: 298
+2026-07-20 13:11:11,260 [INFO] --- Pagina 203 / 232 ---
+2026-07-20 13:11:11,325 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:11,325 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:11,737 [INFO]     Q280 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p203_q280_i0.jpeg
+2026-07-20 13:11:11,740 [INFO]   ✓ Q280 → 651299f2-bfa3-4cb5-9b5c-44055550de2f  (5 corecte din 10)
+2026-07-20 13:11:11,748 [INFO]  Pagina salvata. Total insert pana acum: 299
+2026-07-20 13:11:11,749 [INFO] --- Pagina 204 / 232 ---
+2026-07-20 13:11:11,776 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:11,776 [INFO]  1 Intrebari | 8 raspunsuri | 5 corecte
+2026-07-20 13:11:12,036 [INFO]     Q281 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p204_q281_i0.jpeg
+2026-07-20 13:11:12,038 [INFO]   ✓ Q281 → a724e1fe-7ceb-4689-828e-be8d240bfbda  (5 corecte din 8)
+2026-07-20 13:11:12,045 [INFO]  Pagina salvata. Total insert pana acum: 300
+2026-07-20 13:11:12,046 [INFO] --- Pagina 205 / 232 ---
+2026-07-20 13:11:12,180 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:12,180 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:12,526 [INFO]     Q282 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p205_q282_i0.jpeg
+2026-07-20 13:11:12,529 [INFO]   ✓ Q282 → e8310bcb-073d-49c6-a0b4-8f93026fd9b4  (5 corecte din 10)
+2026-07-20 13:11:12,535 [INFO]  Pagina salvata. Total insert pana acum: 301
+2026-07-20 13:11:12,536 [INFO] --- Pagina 206 / 232 ---
+2026-07-20 13:11:12,580 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:12,580 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:12,834 [INFO]     Q283 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p206_q283_i0.jpeg
+2026-07-20 13:11:12,835 [INFO]   ✓ Q283 → 31066dad-7770-49ab-9678-b30d3f610df5  (0 corecte din 0)
+2026-07-20 13:11:12,842 [INFO]  Pagina salvata. Total insert pana acum: 302
+2026-07-20 13:11:12,843 [INFO] --- Pagina 207 / 232 ---
+2026-07-20 13:11:12,871 [WARNING]     Imagine y=42 nu s-a putut asocia cu nicio intrebare
+2026-07-20 13:11:12,871 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:12,871 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:12,873 [INFO]   ✓ Q10 → a463d1c5-eaa3-4de9-82f8-546d3140141e  (0 corecte din 0)
+2026-07-20 13:11:12,875 [INFO]  Pagina salvata. Total insert pana acum: 303
+2026-07-20 13:11:12,875 [INFO] --- Pagina 208 / 232 ---
+2026-07-20 13:11:12,894 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:12,894 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:13,151 [INFO]     Q284 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p208_q284_i0.jpeg
+2026-07-20 13:11:13,153 [INFO]   ✓ Q284 → 1a68dfe9-4807-4406-b651-7a8de2619dc7  (5 corecte din 10)
+2026-07-20 13:11:13,160 [INFO]  Pagina salvata. Total insert pana acum: 304
+2026-07-20 13:11:13,161 [INFO] --- Pagina 209 / 232 ---
+2026-07-20 13:11:13,180 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:13,180 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:13,412 [INFO]     Q285 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p209_q285_i0.jpeg
+2026-07-20 13:11:13,415 [INFO]   ✓ Q285 → 6eb8565d-32cf-4745-9460-a1540ed34c69  (5 corecte din 10)
+2026-07-20 13:11:13,422 [INFO]  Pagina salvata. Total insert pana acum: 305
+2026-07-20 13:11:13,423 [INFO] --- Pagina 210 / 232 ---
+2026-07-20 13:11:13,564 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:13,565 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:13,994 [INFO]     Q286 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p210_q286_i0.jpeg
+2026-07-20 13:11:13,997 [INFO]   ✓ Q286 → 26611a50-eb40-4c7e-872b-3189e02dd793  (5 corecte din 10)
+2026-07-20 13:11:14,004 [INFO]  Pagina salvata. Total insert pana acum: 306
+2026-07-20 13:11:14,004 [INFO] --- Pagina 211 / 232 ---
+2026-07-20 13:11:14,069 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:14,070 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:14,378 [INFO]     Q287 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p211_q287_i0.jpeg
+2026-07-20 13:11:14,378 [INFO]   ✓ Q287 → b9a165ec-aaaf-49d4-ac60-2115d4f78973  (0 corecte din 0)
+2026-07-20 13:11:14,384 [INFO]  Pagina salvata. Total insert pana acum: 307
+2026-07-20 13:11:14,385 [INFO] --- Pagina 212 / 232 ---
+2026-07-20 13:11:14,386 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:11:14,387 [INFO] --- Pagina 213 / 232 ---
+2026-07-20 13:11:14,388 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:14,390 [INFO]   ✓ Q10 → e870a8e4-406c-43e1-8df0-466580f9eb71  (0 corecte din 0)
+2026-07-20 13:11:14,391 [INFO]  Pagina salvata. Total insert pana acum: 308
+2026-07-20 13:11:14,391 [INFO] --- Pagina 214 / 232 ---
+2026-07-20 13:11:14,411 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:14,411 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:14,660 [INFO]     Q288 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p214_q288_i0.jpeg
+2026-07-20 13:11:14,660 [INFO]   ✓ Q288 → 9f3b741f-ede0-401d-aaa8-45cfe16f4488  (0 corecte din 0)
+2026-07-20 13:11:14,667 [INFO]  Pagina salvata. Total insert pana acum: 309
+2026-07-20 13:11:14,667 [INFO] --- Pagina 215 / 232 ---
+2026-07-20 13:11:14,669 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:11:14,670 [INFO] --- Pagina 216 / 232 ---
+2026-07-20 13:11:14,692 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:14,693 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:14,955 [INFO]     Q289 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p216_q289_i0.jpeg
+2026-07-20 13:11:14,958 [INFO]   ✓ Q289 → b4852580-fab9-476a-9cda-afc96d71c415  (5 corecte din 10)
+2026-07-20 13:11:14,965 [INFO]  Pagina salvata. Total insert pana acum: 310
+2026-07-20 13:11:14,966 [INFO] --- Pagina 217 / 232 ---
+2026-07-20 13:11:14,991 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:14,991 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:15,257 [INFO]     Q290 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p217_q290_i0.jpeg
+2026-07-20 13:11:15,260 [INFO]   ✓ Q290 → 68a9840e-06df-45bf-ae9d-9c13a376c3ee  (5 corecte din 10)
+2026-07-20 13:11:15,267 [INFO]  Pagina salvata. Total insert pana acum: 311
+2026-07-20 13:11:15,267 [INFO] --- Pagina 218 / 232 ---
+2026-07-20 13:11:15,305 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:15,306 [INFO]  1 Intrebari | 6 raspunsuri | 3 corecte
+2026-07-20 13:11:15,611 [INFO]     Q291 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p218_q291_i0.jpeg
+2026-07-20 13:11:15,613 [INFO]   ✓ Q291 → 963f9507-c4d4-413e-b146-c6bdbae16f54  (3 corecte din 6)
+2026-07-20 13:11:15,619 [INFO]  Pagina salvata. Total insert pana acum: 312
+2026-07-20 13:11:15,620 [INFO] --- Pagina 219 / 232 ---
+2026-07-20 13:11:15,622 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:15,623 [INFO]   ✓ Q10 → d66e9c4a-1266-4e9f-a0a3-c5546638150f  (0 corecte din 0)
+2026-07-20 13:11:15,625 [INFO]  Pagina salvata. Total insert pana acum: 313
+2026-07-20 13:11:15,625 [INFO] --- Pagina 220 / 232 ---
+2026-07-20 13:11:15,655 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:15,656 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:16,073 [INFO]     Q292 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p220_q292_i0.jpeg
+2026-07-20 13:11:16,075 [INFO]   ✓ Q292 → dde6fee3-9f77-4f9f-997c-06a31c16bdd0  (5 corecte din 10)
+2026-07-20 13:11:16,082 [INFO]  Pagina salvata. Total insert pana acum: 314
+2026-07-20 13:11:16,083 [INFO] --- Pagina 221 / 232 ---
+2026-07-20 13:11:16,123 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:16,123 [INFO]  1 Intrebari | 4 raspunsuri | 2 corecte
+2026-07-20 13:11:16,551 [INFO]     Q293 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p221_q293_i0.jpeg
+2026-07-20 13:11:16,553 [INFO]   ✓ Q293 → 78cc9fcf-9530-434c-83d6-30c63511cc43  (2 corecte din 4)
+2026-07-20 13:11:16,560 [INFO]  Pagina salvata. Total insert pana acum: 315
+2026-07-20 13:11:16,560 [INFO] --- Pagina 222 / 232 ---
+2026-07-20 13:11:16,563 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:16,564 [INFO]   ✓ Q10 → a9b3fd27-9379-4aa1-9edc-c6b988339343  (0 corecte din 0)
+2026-07-20 13:11:16,565 [INFO]  Pagina salvata. Total insert pana acum: 316
+2026-07-20 13:11:16,566 [INFO] --- Pagina 223 / 232 ---
+2026-07-20 13:11:16,649 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:16,650 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:17,097 [INFO]     Q294 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p223_q294_i0.jpeg
+2026-07-20 13:11:17,100 [INFO]   ✓ Q294 → a67518af-4a26-4b10-be77-a98367323f03  (5 corecte din 10)
+2026-07-20 13:11:17,107 [INFO]  Pagina salvata. Total insert pana acum: 317
+2026-07-20 13:11:17,108 [INFO] --- Pagina 224 / 232 ---
+2026-07-20 13:11:17,139 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:17,139 [INFO]  1 Intrebari | 9 raspunsuri | 4 corecte
+2026-07-20 13:11:17,555 [INFO]     Q295 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p224_q295_i0.jpeg
+2026-07-20 13:11:17,558 [INFO]   ✓ Q295 → 58af61b4-96f8-48ca-8db3-1bba17bf1946  (4 corecte din 9)
+2026-07-20 13:11:17,565 [INFO]  Pagina salvata. Total insert pana acum: 318
+2026-07-20 13:11:17,565 [INFO] --- Pagina 225 / 232 ---
+2026-07-20 13:11:17,567 [INFO]  pagina fara intrebari - sarim peste
+2026-07-20 13:11:17,568 [INFO] --- Pagina 226 / 232 ---
+2026-07-20 13:11:17,621 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:17,621 [INFO]  1 Intrebari | 8 raspunsuri | 4 corecte
+2026-07-20 13:11:17,998 [INFO]     Q296 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p226_q296_i0.jpeg
+2026-07-20 13:11:18,000 [INFO]   ✓ Q296 → 186e1e1c-2df3-49f2-b0ab-7c48a2c85a95  (4 corecte din 8)
+2026-07-20 13:11:18,007 [INFO]  Pagina salvata. Total insert pana acum: 319
+2026-07-20 13:11:18,008 [INFO] --- Pagina 227 / 232 ---
+2026-07-20 13:11:18,067 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:18,067 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:18,501 [INFO]     Q297 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p227_q297_i0.jpeg
+2026-07-20 13:11:18,504 [INFO]   ✓ Q297 → 40981626-6247-478f-98a1-0ea5b82b0f26  (5 corecte din 10)
+2026-07-20 13:11:18,511 [INFO]  Pagina salvata. Total insert pana acum: 320
+2026-07-20 13:11:18,512 [INFO] --- Pagina 228 / 232 ---
+2026-07-20 13:11:18,578 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:18,578 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:19,289 [INFO]     Q298 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p228_q298_i0.jpeg
+2026-07-20 13:11:19,292 [INFO]   ✓ Q298 → e9e49e73-0cf6-4dd9-bcf3-f2a6e9cde890  (5 corecte din 10)
+2026-07-20 13:11:19,299 [INFO]  Pagina salvata. Total insert pana acum: 321
+2026-07-20 13:11:19,300 [INFO] --- Pagina 229 / 232 ---
+2026-07-20 13:11:19,422 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:19,422 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:19,768 [INFO]     Q299 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p229_q299_i0.jpeg
+2026-07-20 13:11:19,771 [INFO]   ✓ Q299 → bec3ed42-9acf-425d-9ebe-31b7ccc00a18  (5 corecte din 10)
+2026-07-20 13:11:19,778 [INFO]  Pagina salvata. Total insert pana acum: 322
+2026-07-20 13:11:19,779 [INFO] --- Pagina 230 / 232 ---
+2026-07-20 13:11:19,822 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:19,822 [INFO]  1 Intrebari | 4 raspunsuri | 2 corecte
+2026-07-20 13:11:20,263 [INFO]     Q300 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p230_q300_i0.jpeg
+2026-07-20 13:11:20,264 [INFO]   ✓ Q300 → 0ae64b7f-9574-43a2-9134-09d195203b97  (2 corecte din 4)
+2026-07-20 13:11:20,271 [INFO]  Pagina salvata. Total insert pana acum: 323
+2026-07-20 13:11:20,272 [INFO] --- Pagina 231 / 232 ---
+2026-07-20 13:11:20,275 [INFO]  1 Intrebari | 0 raspunsuri | 0 corecte
+2026-07-20 13:11:20,276 [INFO]   ✓ Q10 → eddcaeb4-b7a2-42bd-9346-8e38f7b6e0b2  (0 corecte din 0)
+2026-07-20 13:11:20,278 [INFO]  Pagina salvata. Total insert pana acum: 324
+2026-07-20 13:11:20,278 [INFO] --- Pagina 232 / 232 ---
+2026-07-20 13:11:20,419 [INFO]   1 imagine(i) găsite pe pagină
+2026-07-20 13:11:20,419 [INFO]  1 Intrebari | 10 raspunsuri | 5 corecte
+2026-07-20 13:11:20,833 [INFO]     Q301 imagine 0 → https://pub-a1937eca3dcd4e4bbf6835742d923a0b.r2.dev/questions/0d42564a-615a-4039-a8f5-6ef70a828acb/p232_q301_i0.jpeg
+2026-07-20 13:11:20,836 [INFO]   ✓ Q301 → 1b376784-37cc-4374-9897-6aa322b69065  (5 corecte din 10)
+2026-07-20 13:11:20,843 [INFO]  Pagina salvata. Total insert pana acum: 325
+2026-07-20 13:11:20,861 [INFO] === FINAL | 325 intrebari inserate ===

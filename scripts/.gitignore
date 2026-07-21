@@ -1,2 +1,10 @@
 node_modules/
 package-lock.json
+
+questions/**/pdf/
+
+.env
+.env.*
+!.env.example
+
+questions/venv

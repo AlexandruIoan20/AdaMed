@@ -115,6 +115,13 @@
                 <artifactId>quarkus-maven-plugin</artifactId>
                 <version>${quarkus.platform.version}</version>
                 <extensions>true</extensions>
+                <configuration>
+                    <!-- Ruleaza dev mode din radacina repo-ului, ca sa fie citit
+                         .env-ul global (Quarkus cauta .env in directorul de lucru).
+                         Fara asta, ./mvnw quarkus:dev nu vede variabilele R2_* si
+                         aplicatia refuza sa porneasca. -->
+                    <workingDir>${project.basedir}/..</workingDir>
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
